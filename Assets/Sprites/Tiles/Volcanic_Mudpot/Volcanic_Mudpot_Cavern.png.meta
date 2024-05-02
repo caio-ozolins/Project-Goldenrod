@@ -1,0 +1,1271 @@
+fileFormatVersion: 2
+guid: b01761df6f6a2434db8b8e26eb26436d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62bc08c418482d42ac5b1b8e981ce8c
+      internalID: 801818599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed0147d179c95b4c987324498eb9aef
+      internalID: -1875546010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b8fcdf26ed5664f9cff38211aee2b0
+      internalID: 1376040442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_3
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0403f5ead29991d46b1c7706b7208c09
+      internalID: 1523632200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc83184cc085a1f44831436449a2b009
+      internalID: 1024201999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_5
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a770d25b0cd324384a9ef00b5235fa
+      internalID: -1102167183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c5c29bf9f153d449a73f38317830b7
+      internalID: 2061965457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5625746c17ca5a4a916e16e8121a3d1
+      internalID: -1344837081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacb05c33e7a6e44a80587a128dfb49f
+      internalID: -1763435623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3a5f1cf2e7a5649af97dca2d6511a9
+      internalID: 1984512020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_10
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6ccddb0b86a504d99f3422ca064565
+      internalID: -743446018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_11
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9271ae92c229f3a48bbb3567433e8fea
+      internalID: 1111087629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f6ef6e37f1b5e4fba73a72d32f739e
+      internalID: 806199816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_13
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ea620bbdc5ac647a2ec8e21e19bd6e
+      internalID: -637669032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_14
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cc2344703425e4d8c387abaa9f2ef7
+      internalID: -244220351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ebca37d904f35458ef05fb75263444
+      internalID: -1215334064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d40e54d60626a4cb9a129593efb12c
+      internalID: 1399515646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161c4410d76043342aa69bf4ac76f501
+      internalID: -1603338240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_18
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ec5270ed5bb804c85d09a6d5461e82
+      internalID: 216051341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_19
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbdabd236c8f5748a3b2488e5b9df9f
+      internalID: -576069065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_20
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f525ad238de6aea4190180550f49d790
+      internalID: 789323894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_21
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29ee974870534845a4a233e4e598eb9
+      internalID: 1048542127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_22
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857647077bc4fd64b8cf2c5e0f7bbff3
+      internalID: -1991221992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c678cb54c84d51241b9e5a0336c1c790
+      internalID: 1358682990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29a315672c4cc1478604411af43e996
+      internalID: -554213081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_25
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b04a7413263f9478115cbcaa85af65
+      internalID: -704006352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_26
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd95416f57292ac44bf50541bc20769b
+      internalID: -1957208427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_27
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae358d3849247e40873ef9136c00330
+      internalID: 1189763489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_28
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc75a28f34bd924394f077e5a84cfb2
+      internalID: -419784058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_29
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c6749646dfa774bb830fa00c37db9b
+      internalID: -1572052369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_30
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3bf2e7c4165c74b94c9142d27a52a8
+      internalID: -1378963006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065aa66cecdfdd74aa368fda4b881e7a
+      internalID: -1916999048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d3bf2485045424dbca4b5b15e81885
+      internalID: 24095378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_33
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef331510f52efec49ae4eb31717c1d92
+      internalID: -707332917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_34
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e78929de449904689203740dd63276
+      internalID: 1551590261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_35
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6fef5bd0fa2a54b852214886586922
+      internalID: 635069195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_36
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb346da7dade0541b5822ced40d7ded
+      internalID: 106020811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_37
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b035881106a35b4694f48a0f9d7256a
+      internalID: 889933709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_38
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eecceb64d48d9874baf1c2a4602b2b4f
+      internalID: -1747511774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bfe7a7cda88f044961259ad4d77ae3
+      internalID: 1555082183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_40
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84dc77b11e38aec4d949c982ebb941f6
+      internalID: 767304502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_41
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde417fdc20eb4548ac61ff03d3fea1b
+      internalID: -1264659914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_42
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca70e241d0b78745809b9bc3d5ae097
+      internalID: 1609237713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_43
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a573c2d93fe4e544be9728100b59e04
+      internalID: 208311671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_44
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7adda55a0048090459e658a35497a8c2
+      internalID: 581246183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_45
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75520cdb41f51d34e9617ae71acaab10
+      internalID: -768553944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_46
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60fbebb8d35e4d45b4170d935ce2bcc
+      internalID: -2000654767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_47
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95026e2c95c35f64db1b56d5683a8ce7
+      internalID: -1815891749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5096cddbaf54b39409b7c93d8ad9585c
+      internalID: -30766069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_49
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd0dc2fa8cd08b40bf2fdf45dfe1e6c
+      internalID: -2111763454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_50
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5c1d8c672e70f45994fd515099fe1d
+      internalID: 482480639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_Cavern_51
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9447a2be2341044ea6c517a8a49baf5
+      internalID: -1326842938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Volcanic_Mudpot_Cavern_0: 801818599
+      Volcanic_Mudpot_Cavern_1: -1875546010
+      Volcanic_Mudpot_Cavern_10: -743446018
+      Volcanic_Mudpot_Cavern_11: 1111087629
+      Volcanic_Mudpot_Cavern_12: 806199816
+      Volcanic_Mudpot_Cavern_13: -637669032
+      Volcanic_Mudpot_Cavern_14: -244220351
+      Volcanic_Mudpot_Cavern_15: -1215334064
+      Volcanic_Mudpot_Cavern_16: 1399515646
+      Volcanic_Mudpot_Cavern_17: -1603338240
+      Volcanic_Mudpot_Cavern_18: 216051341
+      Volcanic_Mudpot_Cavern_19: -576069065
+      Volcanic_Mudpot_Cavern_2: 1376040442
+      Volcanic_Mudpot_Cavern_20: 789323894
+      Volcanic_Mudpot_Cavern_21: 1048542127
+      Volcanic_Mudpot_Cavern_22: -1991221992
+      Volcanic_Mudpot_Cavern_23: 1358682990
+      Volcanic_Mudpot_Cavern_24: -554213081
+      Volcanic_Mudpot_Cavern_25: -704006352
+      Volcanic_Mudpot_Cavern_26: -1957208427
+      Volcanic_Mudpot_Cavern_27: 1189763489
+      Volcanic_Mudpot_Cavern_28: -419784058
+      Volcanic_Mudpot_Cavern_29: -1572052369
+      Volcanic_Mudpot_Cavern_3: 1523632200
+      Volcanic_Mudpot_Cavern_30: -1378963006
+      Volcanic_Mudpot_Cavern_31: -1916999048
+      Volcanic_Mudpot_Cavern_32: 24095378
+      Volcanic_Mudpot_Cavern_33: -707332917
+      Volcanic_Mudpot_Cavern_34: 1551590261
+      Volcanic_Mudpot_Cavern_35: 635069195
+      Volcanic_Mudpot_Cavern_36: 106020811
+      Volcanic_Mudpot_Cavern_37: 889933709
+      Volcanic_Mudpot_Cavern_38: -1747511774
+      Volcanic_Mudpot_Cavern_39: 1555082183
+      Volcanic_Mudpot_Cavern_4: 1024201999
+      Volcanic_Mudpot_Cavern_40: 767304502
+      Volcanic_Mudpot_Cavern_41: -1264659914
+      Volcanic_Mudpot_Cavern_42: 1609237713
+      Volcanic_Mudpot_Cavern_43: 208311671
+      Volcanic_Mudpot_Cavern_44: 581246183
+      Volcanic_Mudpot_Cavern_45: -768553944
+      Volcanic_Mudpot_Cavern_46: -2000654767
+      Volcanic_Mudpot_Cavern_47: -1815891749
+      Volcanic_Mudpot_Cavern_48: -30766069
+      Volcanic_Mudpot_Cavern_49: -2111763454
+      Volcanic_Mudpot_Cavern_5: -1102167183
+      Volcanic_Mudpot_Cavern_50: 482480639
+      Volcanic_Mudpot_Cavern_51: -1326842938
+      Volcanic_Mudpot_Cavern_6: 2061965457
+      Volcanic_Mudpot_Cavern_7: -1344837081
+      Volcanic_Mudpot_Cavern_8: -1763435623
+      Volcanic_Mudpot_Cavern_9: 1984512020
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

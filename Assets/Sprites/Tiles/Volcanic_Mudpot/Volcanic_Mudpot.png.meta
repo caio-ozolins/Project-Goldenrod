@@ -1,0 +1,5287 @@
+fileFormatVersion: 2
+guid: d50a2dfe100277f45b2baf4fb5d1faf0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42028c98e0ecbb4e816141fe5e529cf
+      internalID: 1291151586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b5a1c411fc7e14fb05ffc6ff63234f
+      internalID: 296371293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ded39c8b124b6e4a9aeaf4999cffe21
+      internalID: -1226290208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_3
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a42db4a6951bb429fe607079520dd9
+      internalID: 121734191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420de08524f6bb841a1b1814be172297
+      internalID: -1944658088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_5
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc16f190d65dd84f922c4d8cc160931
+      internalID: 816329352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99344249bc4c839488af33ca2319c73e
+      internalID: 26219924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda3c7dbc20ee5346971ca8dab265d16
+      internalID: 520391735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3c47b59a1f4ef468aa37da4e708a14
+      internalID: -114186786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28b0a7c9aa518345b9dfaaf08bb2c9e
+      internalID: 2024288114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_10
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e970419ebedbf645b2d1d36fd05e885
+      internalID: 1675837637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fbe1800203c784eb8bb87e3f68f2cc
+      internalID: -263672692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_12
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0120573b40e7654b90044720444a63d
+      internalID: 335957549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_13
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79f90986e4116047a8d494fad8d5ee3
+      internalID: 969845531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_14
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ffb2512894fd64daebc41f80a7bce2
+      internalID: -696403358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_15
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec9bb14f34d3ba4a81187ffe8214d91
+      internalID: 539626144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed92e4c311664204d8f1ffd5017f8db6
+      internalID: 1970394942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_17
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bad08b3641b07e45a2065693d23167a
+      internalID: -1384213463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_18
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d936a8a8e766c4ca08aeb52ee563c3
+      internalID: -1358161739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_19
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b3b722f365bed4987ea77f13d08e1d
+      internalID: -671344499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_20
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92902322202d52f4bb14b12b3ec016fb
+      internalID: 1452501171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_21
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60cf8be58654404fbff71f7c072e9a0
+      internalID: -933237323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_22
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1919e8e973bd6d47a6e92ccfc1fade8
+      internalID: -1502817369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_23
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 100
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdb10d1885aab94e9ed156751c0dee4
+      internalID: 538467491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e843878375e2c47961269191800f9d
+      internalID: -1332108612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_25
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18bfad2cfb8c7343b8cf4997b477a1f
+      internalID: -1457439107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_26
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78924c78d668e40469b5a501a73017b2
+      internalID: -324926094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_27
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96470c2a2fd1454584457e2f6611d7a
+      internalID: -1174157930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_28
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8109ee49dea6431488b7bfffdec2e3f6
+      internalID: -784133528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_29
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2cebc2482429d4fb1ac22c7ceaba68
+      internalID: -1865798567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_30
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5cd93a126be8a48b9bdd0df80523d2
+      internalID: -1820552408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4fd74b21eb4eb4e997a5bcd4d529f1
+      internalID: -234172508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_32
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc23f19e11c1c042a393239343f3d5d
+      internalID: -1386008306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_33
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cf789c3e19b7d46852a3a71ac40689
+      internalID: 1112086700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_34
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240a468a910367848b01eafeedb2c6a5
+      internalID: -352358515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_35
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8063f3ad97c0dc1469955e0113dd9d07
+      internalID: 1328720638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_36
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad4078ee6b29cc40b201ffbeb52aa0c
+      internalID: -372754866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_37
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbed97236c57ba349ac25c120946ba63
+      internalID: -860364056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_38
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c87eab22e0dc64d9b24abdcaaa9f84
+      internalID: 2119603765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_39
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70366b7c2d5e85f42968f28503517629
+      internalID: 551108491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_40
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c28e6e733996ca48999830b67a117e2
+      internalID: -1737588440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_41
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00cec0c66268134d9c1d528440d3091
+      internalID: -752895065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_42
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e6255c043cea44ab25544ce6db11ca
+      internalID: 1130766797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_43
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198daefdbd3a9f4498b450c7f47c0062
+      internalID: -204235564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_44
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d90effc1a7b164287ade5d3e9ad70c
+      internalID: -641355811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_45
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9689eb30e8c3ea44b29161c55859d51
+      internalID: -1765036786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_46
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f238b6a94a62a442bfa363596a3b008
+      internalID: 4519672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_47
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7522df6c2478f53408db8074c880c61f
+      internalID: 1506958237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4b3205bab704942bdb94a89cc326a6
+      internalID: 642086819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_49
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2fc3d026c5e6f4baf10b0c05a37459
+      internalID: -1180520143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_50
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfe5fc50fd836444a15727dab1d4bda
+      internalID: -1185607151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_51
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7018843d7de18c74182ece8f4ff9fbc1
+      internalID: 81449485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_52
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4129131e5f6ef7e4290fdf87fe8be6dd
+      internalID: 1467951116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_53
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77d94b866b208047af0cacb46b75e48
+      internalID: -1998625446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_54
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8c356a0371bd54e9e8b37480166051
+      internalID: 454726659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_55
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b66d1920f9ec44b8d939d43261299b
+      internalID: 200899435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_56
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4e4228117ce324a98246f233b78b8d
+      internalID: -200103973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_57
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d8d3b5176a8854099d785c8eca2523
+      internalID: -818338722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_58
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f03e1fd0dff414ca0afbb85989b1c9
+      internalID: -23260939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_59
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bd8200de7d8a44d87b56df265dc4a4
+      internalID: -1841556411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_60
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4875482647938348b10c68cbc5d5995
+      internalID: -1097804969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_61
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75c90b542cb02c479d6df600a0f5032
+      internalID: 290193877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_62
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc95a028ff6d8e44d92145158917c2f3
+      internalID: 187498501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_63
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f3169a15298cf4d89916f84b695ed3
+      internalID: 401570142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_64
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d05d367f4e0a9469ced62bdb117338
+      internalID: -1598582143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_65
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8886a533a9c0ab242826c7c3c868ff64
+      internalID: 1864412452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_66
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00a5ab073c89a54d8e6f5418bcd3c69
+      internalID: 446629556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_67
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db655c2e53b02c9439eb49057123936e
+      internalID: 932858740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_68
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891c6060cfc8c1b49a711833f48761c7
+      internalID: -302886666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_69
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2dd4f0d88cd95e4ebae12b978315bd2
+      internalID: -153757867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_70
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494a6f47f692fe049a448ca126cff4af
+      internalID: -1093093524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_71
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4e65b192c898541a159ff63692bc44
+      internalID: 1887514569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a93b4b71bd274479ead6b10e85e84c
+      internalID: -355919142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_73
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574846b587937694fa5dce6853edcdb8
+      internalID: -1535611481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_74
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f52b6c957e76c54d9ed7e0b9c1da9a8
+      internalID: -1952359671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_75
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d80e4f40b8072a409c789c6e0109d32
+      internalID: -442319477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_76
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc4186548cb6e242bb597c2c8d84a1f
+      internalID: -461959194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_77
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca4bff410677a4468171456e5ea14bf
+      internalID: 2111904946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_78
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0957bbd78f697941997335afb882c00
+      internalID: 91916062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_79
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a1d6971e8653649bc4fa9dd62ad912
+      internalID: 333561994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_80
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafc4f0ce0a27904196a171a977816b8
+      internalID: 1771820972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_81
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d87a560c80d7254686c340c481ec221
+      internalID: -244224558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_82
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc05b359d4a71c1459505243d69c3b9b
+      internalID: 151703072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_83
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecb933517cdfce46b76d80012f8ebc7
+      internalID: 2067130959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_84
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d17b892dcd86b46bc0cd3695943abe
+      internalID: 1484085319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_85
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721f1fa18914beb4cb1d73f06fd9f877
+      internalID: 229141257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_86
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab5f9674b6c76a4f936150937ca9c3c
+      internalID: -101107028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_87
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9afcf72cdf40dc4db86a482268e794c
+      internalID: 1007385483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_88
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648c265657e9e614981ec7ba0c6dff53
+      internalID: 2087395070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_89
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b2bb61d5b013647a10342963566b40
+      internalID: 1419192190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_90
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca6482cf07bb6d4db766ad7b5f462ad
+      internalID: 973734997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_91
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0b2f479e465cf499a08932c2551bf6
+      internalID: 235009002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_92
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b7d76d1ba9fd542a6a921ebf95abde
+      internalID: 1503152742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_93
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf578e7cddd00e94098cfa6217269188
+      internalID: -1261086317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_94
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decd2d203f0a5f34d80de63b2fb810ea
+      internalID: -692604991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_95
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e6ea978eaca7240bcb82fcacd0a947
+      internalID: -1902141312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_96
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5bd947b52cfe441b417881c6b392f1
+      internalID: 128487851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_97
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5eeb904188521419d8a4136c1e9e59
+      internalID: -82372079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_98
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5e5f00a9855024f97025cef566f0e0
+      internalID: 1576216831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_99
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdffc40342ddb26468f70cff01713f90
+      internalID: 563919285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_100
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a83bce62d18d1488fd5d7f4b1f0b19
+      internalID: -1439874345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_101
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3ee2d20544a234899bb34aa42a7bc2
+      internalID: 1601880331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_102
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec00f2f0b3fbd6447b5b156ba9a98e48
+      internalID: -1105123108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_103
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16eff46adf5b43d46b0397ed2d70f4bc
+      internalID: -1344487556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_104
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ff468bfb259e44f8239e4cb9172bf4
+      internalID: 84683722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_105
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3420fd20f33a71545a1a839f9fd4a77f
+      internalID: 75491520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_106
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43a92ad088b88848ab07d10f73cd271
+      internalID: 2103595856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_107
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe126f695bd04e4cbd0b634edd23825
+      internalID: -130464577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_108
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6af5362c6205347a8eb5bd56a83548
+      internalID: -925337409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_109
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06854bbda3bb7c498db3808c78c85ad
+      internalID: 328069410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_110
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde9265f14ff2ab4a9a239ef99434d89
+      internalID: -293848957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_111
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8af0df27db0c774aae890348d4f7c8e
+      internalID: -1824387865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_112
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddeb0a33bef5504d869a0950d90f84f
+      internalID: 1702393269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_113
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bca5141733f614a86b71d7875ae591
+      internalID: -140599288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_114
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee384270570e87845bddf3a5e59ad852
+      internalID: 1524457684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_115
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3e9b0de59069147aa5f7357c358c1e
+      internalID: 288073307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_116
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09226791994fab844904178dba482574
+      internalID: 281327494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_117
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bad6d6b11fff04aad4ef298dbe685b
+      internalID: 1714478583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_118
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f8e2353e758dd4b9f93b25d5ac2865
+      internalID: 544344095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_119
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a4e582fe77aac4fa0428d692fd67e0
+      internalID: -1870603804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_120
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c59449ba197f240ae08c508e60238f
+      internalID: 1772849261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_121
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9cd178a0528014cbfa2914fbac330f
+      internalID: 1692959351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_122
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd79b4d04aa824342bab5d40d00b111d
+      internalID: -818786588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_123
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc92d39efb47706428aacdd4ddeb414c
+      internalID: 361864811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_124
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ae3ce25ee08c043a56a51a65cec874
+      internalID: -957792875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_125
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868fe03f3ff638b4dbf7277ec1a01d00
+      internalID: 1630104646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_126
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ee6033db4ea4144b9259962cad987c
+      internalID: 1576312295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_127
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f50b6de5fb17e145aff2a28a7efc343
+      internalID: -1411141202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_128
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a7db6542a8d614f857b56d72b04be1
+      internalID: -103229898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_129
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35821268b37e3b54eaa0c22e9b95f181
+      internalID: 427412403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_130
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cbea1e334291141894800dba713d0e
+      internalID: -871590166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_131
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06c97fab92a1974a962a021590dc0f0
+      internalID: -1298253371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_132
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d679b786156b91b4a961cc8f13399529
+      internalID: 1761833291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_133
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ff8498e522562428ed041eb8873e3c
+      internalID: -1216455348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_134
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985ba4312d9e76a458ee5c1d835c319b
+      internalID: 1049548382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_135
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc92425289ccf7d468ac6bcf61c1bd98
+      internalID: 768575721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_136
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e331e8430616742aac473759e79c6b
+      internalID: -1130782165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_137
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7de846023b04348b422de530f5a988
+      internalID: 1632579447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_138
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c10c40d9371bf468557fe954f524cb
+      internalID: -787186909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_139
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecf3cb36b0c39144842b0369fbab962
+      internalID: -697701631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_140
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a01de74015ca240834ee83094a9dfe
+      internalID: -198946980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_141
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4329efc30ebc704cb2ecb7cf0ab4852
+      internalID: -779237885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_142
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb66cdd16a1b554d9215388a7765476
+      internalID: 623262217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_143
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25beee9f6b034d48af202c886c3c903
+      internalID: -693698175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_144
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e90dbeb93dba9541b51dc9fefb71bd3
+      internalID: 867125015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_145
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b118f77fbb9ba4eb1947adfca500fb
+      internalID: 621879277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_146
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5546adcdc7bab4e8ca446a4c8ea3e2
+      internalID: 1736298488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_147
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebc4af02fca5aa459db70678af8b1e9
+      internalID: 1106846140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_148
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9871363811172e941af3957469378fb3
+      internalID: -227680985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_149
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70498fcb6b63170419cc4f3a85483494
+      internalID: 74928352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_150
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c76aefcffc3ca489b0abb3093197c4
+      internalID: -452653727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_151
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902ba88586a4ada489cd1837802f0b02
+      internalID: -29262107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_152
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f27590e458e1ac4aa04c1a274d2e023
+      internalID: 641275449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_153
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8776b6432a146342b5cee1ab7beed85
+      internalID: -508997935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_154
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f0366e9cd53844db605cca859f823f
+      internalID: -1581074234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_155
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07882bd2ffce1784a80e6e9924588066
+      internalID: 1368982967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_156
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0512a65aa8cd81418468dc74447186b
+      internalID: -1269996160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_157
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e150f8444ccf5489a68d44b07e74f5
+      internalID: -1047482012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_158
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7520e2b7833954fba56ed44b7ed4d2
+      internalID: 1578836184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_159
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f93e85f7fee2a2459c4b53a5f3d499d
+      internalID: -556938466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_160
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258f4be7ea1c2a14ab6ee65eac0fff76
+      internalID: 1683292540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_161
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc433dc0dc6f1342a6200b7fe4b70b1
+      internalID: 868107434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_162
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a184fd9c06c097e4cb38950a2d2e0a4d
+      internalID: -2054297748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_163
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbe5f83218a6f7418967d4160bbe577
+      internalID: -1969274905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_164
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300d46422e5b42d4e8c6439b70502ffd
+      internalID: -1228782396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_165
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bef715ea57d4cd4abcdd735d5f2397e
+      internalID: -806932341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_166
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e4f404ac94dc9448a4dd314c3682e8
+      internalID: 1250796537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_167
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe89e3c75c0c5d47b930550d167ade6
+      internalID: -1110381153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_168
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50f80e2ae30639499f6c7d7f26db6f3
+      internalID: -1472081020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_169
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5c924f4084d5a4d974a0134216aa9f
+      internalID: -1920243671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_170
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f59527592d0b9b4b856bd97306650eb
+      internalID: 1309268707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_171
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1142ef21fdc9654c86620c384cd09ce
+      internalID: 1166083731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_174
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8d9c77476e6ac4ea75204f62bf8811
+      internalID: 2072933016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_175
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fb6ead28035f74aa5107be0657eb5c
+      internalID: -1567486584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_176
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2ec22f26eed1f44a7e8cb552a2ed75
+      internalID: 1922358471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_177
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73dc6ce6b70df1b43b22515c4ea9759e
+      internalID: -933817725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_180
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56854032b58a50648a15d749025a429c
+      internalID: 750078834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_181
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543bff662592054408af373dbe695c99
+      internalID: -578015072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_182
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243a0334b3c505a4bb4c499ca7601033
+      internalID: -934154076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_183
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80254f50aefa2441be253121e635dbf
+      internalID: 1813133973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_186
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70921bf4bbd5bd459141c376fdd064b
+      internalID: 804343322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_187
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ee26c79a9e32a44b7ad2c6d20c4f60
+      internalID: 2123040664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_188
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7175d932890bd5449970fc5ce243198e
+      internalID: 1163465240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_189
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b651ab3e4187c834893e6bc35c64a449
+      internalID: -534643650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_190
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c886181855df2594ba1ed6db978a6d92
+      internalID: 2130635135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_191
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de14c2a9eb0bfc34683527fc52f94f3e
+      internalID: 1936812236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_192
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8cc1167357bac469706aff31f11809
+      internalID: -1697570029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_193
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3a3b0762192ae4686e141e066c5498
+      internalID: -1813664978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_194
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b6cb299600b9c4aad0fdc18415ba36
+      internalID: 1550627543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_196
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5786a6f17f5bc468e31d738488ddfb
+      internalID: 1896253091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_197
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1def6413bea9548a7bb5edaedb09c2
+      internalID: -2067027054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_198
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae03f124d7a9aa34391e3867d4de048e
+      internalID: -1831041459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_199
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904f923cb80f73041a79efb34bd85c9c
+      internalID: -1343176145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_201
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afebdb23b069674db2779512290281f
+      internalID: -1372797145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_202
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281dafbaae69c58428439f2b1df30808
+      internalID: 2000166235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_203
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47748e731579be4ab360b86505ac255
+      internalID: -1836098533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_204
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1924e22094c774d4a9b7094eeaf7f44a
+      internalID: 360769832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_207
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f1ba3b192806b4a865637d50aad070
+      internalID: -523273682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_208
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf07640da4925f428013b6714aab104
+      internalID: -72556313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_209
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a8ad1415cdaf943a3abdb5b0e753bf
+      internalID: 1067933136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_210
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7da4c1919c34640bdeff84a90f21f0
+      internalID: -561226129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_213
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c8655b3cbe3364eab7ba5f61690b59
+      internalID: 1792853881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_214
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1d797790a1bf14781d52aa7bebb2e8
+      internalID: -2050332209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_215
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16ee971c1f571f449f29e8feef2e94b
+      internalID: -1566019232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_216
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e6db32f03d75e47a8d3d09bcae1a25
+      internalID: 296010639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_219
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ad55a33ca82bb4b9599eb6258a862d
+      internalID: 1529565052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_220
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37c2ec2b17ed134aaf528e0ff9afa09
+      internalID: -2113110158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_221
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9623989b014b6c4a805aa7dd935cab8
+      internalID: -81940259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_222
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5064a15d45f5ebb4ebb1b43631b40946
+      internalID: 320590448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_224
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8aa508a0a388eb46a1a218a21755663
+      internalID: -1999969846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_225
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1f3aaa9ac5e6645a1957ad19f51e99
+      internalID: -555885428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_226
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b8bee5bdacf9b488b6b6804e56e74f
+      internalID: 377450780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_227
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9965086ff68e3743b57c15e9e23ce26
+      internalID: -1032321763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_229
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da3fa3d1cb04494a85b284b48f277bd
+      internalID: -1912179929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_230
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae852d1fa7e17934f88d24f59d04ff1d
+      internalID: 470694034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_231
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044b5e314d409a248a495758e546d7a8
+      internalID: -1754621854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_232
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f697a1b0e7b1eb48bd9468d04ecb90e
+      internalID: -920533609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_234
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839034eeafc2e76469d1951c3e4dd9b4
+      internalID: 329210591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_235
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb4ef26aed7a8b44b51077c05798975
+      internalID: 1609497744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_236
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daec4358002307146b5c136cdace857a
+      internalID: 957084554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_237
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0625fb08009b4a24eb54ca2b418c391b
+      internalID: -1089312942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_238
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f129521f0a40464eb946faf494dc278
+      internalID: 359046892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_239
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bcfd5e085f1de46b8808589a7d2fce
+      internalID: 1641979679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_240
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce45318e366def438380ebb9a23de61
+      internalID: 1414791436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_241
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b185f0b9c7c0b274e9158d6739873f89
+      internalID: 1663301270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_242
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14fd467765ea474e80298b00f4af377
+      internalID: -976299011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_243
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2b73e0230b2ab4d858695327f8c036
+      internalID: 1913379360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_244
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7903f383e9a05b84a8a7e66870ec6afe
+      internalID: -1457566856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_245
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bbf01361f15424c9c20b96e1c85a49
+      internalID: -1481574626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_172
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59220df9a8804a498f971ec3402712a
+      internalID: 1240835307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_173
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7213ed14791be6429426af4e3625639
+      internalID: -1275221621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_178
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0b90b3f8c317b499266b5bd7dd3c2d
+      internalID: 243843240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_179
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40612ee97bdaac43b6c3ff020bd6db1
+      internalID: -121742158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volcanic_Mudpot_184
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3daa1f0d3c9564439b68fceb94db27f
+      internalID: 26795021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Volcanic_Mudpot_0: 1291151586
+      Volcanic_Mudpot_1: 296371293
+      Volcanic_Mudpot_10: 1675837637
+      Volcanic_Mudpot_100: -1439874345
+      Volcanic_Mudpot_101: 1601880331
+      Volcanic_Mudpot_102: -1105123108
+      Volcanic_Mudpot_103: -1344487556
+      Volcanic_Mudpot_104: 84683722
+      Volcanic_Mudpot_105: 75491520
+      Volcanic_Mudpot_106: 2103595856
+      Volcanic_Mudpot_107: -130464577
+      Volcanic_Mudpot_108: -925337409
+      Volcanic_Mudpot_109: 328069410
+      Volcanic_Mudpot_11: -263672692
+      Volcanic_Mudpot_110: -293848957
+      Volcanic_Mudpot_111: -1824387865
+      Volcanic_Mudpot_112: 1702393269
+      Volcanic_Mudpot_113: -140599288
+      Volcanic_Mudpot_114: 1524457684
+      Volcanic_Mudpot_115: 288073307
+      Volcanic_Mudpot_116: 281327494
+      Volcanic_Mudpot_117: 1714478583
+      Volcanic_Mudpot_118: 544344095
+      Volcanic_Mudpot_119: -1870603804
+      Volcanic_Mudpot_12: 335957549
+      Volcanic_Mudpot_120: 1772849261
+      Volcanic_Mudpot_121: 1692959351
+      Volcanic_Mudpot_122: -818786588
+      Volcanic_Mudpot_123: 361864811
+      Volcanic_Mudpot_124: -957792875
+      Volcanic_Mudpot_125: 1630104646
+      Volcanic_Mudpot_126: 1576312295
+      Volcanic_Mudpot_127: -1411141202
+      Volcanic_Mudpot_128: -103229898
+      Volcanic_Mudpot_129: 427412403
+      Volcanic_Mudpot_13: 969845531
+      Volcanic_Mudpot_130: -871590166
+      Volcanic_Mudpot_131: -1298253371
+      Volcanic_Mudpot_132: 1761833291
+      Volcanic_Mudpot_133: -1216455348
+      Volcanic_Mudpot_134: 1049548382
+      Volcanic_Mudpot_135: 768575721
+      Volcanic_Mudpot_136: -1130782165
+      Volcanic_Mudpot_137: 1632579447
+      Volcanic_Mudpot_138: -787186909
+      Volcanic_Mudpot_139: -697701631
+      Volcanic_Mudpot_14: -696403358
+      Volcanic_Mudpot_140: -198946980
+      Volcanic_Mudpot_141: -779237885
+      Volcanic_Mudpot_142: 623262217
+      Volcanic_Mudpot_143: -693698175
+      Volcanic_Mudpot_144: 867125015
+      Volcanic_Mudpot_145: 621879277
+      Volcanic_Mudpot_146: 1736298488
+      Volcanic_Mudpot_147: 1106846140
+      Volcanic_Mudpot_148: -227680985
+      Volcanic_Mudpot_149: 74928352
+      Volcanic_Mudpot_15: 539626144
+      Volcanic_Mudpot_150: -452653727
+      Volcanic_Mudpot_151: -29262107
+      Volcanic_Mudpot_152: 641275449
+      Volcanic_Mudpot_153: -508997935
+      Volcanic_Mudpot_154: -1581074234
+      Volcanic_Mudpot_155: 1368982967
+      Volcanic_Mudpot_156: -1269996160
+      Volcanic_Mudpot_157: -1047482012
+      Volcanic_Mudpot_158: 1578836184
+      Volcanic_Mudpot_159: -556938466
+      Volcanic_Mudpot_16: 1970394942
+      Volcanic_Mudpot_160: 1683292540
+      Volcanic_Mudpot_161: 868107434
+      Volcanic_Mudpot_162: -2054297748
+      Volcanic_Mudpot_163: -1969274905
+      Volcanic_Mudpot_164: -1228782396
+      Volcanic_Mudpot_165: -806932341
+      Volcanic_Mudpot_166: 1250796537
+      Volcanic_Mudpot_167: -1110381153
+      Volcanic_Mudpot_168: -1472081020
+      Volcanic_Mudpot_169: -1920243671
+      Volcanic_Mudpot_17: -1384213463
+      Volcanic_Mudpot_170: 1309268707
+      Volcanic_Mudpot_171: 1166083731
+      Volcanic_Mudpot_172: 1240835307
+      Volcanic_Mudpot_173: -1275221621
+      Volcanic_Mudpot_174: 2072933016
+      Volcanic_Mudpot_175: -1567486584
+      Volcanic_Mudpot_176: 1922358471
+      Volcanic_Mudpot_177: -933817725
+      Volcanic_Mudpot_178: 243843240
+      Volcanic_Mudpot_179: -121742158
+      Volcanic_Mudpot_18: -1358161739
+      Volcanic_Mudpot_180: 750078834
+      Volcanic_Mudpot_181: -578015072
+      Volcanic_Mudpot_182: -934154076
+      Volcanic_Mudpot_183: 1813133973
+      Volcanic_Mudpot_184: 26795021
+      Volcanic_Mudpot_185: -1090081749
+      Volcanic_Mudpot_186: 804343322
+      Volcanic_Mudpot_187: 2123040664
+      Volcanic_Mudpot_188: 1163465240
+      Volcanic_Mudpot_189: -534643650
+      Volcanic_Mudpot_19: -671344499
+      Volcanic_Mudpot_190: 2130635135
+      Volcanic_Mudpot_191: 1936812236
+      Volcanic_Mudpot_192: -1697570029
+      Volcanic_Mudpot_193: -1813664978
+      Volcanic_Mudpot_194: 1550627543
+      Volcanic_Mudpot_195: 2107371656
+      Volcanic_Mudpot_196: 1896253091
+      Volcanic_Mudpot_197: -2067027054
+      Volcanic_Mudpot_198: -1831041459
+      Volcanic_Mudpot_199: -1343176145
+      Volcanic_Mudpot_2: -1226290208
+      Volcanic_Mudpot_20: 1452501171
+      Volcanic_Mudpot_200: 355365326
+      Volcanic_Mudpot_201: -1372797145
+      Volcanic_Mudpot_202: 2000166235
+      Volcanic_Mudpot_203: -1836098533
+      Volcanic_Mudpot_204: 360769832
+      Volcanic_Mudpot_205: 553421393
+      Volcanic_Mudpot_206: 1649388060
+      Volcanic_Mudpot_207: -523273682
+      Volcanic_Mudpot_208: -72556313
+      Volcanic_Mudpot_209: 1067933136
+      Volcanic_Mudpot_21: -933237323
+      Volcanic_Mudpot_210: -561226129
+      Volcanic_Mudpot_211: 1896249568
+      Volcanic_Mudpot_212: -744818959
+      Volcanic_Mudpot_213: 1792853881
+      Volcanic_Mudpot_214: -2050332209
+      Volcanic_Mudpot_215: -1566019232
+      Volcanic_Mudpot_216: 296010639
+      Volcanic_Mudpot_217: 1738027702
+      Volcanic_Mudpot_218: 1799474870
+      Volcanic_Mudpot_219: 1529565052
+      Volcanic_Mudpot_22: -1502817369
+      Volcanic_Mudpot_220: -2113110158
+      Volcanic_Mudpot_221: -81940259
+      Volcanic_Mudpot_222: 320590448
+      Volcanic_Mudpot_223: 1281429869
+      Volcanic_Mudpot_224: -1999969846
+      Volcanic_Mudpot_225: -555885428
+      Volcanic_Mudpot_226: 377450780
+      Volcanic_Mudpot_227: -1032321763
+      Volcanic_Mudpot_228: -506793922
+      Volcanic_Mudpot_229: -1912179929
+      Volcanic_Mudpot_23: 538467491
+      Volcanic_Mudpot_230: 470694034
+      Volcanic_Mudpot_231: -1754621854
+      Volcanic_Mudpot_232: -920533609
+      Volcanic_Mudpot_233: 649457938
+      Volcanic_Mudpot_234: 329210591
+      Volcanic_Mudpot_235: 1609497744
+      Volcanic_Mudpot_236: 957084554
+      Volcanic_Mudpot_237: -1089312942
+      Volcanic_Mudpot_238: 359046892
+      Volcanic_Mudpot_239: 1641979679
+      Volcanic_Mudpot_24: -1332108612
+      Volcanic_Mudpot_240: 1414791436
+      Volcanic_Mudpot_241: 1663301270
+      Volcanic_Mudpot_242: -976299011
+      Volcanic_Mudpot_243: 1913379360
+      Volcanic_Mudpot_244: -1457566856
+      Volcanic_Mudpot_245: -1481574626
+      Volcanic_Mudpot_25: -1457439107
+      Volcanic_Mudpot_26: -324926094
+      Volcanic_Mudpot_27: -1174157930
+      Volcanic_Mudpot_28: -784133528
+      Volcanic_Mudpot_29: -1865798567
+      Volcanic_Mudpot_3: 121734191
+      Volcanic_Mudpot_30: -1820552408
+      Volcanic_Mudpot_31: -234172508
+      Volcanic_Mudpot_32: -1386008306
+      Volcanic_Mudpot_33: 1112086700
+      Volcanic_Mudpot_34: -352358515
+      Volcanic_Mudpot_35: 1328720638
+      Volcanic_Mudpot_36: -372754866
+      Volcanic_Mudpot_37: -860364056
+      Volcanic_Mudpot_38: 2119603765
+      Volcanic_Mudpot_39: 551108491
+      Volcanic_Mudpot_4: -1944658088
+      Volcanic_Mudpot_40: -1737588440
+      Volcanic_Mudpot_41: -752895065
+      Volcanic_Mudpot_42: 1130766797
+      Volcanic_Mudpot_43: -204235564
+      Volcanic_Mudpot_44: -641355811
+      Volcanic_Mudpot_45: -1765036786
+      Volcanic_Mudpot_46: 4519672
+      Volcanic_Mudpot_47: 1506958237
+      Volcanic_Mudpot_48: 642086819
+      Volcanic_Mudpot_49: -1180520143
+      Volcanic_Mudpot_5: 816329352
+      Volcanic_Mudpot_50: -1185607151
+      Volcanic_Mudpot_51: 81449485
+      Volcanic_Mudpot_52: 1467951116
+      Volcanic_Mudpot_53: -1998625446
+      Volcanic_Mudpot_54: 454726659
+      Volcanic_Mudpot_55: 200899435
+      Volcanic_Mudpot_56: -200103973
+      Volcanic_Mudpot_57: -818338722
+      Volcanic_Mudpot_58: -23260939
+      Volcanic_Mudpot_59: -1841556411
+      Volcanic_Mudpot_6: 26219924
+      Volcanic_Mudpot_60: -1097804969
+      Volcanic_Mudpot_61: 290193877
+      Volcanic_Mudpot_62: 187498501
+      Volcanic_Mudpot_63: 401570142
+      Volcanic_Mudpot_64: -1598582143
+      Volcanic_Mudpot_65: 1864412452
+      Volcanic_Mudpot_66: 446629556
+      Volcanic_Mudpot_67: 932858740
+      Volcanic_Mudpot_68: -302886666
+      Volcanic_Mudpot_69: -153757867
+      Volcanic_Mudpot_7: 520391735
+      Volcanic_Mudpot_70: -1093093524
+      Volcanic_Mudpot_71: 1887514569
+      Volcanic_Mudpot_72: -355919142
+      Volcanic_Mudpot_73: -1535611481
+      Volcanic_Mudpot_74: -1952359671
+      Volcanic_Mudpot_75: -442319477
+      Volcanic_Mudpot_76: -461959194
+      Volcanic_Mudpot_77: 2111904946
+      Volcanic_Mudpot_78: 91916062
+      Volcanic_Mudpot_79: 333561994
+      Volcanic_Mudpot_8: -114186786
+      Volcanic_Mudpot_80: 1771820972
+      Volcanic_Mudpot_81: -244224558
+      Volcanic_Mudpot_82: 151703072
+      Volcanic_Mudpot_83: 2067130959
+      Volcanic_Mudpot_84: 1484085319
+      Volcanic_Mudpot_85: 229141257
+      Volcanic_Mudpot_86: -101107028
+      Volcanic_Mudpot_87: 1007385483
+      Volcanic_Mudpot_88: 2087395070
+      Volcanic_Mudpot_89: 1419192190
+      Volcanic_Mudpot_9: 2024288114
+      Volcanic_Mudpot_90: 973734997
+      Volcanic_Mudpot_91: 235009002
+      Volcanic_Mudpot_92: 1503152742
+      Volcanic_Mudpot_93: -1261086317
+      Volcanic_Mudpot_94: -692604991
+      Volcanic_Mudpot_95: -1902141312
+      Volcanic_Mudpot_96: 128487851
+      Volcanic_Mudpot_97: -82372079
+      Volcanic_Mudpot_98: 1576216831
+      Volcanic_Mudpot_99: 563919285
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
