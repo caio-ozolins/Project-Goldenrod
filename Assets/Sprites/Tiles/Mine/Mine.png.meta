@@ -110,15 +110,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mine_0
+      name: Stone_Platform_Left
       rect:
         serializedVersion: 2
-        x: 1
-        y: 46
+        x: 0
+        y: 56
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -131,15 +131,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_1
+      name: Stone_Platform_Center
       rect:
         serializedVersion: 2
-        x: 10
-        y: 46
+        x: 8
+        y: 56
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -152,15 +152,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_2
+      name: Stone_Platform_Right
       rect:
         serializedVersion: 2
-        x: 19
-        y: 46
+        x: 16
+        y: 56
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -173,15 +173,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_3
+      name: Stone_Platform
       rect:
         serializedVersion: 2
-        x: 28
-        y: 46
+        x: 24
+        y: 56
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,15 +194,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_4
+      name: Stone_Platform_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 46
+        x: 32
+        y: 56
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,15 +215,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_5
+      name: Stone_Platform_2
       rect:
         serializedVersion: 2
-        x: 46
-        y: 46
+        x: 40
+        y: 56
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -236,15 +236,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_6
+      name: Stone_Platform_3
       rect:
         serializedVersion: 2
-        x: 55
-        y: 46
+        x: 48
+        y: 56
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -257,15 +257,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_7
+      name: Stone_Platform_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 46
+        x: 56
+        y: 56
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -278,15 +278,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_8
+      name: Stone_Stalactite_0
       rect:
         serializedVersion: 2
-        x: 73
-        y: 46
+        x: 64
+        y: 56
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -299,15 +299,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_9
+      name: Stone_Stalactite_1
       rect:
         serializedVersion: 2
-        x: 82
-        y: 46
+        x: 72
+        y: 56
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -320,15 +320,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_10
+      name: Stone_Dirt_0
       rect:
         serializedVersion: 2
-        x: 91
-        y: 46
+        x: 80
+        y: 56
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -341,15 +341,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_11
+      name: Ore_Coal
       rect:
         serializedVersion: 2
-        x: 100
-        y: 46
+        x: 88
+        y: 56
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -362,15 +362,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_12
+      name: Minecart_Coal_0
       rect:
         serializedVersion: 2
-        x: 109
-        y: 46
+        x: 96
+        y: 56
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -383,15 +383,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_13
+      name: Minecart_Coal_1
       rect:
         serializedVersion: 2
-        x: 118
-        y: 46
+        x: 104
+        y: 56
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -404,15 +404,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_14
+      name: Stone_Tile_Top_Left
       rect:
         serializedVersion: 2
-        x: 127
-        y: 46
+        x: 0
+        y: 48
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -425,15 +425,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_15
+      name: Stone_Tile_Top
       rect:
         serializedVersion: 2
-        x: 136
-        y: 46
+        x: 8
+        y: 48
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -446,15 +446,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_16
+      name: Stone_Tile_Top_Right
       rect:
         serializedVersion: 2
-        x: 163
-        y: 46
+        x: 16
+        y: 48
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -467,15 +467,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_17
+      name: Stone_Tile_Top_Single
       rect:
         serializedVersion: 2
-        x: 172
-        y: 46
+        x: 24
+        y: 48
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -488,15 +488,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_18
+      name: Stone_Platform_0
       rect:
         serializedVersion: 2
-        x: 181
-        y: 46
+        x: 32
+        y: 48
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -509,15 +509,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_19
+      name: Stone_Platform_6
       rect:
         serializedVersion: 2
-        x: 190
-        y: 46
+        x: 40
+        y: 48
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -530,15 +530,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_20
+      name: Stone_Platform_7
       rect:
         serializedVersion: 2
-        x: 199
-        y: 46
+        x: 48
+        y: 48
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -551,15 +551,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_21
+      name: Stone_Platform_5
       rect:
         serializedVersion: 2
-        x: 208
-        y: 46
+        x: 56
+        y: 48
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -572,15 +572,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_22
+      name: Stone_Stalactite_2
       rect:
         serializedVersion: 2
-        x: 1
-        y: 37
+        x: 64
+        y: 48
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -593,15 +593,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_23
+      name: Stone_Stalactite_3
       rect:
         serializedVersion: 2
-        x: 10
-        y: 37
+        x: 72
+        y: 48
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -614,15 +614,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_24
+      name: Stone_Dirt_2
       rect:
         serializedVersion: 2
-        x: 19
-        y: 37
+        x: 80
+        y: 48
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -635,15 +635,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_25
+      name: Ore_Copper
       rect:
         serializedVersion: 2
-        x: 28
-        y: 37
+        x: 88
+        y: 48
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -656,15 +656,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_26
+      name: Minecart_Copper_0
       rect:
         serializedVersion: 2
-        x: 37
-        y: 37
+        x: 96
+        y: 48
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -677,15 +677,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_27
+      name: Minecart_Copper_1
       rect:
         serializedVersion: 2
-        x: 46
-        y: 37
+        x: 104
+        y: 48
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -698,15 +698,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_28
+      name: Stone_Background_Top_Left
       rect:
         serializedVersion: 2
-        x: 55
-        y: 37
+        x: 112
+        y: 48
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -719,15 +719,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_29
+      name: Stone_Background_Top
       rect:
         serializedVersion: 2
-        x: 64
-        y: 37
+        x: 120
+        y: 48
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -740,15 +740,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_30
+      name: Stone_Background_Top_Right
       rect:
         serializedVersion: 2
-        x: 73
-        y: 37
+        x: 128
+        y: 48
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -761,15 +761,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_31
+      name: Stone_Tile_Left
       rect:
         serializedVersion: 2
-        x: 82
-        y: 37
+        x: 0
+        y: 40
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -782,15 +782,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_32
+      name: Stone_Tile_Middle
       rect:
         serializedVersion: 2
-        x: 91
-        y: 37
+        x: 8
+        y: 40
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -803,15 +803,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_33
+      name: Stone_Tile_Right
       rect:
         serializedVersion: 2
-        x: 100
-        y: 37
+        x: 16
+        y: 40
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -824,15 +824,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_34
+      name: Stone_Tile_Bottom_Single
       rect:
         serializedVersion: 2
-        x: 109
-        y: 37
+        x: 24
+        y: 40
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -845,15 +845,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_35
+      name: Stone_Tile_Single
       rect:
         serializedVersion: 2
-        x: 118
-        y: 37
+        x: 32
+        y: 40
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -866,15 +866,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_36
+      name: Stone_Slope_0
       rect:
         serializedVersion: 2
-        x: 127
-        y: 37
+        x: 40
+        y: 40
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -887,15 +887,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_37
+      name: Stone_Slope_1
       rect:
         serializedVersion: 2
-        x: 136
-        y: 37
+        x: 48
+        y: 40
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -908,15 +908,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_38
+      name: Stone_Platform_Right_Small
       rect:
         serializedVersion: 2
-        x: 154
-        y: 37
+        x: 56
+        y: 40
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -929,15 +929,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_39
+      name: Stone_Stalactite_4
       rect:
         serializedVersion: 2
-        x: 163
-        y: 37
+        x: 64
+        y: 40
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -950,15 +950,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_40
+      name: Stone_Stalactite_5
       rect:
         serializedVersion: 2
-        x: 172
-        y: 37
+        x: 72
+        y: 40
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -971,15 +971,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_41
+      name: Stone_Dirt_1
       rect:
         serializedVersion: 2
-        x: 181
-        y: 37
+        x: 80
+        y: 40
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -992,15 +992,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_42
+      name: Ore_Silver
       rect:
         serializedVersion: 2
-        x: 190
-        y: 37
+        x: 88
+        y: 40
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1013,15 +1013,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_43
+      name: Minecart_Silver_0
       rect:
         serializedVersion: 2
-        x: 199
-        y: 37
+        x: 96
+        y: 40
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1034,15 +1034,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_44
+      name: Minecart_Silver_1
       rect:
         serializedVersion: 2
-        x: 208
-        y: 37
+        x: 104
+        y: 40
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1055,15 +1055,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_45
+      name: Stone_Background_Left
       rect:
         serializedVersion: 2
-        x: 1
-        y: 28
+        x: 112
+        y: 40
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1076,15 +1076,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_46
+      name: Stone_Background_Middle
       rect:
         serializedVersion: 2
-        x: 10
-        y: 28
+        x: 120
+        y: 40
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1097,15 +1097,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_47
+      name: Stone_Background_Right
       rect:
         serializedVersion: 2
-        x: 19
-        y: 28
+        x: 128
+        y: 40
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1118,15 +1118,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_48
+      name: Stone_Tile_Bottom_Left
       rect:
         serializedVersion: 2
-        x: 28
-        y: 28
+        x: 0
+        y: 32
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1139,15 +1139,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_49
+      name: Stone_Tile_Bottom
       rect:
         serializedVersion: 2
-        x: 37
-        y: 28
+        x: 8
+        y: 32
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1160,15 +1160,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_50
+      name: Stone_Tile_Bottom_Right
       rect:
         serializedVersion: 2
-        x: 46
-        y: 28
+        x: 16
+        y: 32
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1181,15 +1181,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_51
+      name: Stone_Tile_Left_Single
       rect:
         serializedVersion: 2
-        x: 55
-        y: 28
+        x: 24
+        y: 32
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1202,15 +1202,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_52
+      name: Stone_Tile_Right_Single
       rect:
         serializedVersion: 2
-        x: 64
-        y: 28
+        x: 32
+        y: 32
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1223,15 +1223,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_53
+      name: Stone_Slope_2
       rect:
         serializedVersion: 2
-        x: 73
-        y: 28
+        x: 40
+        y: 32
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1244,15 +1244,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_54
+      name: Stone_Slope_3
       rect:
         serializedVersion: 2
-        x: 82
-        y: 28
+        x: 48
+        y: 32
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1265,15 +1265,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_55
+      name: Stone_Platform_Left_Small
       rect:
         serializedVersion: 2
-        x: 91
-        y: 28
+        x: 56
+        y: 32
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1286,15 +1286,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_56
+      name: Stone_Stalactite_6
       rect:
         serializedVersion: 2
-        x: 100
-        y: 28
+        x: 64
+        y: 32
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1307,15 +1307,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_57
+      name: Stone_Stalactite_7
       rect:
         serializedVersion: 2
-        x: 109
-        y: 28
+        x: 72
+        y: 32
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1328,15 +1328,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_58
+      name: Stone_Dirt_3
       rect:
         serializedVersion: 2
-        x: 118
-        y: 28
+        x: 80
+        y: 32
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1349,15 +1349,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_59
+      name: Ore_Gold
       rect:
         serializedVersion: 2
-        x: 127
-        y: 28
+        x: 88
+        y: 32
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1370,15 +1370,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_60
+      name: Minecart_Gold_0
       rect:
         serializedVersion: 2
-        x: 136
-        y: 28
+        x: 96
+        y: 32
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1391,15 +1391,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_61
+      name: Minecart_Gold_1
       rect:
         serializedVersion: 2
-        x: 145
-        y: 28
+        x: 104
+        y: 32
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1412,15 +1412,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_62
+      name: Dirt_Background_Top_Left
       rect:
         serializedVersion: 2
-        x: 154
-        y: 28
+        x: 112
+        y: 32
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1433,15 +1433,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_63
+      name: Dirt_Background_Top
       rect:
         serializedVersion: 2
-        x: 163
-        y: 28
+        x: 120
+        y: 32
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1454,15 +1454,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_64
+      name: Dirt_Background_Top_Right
       rect:
         serializedVersion: 2
-        x: 172
-        y: 28
+        x: 128
+        y: 32
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1475,15 +1475,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_65
+      name: Dirt_Platform_Left
       rect:
         serializedVersion: 2
-        x: 181
-        y: 28
+        x: 0
+        y: 24
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1496,15 +1496,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_66
+      name: Dirt_Platform_Center
       rect:
         serializedVersion: 2
-        x: 190
-        y: 28
+        x: 8
+        y: 24
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1517,15 +1517,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_67
+      name: Dirt_Platform_Right
       rect:
         serializedVersion: 2
-        x: 199
-        y: 20
-        width: 16
-        height: 16
+        x: 16
+        y: 24
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1538,15 +1538,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_69
+      name: Dirt_Platform_1
       rect:
         serializedVersion: 2
-        x: 1
-        y: 19
+        x: 32
+        y: 24
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1559,15 +1559,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_70
+      name: Dirt_Platform_2
       rect:
         serializedVersion: 2
-        x: 10
-        y: 19
+        x: 40
+        y: 24
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1580,15 +1580,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_71
+      name: Dirt_Platform_3
       rect:
         serializedVersion: 2
-        x: 19
-        y: 19
+        x: 48
+        y: 24
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1601,15 +1601,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_72
+      name: Dirt_Platform_4
       rect:
         serializedVersion: 2
-        x: 28
-        y: 19
+        x: 56
+        y: 24
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1622,15 +1622,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_73
+      name: Dirt_Stalactite_0
       rect:
         serializedVersion: 2
-        x: 37
-        y: 19
+        x: 64
+        y: 24
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1643,15 +1643,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_74
+      name: Dirt_Stalactite_1
       rect:
         serializedVersion: 2
-        x: 46
-        y: 19
+        x: 72
+        y: 24
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1664,15 +1664,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_75
+      name: Dirt_Stone_0
       rect:
         serializedVersion: 2
-        x: 55
-        y: 19
+        x: 80
+        y: 24
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1685,15 +1685,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_76
+      name: Crystal_0
       rect:
         serializedVersion: 2
-        x: 64
-        y: 19
+        x: 88
+        y: 24
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1706,15 +1706,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_77
+      name: Minecart_Gunpowder_0
       rect:
         serializedVersion: 2
-        x: 73
-        y: 19
+        x: 96
+        y: 24
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1727,15 +1727,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_78
+      name: Minecart_Gunpowder_1
       rect:
         serializedVersion: 2
-        x: 82
-        y: 19
+        x: 104
+        y: 24
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1748,15 +1748,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_79
+      name: Dirt_Background_Left
       rect:
         serializedVersion: 2
-        x: 91
-        y: 19
+        x: 112
+        y: 24
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1769,15 +1769,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_80
+      name: Dirt_Background_Middle
       rect:
         serializedVersion: 2
-        x: 100
-        y: 19
+        x: 120
+        y: 24
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1790,15 +1790,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_81
+      name: Dirt_Background_Right
       rect:
         serializedVersion: 2
-        x: 109
-        y: 19
+        x: 128
+        y: 24
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1811,15 +1811,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_82
+      name: Dirt_Tile_Top_Left
       rect:
         serializedVersion: 2
-        x: 118
-        y: 19
+        x: 0
+        y: 16
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1832,15 +1832,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_83
+      name: Dirt_Tile_Top
       rect:
         serializedVersion: 2
-        x: 127
-        y: 19
+        x: 8
+        y: 16
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1853,15 +1853,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_84
+      name: Dirt_Tile_Top_Right
       rect:
         serializedVersion: 2
-        x: 136
-        y: 19
+        x: 16
+        y: 16
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1874,15 +1874,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_85
+      name: Dirt_Tile_Top_Single
       rect:
         serializedVersion: 2
-        x: 145
-        y: 19
+        x: 24
+        y: 16
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1895,15 +1895,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_86
+      name: Dirt_Platform_0
       rect:
         serializedVersion: 2
-        x: 154
-        y: 19
+        x: 32
+        y: 16
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1916,15 +1916,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_87
+      name: Dirt_Platform_6
       rect:
         serializedVersion: 2
-        x: 163
-        y: 19
+        x: 40
+        y: 16
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1937,15 +1937,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_88
+      name: Dirt_Platform_7
       rect:
         serializedVersion: 2
-        x: 172
-        y: 19
+        x: 48
+        y: 16
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1958,15 +1958,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_89
+      name: Dirt_Platform_5
       rect:
         serializedVersion: 2
-        x: 181
-        y: 19
+        x: 56
+        y: 16
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1979,15 +1979,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_90
+      name: Dirt_Stalactite_2
       rect:
         serializedVersion: 2
-        x: 190
-        y: 19
+        x: 64
+        y: 16
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2000,15 +2000,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_93
+      name: Crystal_1
       rect:
         serializedVersion: 2
-        x: 1
-        y: 10
+        x: 88
+        y: 16
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2021,15 +2021,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_94
+      name: Crystal_2
       rect:
         serializedVersion: 2
-        x: 10
-        y: 10
+        x: 96
+        y: 16
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2042,15 +2042,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_95
+      name: Minecart_Empty
       rect:
         serializedVersion: 2
-        x: 19
-        y: 10
+        x: 104
+        y: 16
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2063,15 +2063,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_96
+      name: Support_Beam_5
       rect:
         serializedVersion: 2
-        x: 28
-        y: 10
+        x: 112
+        y: 16
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2084,15 +2084,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_97
+      name: Support_Beam_4
       rect:
         serializedVersion: 2
-        x: 37
-        y: 10
+        x: 120
+        y: 16
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2105,15 +2105,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_98
+      name: Support_Beam_6
       rect:
         serializedVersion: 2
-        x: 46
-        y: 10
+        x: 128
+        y: 16
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2126,15 +2126,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_99
+      name: Dirt_Tile_Left
       rect:
         serializedVersion: 2
-        x: 55
-        y: 10
+        x: 0
+        y: 8
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2147,15 +2147,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_100
+      name: Dirt_Tile_Middle
       rect:
         serializedVersion: 2
-        x: 64
-        y: 10
+        x: 8
+        y: 8
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2168,15 +2168,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_101
+      name: Dirt_Tile_Right
       rect:
         serializedVersion: 2
-        x: 73
-        y: 10
+        x: 16
+        y: 8
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2189,15 +2189,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_102
+      name: Dirt_Tile_Bottom_Single
       rect:
         serializedVersion: 2
-        x: 82
-        y: 10
+        x: 24
+        y: 8
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2210,15 +2210,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_103
+      name: Dirt_Tile_Single
       rect:
         serializedVersion: 2
-        x: 91
-        y: 10
+        x: 32
+        y: 8
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2231,15 +2231,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_104
+      name: Dirt_Slope_0
       rect:
         serializedVersion: 2
-        x: 100
-        y: 10
+        x: 40
+        y: 8
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2252,15 +2252,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_105
+      name: Dirt_Slope_1
       rect:
         serializedVersion: 2
-        x: 109
-        y: 10
+        x: 48
+        y: 8
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2273,15 +2273,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_106
+      name: Dirt_Platform_Right_Small
       rect:
         serializedVersion: 2
-        x: 118
-        y: 10
+        x: 56
+        y: 8
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2294,15 +2294,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_107
+      name: Dirt_Stalactite_4
       rect:
         serializedVersion: 2
-        x: 127
-        y: 10
+        x: 64
+        y: 8
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2315,15 +2315,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_108
+      name: Dirt_Stalactite_5
       rect:
         serializedVersion: 2
-        x: 136
-        y: 10
+        x: 72
+        y: 8
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2336,15 +2336,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_109
+      name: Dirt_Stone_1
       rect:
         serializedVersion: 2
-        x: 145
-        y: 10
+        x: 80
+        y: 8
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2357,57 +2357,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_110
+      name: Support_Beam_1
       rect:
         serializedVersion: 2
-        x: 154
-        y: 10
+        x: 104
+        y: 8
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d59756a6a5e390146bca160f6a724b1b
-      internalID: -115451813
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_111
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 10
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec23912354d57704884c4ca1f3efbfa9
-      internalID: 575037356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_112
-      rect:
-        serializedVersion: 2
-        x: 172
-        y: 10
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2420,15 +2378,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_113
+      name: Support_Beam_3
       rect:
         serializedVersion: 2
-        x: 181
-        y: 10
+        x: 120
+        y: 8
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2441,15 +2399,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_114
+      name: Dirt_Tile_Bottom_Left
       rect:
         serializedVersion: 2
-        x: 190
-        y: 10
+        x: 0
+        y: 0
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2462,15 +2420,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_115
+      name: Dirt_Tile_Bottom
       rect:
         serializedVersion: 2
-        x: 199
-        y: 10
+        x: 8
+        y: 0
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2483,15 +2441,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_116
+      name: Dirt_Tile_Bottom_Right
       rect:
         serializedVersion: 2
-        x: 208
-        y: 10
+        x: 16
+        y: 0
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2504,15 +2462,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_117
+      name: Dirt_Tile_Left_Single
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
+        x: 24
+        y: 0
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2525,15 +2483,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_118
+      name: Dirt_Tile_Right_Single
       rect:
         serializedVersion: 2
-        x: 10
-        y: 1
+        x: 32
+        y: 0
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2546,15 +2504,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_119
+      name: Dirt_Slope_2
       rect:
         serializedVersion: 2
-        x: 19
-        y: 1
+        x: 40
+        y: 0
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2567,15 +2525,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_120
+      name: Dirt_Slope_3
       rect:
         serializedVersion: 2
-        x: 28
-        y: 1
+        x: 48
+        y: 0
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2588,15 +2546,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_121
+      name: Dirt_Platform_Left_Small
       rect:
         serializedVersion: 2
-        x: 55
-        y: 1
+        x: 56
+        y: 0
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2609,15 +2567,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_122
+      name: Dirt_Stalactite_6
       rect:
         serializedVersion: 2
         x: 64
-        y: 1
+        y: 0
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2630,15 +2588,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_123
+      name: Dirt_Stalactite_7
       rect:
         serializedVersion: 2
-        x: 73
-        y: 1
+        x: 72
+        y: 0
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2651,15 +2609,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_124
+      name: Dirt_Stone_3
       rect:
         serializedVersion: 2
-        x: 82
-        y: 1
+        x: 80
+        y: 0
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2672,15 +2630,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_125
+      name: Crystal_Big
       rect:
         serializedVersion: 2
-        x: 91
-        y: 1
-        width: 8
-        height: 8
+        x: 88
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2693,36 +2651,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_126
+      name: Support_Beam_0
       rect:
         serializedVersion: 2
-        x: 100
-        y: 1
+        x: 104
+        y: 0
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8cef6a2dfc94c5f4cacb4e4fe3c10bfb
-      internalID: 516056341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_127
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 1
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2735,15 +2672,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_128
+      name: Support_Beam_2
       rect:
         serializedVersion: 2
-        x: 136
-        y: 1
+        x: 120
+        y: 0
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2756,169 +2693,64 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_129
+      name: Dirt_Platform
       rect:
         serializedVersion: 2
-        x: 145
-        y: 1
+        x: 24
+        y: 24
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 791d34c1c91a6c54d861de6077abad2c
-      internalID: -449755655
+      spriteID: eb0b671d211345e42a14f22d1f6f0bdb
+      internalID: -167841729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_130
+      name: Dirt_Stalactite_3
       rect:
         serializedVersion: 2
-        x: 154
-        y: 1
+        x: 72
+        y: 16
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1ab67d8272eae34bb1ae6aa73011a91
-      internalID: 1538712040
+      spriteID: 66f6a49b9deb68543b2da4cfbc461024
+      internalID: -336832109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mine_131
+      name: Dirt_Stone_2
       rect:
         serializedVersion: 2
-        x: 163
-        y: 1
+        x: 80
+        y: 16
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86f70d4e8e5ed1145837624e63efda8b
-      internalID: 494826455
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_132
-      rect:
-        serializedVersion: 2
-        x: 172
-        y: 1
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d690219f838d1e047a14f90def0cd848
-      internalID: -1655733396
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_133
-      rect:
-        serializedVersion: 2
-        x: 181
-        y: 1
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 299f0e9fe940dba478f64114809cdb1d
-      internalID: -1378902257
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_134
-      rect:
-        serializedVersion: 2
-        x: 190
-        y: 1
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8fb10477505921448a87b4df444de90f
-      internalID: 1549957465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_135
-      rect:
-        serializedVersion: 2
-        x: 199
-        y: 1
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e2b6f6803f1eef49aa132cbc90aa8a0
-      internalID: 1353171192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_136
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 1
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5e3010945c813441a3d2ee493a312f2
-      internalID: 992001803
+      spriteID: 12de693a3221fc44cb35d1b82941f9ac
+      internalID: 1599107856
       vertices: []
       indices: 
       edges: []
@@ -2934,143 +2766,135 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mine_0: -431979423
-      Mine_1: -2012486517
-      Mine_10: -375161286
-      Mine_100: 418353627
-      Mine_101: -721564806
-      Mine_102: 323031220
-      Mine_103: -1143390024
-      Mine_104: -439933260
-      Mine_105: 1748486512
-      Mine_106: 1693877671
-      Mine_107: -751928104
-      Mine_108: 2025557298
-      Mine_109: 1222131722
-      Mine_11: -112759598
+      Crystal_0: -1255743444
+      Crystal_1: 1281712868
+      Crystal_2: -224926394
+      Crystal_Big: 1473572532
+      Dirt_Background_Left: -21901411
+      Dirt_Background_Middle: 1190387672
+      Dirt_Background_Right: 82158656
+      Dirt_Background_Top: -79982101
+      Dirt_Background_Top_Left: 664913061
+      Dirt_Background_Top_Right: 1132674156
+      Dirt_Platform: 1201757216
+      Dirt_Platform_0: -1087555639
+      Dirt_Platform_1: 761556423
+      Dirt_Platform_2: -557132587
+      Dirt_Platform_3: -876546302
+      Dirt_Platform_4: -442313203
+      Dirt_Platform_5: -1569697258
+      Dirt_Platform_6: 1781986972
+      Dirt_Platform_7: -318609951
+      Dirt_Platform_Center: 838990407
+      Dirt_Platform_Left: 490768987
+      Dirt_Platform_Left_Small: -1998224876
+      Dirt_Platform_Right: 385714914
+      Dirt_Platform_Right_Small: 1693877671
+      Dirt_Slope_0: -439933260
+      Dirt_Slope_1: 1748486512
+      Dirt_Slope_2: -43983513
+      Dirt_Slope_3: -1273058473
+      Dirt_Stalactite_0: 162337964
+      Dirt_Stalactite_1: -993542038
+      Dirt_Stalactite_2: -766036338
+      Dirt_Stalactite_3: -1325246448
+      Dirt_Stalactite_4: -751928104
+      Dirt_Stalactite_5: 2025557298
+      Dirt_Stalactite_6: -899321424
+      Dirt_Stalactite_7: -1922716644
+      Dirt_Stone_0: 15954679
+      Dirt_Stone_1: 1222131722
+      Dirt_Stone_2: -1956640649
+      Dirt_Stone_3: -381886008
+      Dirt_Tile_Bottom: -120882231
+      Dirt_Tile_Bottom_Left: -480610974
+      Dirt_Tile_Bottom_Right: 1056339124
+      Dirt_Tile_Bottom_Single: 323031220
+      Dirt_Tile_Left: 2094062686
+      Dirt_Tile_Left_Single: 939200339
+      Dirt_Tile_Middle: 418353627
+      Dirt_Tile_Right: -721564806
+      Dirt_Tile_Right_Single: -1564879625
+      Dirt_Tile_Single: -1143390024
+      Dirt_Tile_Top: 891084901
+      Dirt_Tile_Top_Left: 1198557850
+      Dirt_Tile_Top_Right: 1941468794
+      Dirt_Tile_Top_Single: -1697958158
       Mine_110: -115451813
       Mine_111: 575037356
-      Mine_112: -1579260432
-      Mine_113: 1952904659
-      Mine_114: -480610974
-      Mine_115: -120882231
-      Mine_116: 1056339124
-      Mine_117: 939200339
-      Mine_118: -1564879625
-      Mine_119: -43983513
-      Mine_12: -468684678
-      Mine_120: -1273058473
-      Mine_121: -1998224876
-      Mine_122: -899321424
-      Mine_123: -1922716644
-      Mine_124: -381886008
-      Mine_125: 1473572532
       Mine_126: 516056341
-      Mine_127: 534686504
-      Mine_128: 2127277886
-      Mine_129: -449755655
-      Mine_13: 500442768
-      Mine_130: 1538712040
-      Mine_131: 494826455
-      Mine_132: -1655733396
-      Mine_133: -1378902257
-      Mine_134: 1549957465
-      Mine_135: 1353171192
-      Mine_136: 992001803
-      Mine_14: -410473887
-      Mine_15: 1973367650
-      Mine_16: -819159925
-      Mine_17: -1032599309
-      Mine_18: 897265970
-      Mine_19: 1169943947
-      Mine_2: 1093309823
-      Mine_20: -1425788382
-      Mine_21: -140189759
-      Mine_22: 1749460544
-      Mine_23: 1272326521
-      Mine_24: -2112154895
-      Mine_25: -1935104668
-      Mine_26: -427339138
-      Mine_27: -1410541729
-      Mine_28: 160003911
-      Mine_29: -1432700757
-      Mine_3: -189757901
-      Mine_30: 592817024
-      Mine_31: -1032782917
-      Mine_32: -272624807
-      Mine_33: 1281935739
-      Mine_34: 1176171836
-      Mine_35: -1970280812
-      Mine_36: -960599778
-      Mine_37: -532591877
-      Mine_38: 213465653
-      Mine_39: -514366432
-      Mine_4: -1839837707
-      Mine_40: 191357413
-      Mine_41: 1457152906
-      Mine_42: -741548603
-      Mine_43: -1078013649
-      Mine_44: 1240674331
-      Mine_45: 1132674156
-      Mine_46: -250542433
-      Mine_47: 1236568519
-      Mine_48: -1552874650
-      Mine_49: -1712907767
-      Mine_5: 1234912547
-      Mine_50: -1257780856
-      Mine_51: 581083170
-      Mine_52: 259313453
-      Mine_53: 2124070827
-      Mine_54: -866500688
-      Mine_55: -861407693
-      Mine_56: -1097931177
-      Mine_57: -600883799
-      Mine_58: -487202746
-      Mine_59: -286355859
-      Mine_6: 2105865850
-      Mine_60: -139759868
-      Mine_61: -1311359396
-      Mine_62: 1007244623
-      Mine_63: 664913061
-      Mine_64: -79982101
-      Mine_65: 490768987
-      Mine_66: 838990407
-      Mine_67: 385714914
-      Mine_68: 1201757216
-      Mine_69: 761556423
-      Mine_7: 281309613
-      Mine_70: -557132587
-      Mine_71: -876546302
-      Mine_72: -442313203
-      Mine_73: 162337964
-      Mine_74: -993542038
-      Mine_75: 15954679
-      Mine_76: -1255743444
-      Mine_77: 1702417205
-      Mine_78: -565279771
-      Mine_79: -21901411
-      Mine_8: 1898753403
-      Mine_80: 1190387672
-      Mine_81: 82158656
-      Mine_82: 1198557850
-      Mine_83: 891084901
-      Mine_84: 1941468794
-      Mine_85: -1697958158
-      Mine_86: -1087555639
-      Mine_87: 1781986972
-      Mine_88: -318609951
-      Mine_89: -1569697258
-      Mine_9: 733376697
-      Mine_90: -766036338
-      Mine_91: -1325246448
-      Mine_92: -1956640649
-      Mine_93: 1281712868
-      Mine_94: -224926394
-      Mine_95: 398716148
-      Mine_96: 535366710
-      Mine_97: 165049489
-      Mine_98: -1070627667
-      Mine_99: 2094062686
+      Minecart_Coal_0: -468684678
+      Minecart_Coal_1: 500442768
+      Minecart_Copper_0: -427339138
+      Minecart_Copper_1: -1410541729
+      Minecart_Empty: 398716148
+      Minecart_Gold_0: -139759868
+      Minecart_Gold_1: -1311359396
+      Minecart_Gunpowder_0: 1702417205
+      Minecart_Gunpowder_1: -565279771
+      Minecart_Silver_0: -1078013649
+      Minecart_Silver_1: 1240674331
+      Ore_Coal: -112759598
+      Ore_Copper: -1935104668
+      Ore_Gold: -286355859
+      Ore_Silver: -741548603
+      Stone_Background_Left: -250542433
+      Stone_Background_Middle: 1236568519
+      Stone_Background_Right: 1007244623
+      Stone_Background_Top: -1432700757
+      Stone_Background_Top_Left: 160003911
+      Stone_Background_Top_Right: 592817024
+      Stone_Dirt_0: -375161286
+      Stone_Dirt_1: 1457152906
+      Stone_Dirt_2: -2112154895
+      Stone_Dirt_3: -487202746
+      Stone_Platform: -189757901
+      Stone_Platform_0: 897265970
+      Stone_Platform_1: -1839837707
+      Stone_Platform_2: 1234912547
+      Stone_Platform_3: 2105865850
+      Stone_Platform_4: 281309613
+      Stone_Platform_5: -140189759
+      Stone_Platform_6: 1169943947
+      Stone_Platform_7: -1425788382
+      Stone_Platform_Center: -2012486517
+      Stone_Platform_Left: -431979423
+      Stone_Platform_Left_Small: -861407693
+      Stone_Platform_Right: 1093309823
+      Stone_Platform_Right_Small: 213465653
+      Stone_Slope_0: -960599778
+      Stone_Slope_1: -532591877
+      Stone_Slope_2: 2124070827
+      Stone_Slope_3: -866500688
+      Stone_Stalactite_0: 1898753403
+      Stone_Stalactite_1: 733376697
+      Stone_Stalactite_2: 1749460544
+      Stone_Stalactite_3: 1272326521
+      Stone_Stalactite_4: -514366432
+      Stone_Stalactite_5: 191357413
+      Stone_Stalactite_6: -1097931177
+      Stone_Stalactite_7: -600883799
+      Stone_Tile_Bottom: -1712907767
+      Stone_Tile_Bottom_Left: -1552874650
+      Stone_Tile_Bottom_Right: -1257780856
+      Stone_Tile_Bottom_Single: 1176171836
+      Stone_Tile_Left: -1032782917
+      Stone_Tile_Left_Single: 581083170
+      Stone_Tile_Middle: -272624807
+      Stone_Tile_Right: 1281935739
+      Stone_Tile_Right_Single: 259313453
+      Stone_Tile_Single: -1970280812
+      Stone_Tile_Top: 1973367650
+      Stone_Tile_Top_Left: -410473887
+      Stone_Tile_Top_Right: -819159925
+      Stone_Tile_Top_Single: -1032599309
+      Support_Beam_0: 534686504
+      Support_Beam_1: -1579260432
+      Support_Beam_2: 2127277886
+      Support_Beam_3: 1952904659
+      Support_Beam_4: 165049489
+      Support_Beam_5: 535366710
+      Support_Beam_6: -1070627667
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
