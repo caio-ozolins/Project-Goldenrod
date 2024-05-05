@@ -113,8 +113,8 @@ TextureImporter:
       name: Sign
       rect:
         serializedVersion: 2
-        x: 1
-        y: 55
+        x: 0
+        y: 48
         width: 8
         height: 8
       alignment: 0
@@ -134,8 +134,8 @@ TextureImporter:
       name: Scaffolding_Supports_Middle
       rect:
         serializedVersion: 2
-        x: 10
-        y: 55
+        x: 8
+        y: 48
         width: 8
         height: 8
       alignment: 0
@@ -155,8 +155,8 @@ TextureImporter:
       name: Scaffolding_L
       rect:
         serializedVersion: 2
-        x: 19
-        y: 55
+        x: 16
+        y: 48
         width: 8
         height: 8
       alignment: 0
@@ -176,8 +176,8 @@ TextureImporter:
       name: Scaffolding_Middle
       rect:
         serializedVersion: 2
-        x: 28
-        y: 55
+        x: 24
+        y: 48
         width: 8
         height: 8
       alignment: 0
@@ -197,8 +197,8 @@ TextureImporter:
       name: Scaffolding_R
       rect:
         serializedVersion: 2
-        x: 37
-        y: 55
+        x: 32
+        y: 48
         width: 8
         height: 8
       alignment: 0
@@ -218,8 +218,8 @@ TextureImporter:
       name: Wall_Spike_L
       rect:
         serializedVersion: 2
-        x: 46
-        y: 55
+        x: 40
+        y: 48
         width: 8
         height: 8
       alignment: 0
@@ -239,8 +239,8 @@ TextureImporter:
       name: Wall_Spike_R
       rect:
         serializedVersion: 2
-        x: 55
-        y: 55
+        x: 48
+        y: 48
         width: 8
         height: 8
       alignment: 0
@@ -260,8 +260,8 @@ TextureImporter:
       name: Fence_L
       rect:
         serializedVersion: 2
-        x: 64
-        y: 55
+        x: 56
+        y: 48
         width: 8
         height: 8
       alignment: 0
@@ -281,8 +281,8 @@ TextureImporter:
       name: Fence_Middle
       rect:
         serializedVersion: 2
-        x: 73
-        y: 55
+        x: 64
+        y: 48
         width: 8
         height: 8
       alignment: 0
@@ -302,8 +302,8 @@ TextureImporter:
       name: Fence_R
       rect:
         serializedVersion: 2
-        x: 82
-        y: 55
+        x: 72
+        y: 48
         width: 8
         height: 8
       alignment: 0
@@ -323,8 +323,8 @@ TextureImporter:
       name: Fence_Post
       rect:
         serializedVersion: 2
-        x: 91
-        y: 55
+        x: 80
+        y: 48
         width: 8
         height: 8
       alignment: 0
@@ -344,8 +344,8 @@ TextureImporter:
       name: Sign_Left
       rect:
         serializedVersion: 2
-        x: 1
-        y: 46
+        x: 0
+        y: 40
         width: 8
         height: 8
       alignment: 0
@@ -365,8 +365,8 @@ TextureImporter:
       name: Sign_Right
       rect:
         serializedVersion: 2
-        x: 10
-        y: 46
+        x: 8
+        y: 40
         width: 8
         height: 8
       alignment: 0
@@ -386,8 +386,8 @@ TextureImporter:
       name: Scaffolding_Supports_Left_L
       rect:
         serializedVersion: 2
-        x: 19
-        y: 46
+        x: 16
+        y: 40
         width: 8
         height: 8
       alignment: 0
@@ -407,8 +407,8 @@ TextureImporter:
       name: Scaffolding_Supports_Left_R
       rect:
         serializedVersion: 2
-        x: 28
-        y: 46
+        x: 24
+        y: 40
         width: 8
         height: 8
       alignment: 0
@@ -428,8 +428,8 @@ TextureImporter:
       name: Scaffolding_Supports_Right_L
       rect:
         serializedVersion: 2
-        x: 37
-        y: 46
+        x: 32
+        y: 40
         width: 8
         height: 8
       alignment: 0
@@ -449,8 +449,8 @@ TextureImporter:
       name: Scaffolding_Supports_Right_R
       rect:
         serializedVersion: 2
-        x: 46
-        y: 46
+        x: 40
+        y: 40
         width: 8
         height: 8
       alignment: 0
@@ -470,8 +470,8 @@ TextureImporter:
       name: Floor_Spike
       rect:
         serializedVersion: 2
-        x: 55
-        y: 46
+        x: 48
+        y: 40
         width: 8
         height: 8
       alignment: 0
@@ -491,8 +491,8 @@ TextureImporter:
       name: Campfire_0
       rect:
         serializedVersion: 2
-        x: 64
-        y: 46
+        x: 56
+        y: 40
         width: 8
         height: 8
       alignment: 0
@@ -512,8 +512,8 @@ TextureImporter:
       name: Campfire_1
       rect:
         serializedVersion: 2
-        x: 73
-        y: 46
+        x: 64
+        y: 40
         width: 8
         height: 8
       alignment: 0
@@ -533,8 +533,8 @@ TextureImporter:
       name: Campfire_2
       rect:
         serializedVersion: 2
-        x: 82
-        y: 46
+        x: 72
+        y: 40
         width: 8
         height: 8
       alignment: 0
@@ -554,8 +554,8 @@ TextureImporter:
       name: Campfire_3
       rect:
         serializedVersion: 2
-        x: 91
-        y: 46
+        x: 80
+        y: 40
         width: 8
         height: 8
       alignment: 0
@@ -575,8 +575,8 @@ TextureImporter:
       name: Barrel_Pile_0
       rect:
         serializedVersion: 2
-        x: 100
-        y: 38
+        x: 88
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -596,8 +596,8 @@ TextureImporter:
       name: Sign_Top_Left
       rect:
         serializedVersion: 2
-        x: 1
-        y: 37
+        x: 0
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -617,8 +617,8 @@ TextureImporter:
       name: Sign_Top_Right
       rect:
         serializedVersion: 2
-        x: 10
-        y: 37
+        x: 8
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -638,8 +638,8 @@ TextureImporter:
       name: Scaffolding_Post_R_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 37
+        x: 16
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -659,8 +659,8 @@ TextureImporter:
       name: Ladder_Top
       rect:
         serializedVersion: 2
-        x: 28
-        y: 37
+        x: 24
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -680,8 +680,8 @@ TextureImporter:
       name: Rope_Ladder
       rect:
         serializedVersion: 2
-        x: 37
-        y: 37
+        x: 32
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -701,8 +701,8 @@ TextureImporter:
       name: Ceiling_Spike
       rect:
         serializedVersion: 2
-        x: 55
-        y: 37
+        x: 48
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -722,8 +722,8 @@ TextureImporter:
       name: Pot_0
       rect:
         serializedVersion: 2
-        x: 64
-        y: 37
+        x: 56
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -743,8 +743,8 @@ TextureImporter:
       name: Pot_1
       rect:
         serializedVersion: 2
-        x: 73
-        y: 37
+        x: 64
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -764,8 +764,8 @@ TextureImporter:
       name: Pot_2
       rect:
         serializedVersion: 2
-        x: 82
-        y: 37
+        x: 72
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -785,8 +785,8 @@ TextureImporter:
       name: Pot_3
       rect:
         serializedVersion: 2
-        x: 91
-        y: 37
+        x: 80
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -806,8 +806,8 @@ TextureImporter:
       name: Sign_Bottom_Left
       rect:
         serializedVersion: 2
-        x: 1
-        y: 28
+        x: 0
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -827,8 +827,8 @@ TextureImporter:
       name: Sign_Bottom_Right
       rect:
         serializedVersion: 2
-        x: 10
-        y: 28
+        x: 8
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -848,8 +848,8 @@ TextureImporter:
       name: Scaffolding_Post_R_1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 28
+        x: 16
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -869,8 +869,8 @@ TextureImporter:
       name: Ladder
       rect:
         serializedVersion: 2
-        x: 28
-        y: 28
+        x: 24
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -890,8 +890,8 @@ TextureImporter:
       name: Rope_Ladder_Bottom
       rect:
         serializedVersion: 2
-        x: 37
-        y: 28
+        x: 32
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -911,8 +911,8 @@ TextureImporter:
       name: Wooden_Spikes
       rect:
         serializedVersion: 2
-        x: 55
-        y: 28
+        x: 48
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -932,8 +932,8 @@ TextureImporter:
       name: Barrel_0
       rect:
         serializedVersion: 2
-        x: 64
-        y: 28
+        x: 56
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -953,8 +953,8 @@ TextureImporter:
       name: Box_0
       rect:
         serializedVersion: 2
-        x: 73
-        y: 28
+        x: 64
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -974,8 +974,8 @@ TextureImporter:
       name: Box_1
       rect:
         serializedVersion: 2
-        x: 82
-        y: 28
+        x: 72
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -995,8 +995,8 @@ TextureImporter:
       name: Box_3
       rect:
         serializedVersion: 2
-        x: 91
-        y: 28
+        x: 80
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -1016,8 +1016,8 @@ TextureImporter:
       name: Chain_L
       rect:
         serializedVersion: 2
-        x: 1
-        y: 19
+        x: 0
+        y: 16
         width: 8
         height: 8
       alignment: 0
@@ -1037,8 +1037,8 @@ TextureImporter:
       name: Scaffolding_Stair_Left_1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 19
+        x: 16
+        y: 16
         width: 8
         height: 8
       alignment: 0
@@ -1058,8 +1058,8 @@ TextureImporter:
       name: Scaffolding_Stair_Left_2
       rect:
         serializedVersion: 2
-        x: 28
-        y: 19
+        x: 24
+        y: 16
         width: 8
         height: 8
       alignment: 0
@@ -1079,8 +1079,8 @@ TextureImporter:
       name: Scaffolding_Stair_Right_2
       rect:
         serializedVersion: 2
-        x: 37
-        y: 19
+        x: 32
+        y: 16
         width: 8
         height: 8
       alignment: 0
@@ -1100,8 +1100,8 @@ TextureImporter:
       name: Scaffolding_Stair_Right_1
       rect:
         serializedVersion: 2
-        x: 46
-        y: 19
+        x: 40
+        y: 16
         width: 8
         height: 8
       alignment: 0
@@ -1121,8 +1121,8 @@ TextureImporter:
       name: Barrel_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 19
+        x: 56
+        y: 16
         width: 8
         height: 8
       alignment: 0
@@ -1142,8 +1142,8 @@ TextureImporter:
       name: Barrel_Broken
       rect:
         serializedVersion: 2
-        x: 73
-        y: 19
+        x: 64
+        y: 16
         width: 8
         height: 8
       alignment: 0
@@ -1163,8 +1163,8 @@ TextureImporter:
       name: Pot_Broken_0
       rect:
         serializedVersion: 2
-        x: 82
-        y: 19
+        x: 72
+        y: 16
         width: 8
         height: 8
       alignment: 0
@@ -1184,8 +1184,8 @@ TextureImporter:
       name: Pot_Broken_1
       rect:
         serializedVersion: 2
-        x: 91
-        y: 19
+        x: 80
+        y: 16
         width: 8
         height: 8
       alignment: 0
@@ -1205,8 +1205,8 @@ TextureImporter:
       name: Chain_Broken_L
       rect:
         serializedVersion: 2
-        x: 1
-        y: 10
+        x: 0
+        y: 8
         width: 8
         height: 8
       alignment: 0
@@ -1226,8 +1226,8 @@ TextureImporter:
       name: Scaffolding_Stair_Left_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 10
+        x: 16
+        y: 8
         width: 8
         height: 8
       alignment: 0
@@ -1247,8 +1247,8 @@ TextureImporter:
       name: Scaffolding_Misc_L
       rect:
         serializedVersion: 2
-        x: 28
-        y: 10
+        x: 24
+        y: 8
         width: 8
         height: 8
       alignment: 0
@@ -1268,8 +1268,8 @@ TextureImporter:
       name: Scaffolding_Misc_R
       rect:
         serializedVersion: 2
-        x: 37
-        y: 10
+        x: 32
+        y: 8
         width: 8
         height: 8
       alignment: 0
@@ -1289,8 +1289,8 @@ TextureImporter:
       name: Scaffolding_Stair_Right_0
       rect:
         serializedVersion: 2
-        x: 46
-        y: 10
+        x: 40
+        y: 8
         width: 8
         height: 8
       alignment: 0
@@ -1310,8 +1310,8 @@ TextureImporter:
       name: Sword
       rect:
         serializedVersion: 2
-        x: 55
-        y: 10
+        x: 48
+        y: 8
         width: 8
         height: 16
       alignment: 0
@@ -1331,8 +1331,8 @@ TextureImporter:
       name: Anvil
       rect:
         serializedVersion: 2
-        x: 64
-        y: 10
+        x: 56
+        y: 8
         width: 8
         height: 8
       alignment: 0
@@ -1352,8 +1352,8 @@ TextureImporter:
       name: Floor_Trap_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
+        x: 0
+        y: 0
         width: 16
         height: 8
       alignment: 0
@@ -1373,8 +1373,8 @@ TextureImporter:
       name: Floor_Trap_1
       rect:
         serializedVersion: 2
-        x: 18
-        y: 1
+        x: 16
+        y: 0
         width: 16
         height: 8
       alignment: 0
@@ -1394,8 +1394,8 @@ TextureImporter:
       name: Floor_Trap_2
       rect:
         serializedVersion: 2
-        x: 35
-        y: 1
+        x: 32
+        y: 0
         width: 16
         height: 8
       alignment: 0
@@ -1415,8 +1415,8 @@ TextureImporter:
       name: Floor_Trap_3
       rect:
         serializedVersion: 2
-        x: 52
-        y: 1
+        x: 48
+        y: 0
         width: 16
         height: 8
       alignment: 0
@@ -1436,8 +1436,8 @@ TextureImporter:
       name: Floor_Trap_4
       rect:
         serializedVersion: 2
-        x: 69
-        y: 1
+        x: 64
+        y: 0
         width: 16
         height: 8
       alignment: 0
@@ -1457,8 +1457,8 @@ TextureImporter:
       name: Floor_Trap_5
       rect:
         serializedVersion: 2
-        x: 86
-        y: 1
+        x: 80
+        y: 0
         width: 16
         height: 8
       alignment: 0
@@ -1478,8 +1478,8 @@ TextureImporter:
       name: Pot_4
       rect:
         serializedVersion: 2
-        x: 100
-        y: 55
+        x: 88
+        y: 48
         width: 16
         height: 8
       alignment: 0
@@ -1499,8 +1499,8 @@ TextureImporter:
       name: Pot_5
       rect:
         serializedVersion: 2
-        x: 117
-        y: 55
+        x: 104
+        y: 48
         width: 16
         height: 8
       alignment: 0
@@ -1520,8 +1520,8 @@ TextureImporter:
       name: Bookcase_Top_Big
       rect:
         serializedVersion: 2
-        x: 134
-        y: 55
+        x: 120
+        y: 48
         width: 16
         height: 8
       alignment: 0
@@ -1541,8 +1541,8 @@ TextureImporter:
       name: Barrel_Pile_1
       rect:
         serializedVersion: 2
-        x: 117
-        y: 38
+        x: 104
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -1562,8 +1562,8 @@ TextureImporter:
       name: Box_Pile_0
       rect:
         serializedVersion: 2
-        x: 100
-        y: 21
+        x: 88
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -1583,8 +1583,8 @@ TextureImporter:
       name: Box_Pile_1
       rect:
         serializedVersion: 2
-        x: 117
-        y: 21
+        x: 104
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -1604,8 +1604,8 @@ TextureImporter:
       name: Box_4
       rect:
         serializedVersion: 2
-        x: 100
-        y: 12
+        x: 88
+        y: 8
         width: 16
         height: 8
       alignment: 0
@@ -1625,8 +1625,8 @@ TextureImporter:
       name: Box_5
       rect:
         serializedVersion: 2
-        x: 117
-        y: 12
+        x: 104
+        y: 8
         width: 16
         height: 8
       alignment: 0
@@ -1646,8 +1646,8 @@ TextureImporter:
       name: Bookcase_Bottom
       rect:
         serializedVersion: 2
-        x: 134
-        y: 46
+        x: 120
+        y: 40
         width: 16
         height: 8
       alignment: 0
@@ -1667,8 +1667,8 @@ TextureImporter:
       name: Bookcase_Top_Small
       rect:
         serializedVersion: 2
-        x: 151
-        y: 55
+        x: 136
+        y: 48
         width: 16
         height: 8
       alignment: 0
@@ -1688,8 +1688,8 @@ TextureImporter:
       name: Bookcase_Middle
       rect:
         serializedVersion: 2
-        x: 151
-        y: 46
+        x: 136
+        y: 40
         width: 16
         height: 8
       alignment: 0
@@ -1709,8 +1709,8 @@ TextureImporter:
       name: Table_0
       rect:
         serializedVersion: 2
-        x: 134
-        y: 37
+        x: 120
+        y: 32
         width: 16
         height: 8
       alignment: 0
@@ -1730,8 +1730,8 @@ TextureImporter:
       name: Chair_L
       rect:
         serializedVersion: 2
-        x: 151
-        y: 37
+        x: 136
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -1751,8 +1751,8 @@ TextureImporter:
       name: Table_1
       rect:
         serializedVersion: 2
-        x: 134
-        y: 28
+        x: 120
+        y: 24
         width: 16
         height: 8
       alignment: 0
@@ -1772,8 +1772,8 @@ TextureImporter:
       name: Bench
       rect:
         serializedVersion: 2
-        x: 151
-        y: 28
+        x: 136
+        y: 24
         width: 16
         height: 8
       alignment: 0
@@ -1793,8 +1793,8 @@ TextureImporter:
       name: Stool
       rect:
         serializedVersion: 2
-        x: 134
-        y: 19
+        x: 120
+        y: 16
         width: 8
         height: 8
       alignment: 0
@@ -1811,158 +1811,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scaffolding_Traps_And_Containers_51
-      rect:
-        serializedVersion: 2
-        x: 174
-        y: 43
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad2b695b5d90a6a4a9ab9c8b098d962a
-      internalID: -1763251171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scaffolding_Traps_And_Containers_52
-      rect:
-        serializedVersion: 2
-        x: 174
-        y: 38
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27b168608c10089498cefc61896514ce
-      internalID: -930389393
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scaffolding_Traps_And_Containers_53
-      rect:
-        serializedVersion: 2
-        x: 174
-        y: 33
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f486476b71b90e247ae766e069299ec8
-      internalID: 329722065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Books_3
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 48
-        width: 10
-        height: 3
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 753db02a045b2af4e98f3186988aefac
-      internalID: 120664052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Books_2
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 52
-        width: 10
-        height: 3
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d06aabf933511d44bfd8bd352800cdc
-      internalID: 277070825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Books_1
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 56
-        width: 10
-        height: 3
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d6e8dae0596c6a4cb95b77b12c85e41
-      internalID: 581080646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Books_0
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 60
-        width: 10
-        height: 3
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14220f0df5b5b6746beb851b3e4502d3
-      internalID: -1525228849
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Chair_R
       rect:
         serializedVersion: 2
-        x: 160
-        y: 37
+        x: 144
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -1982,8 +1835,8 @@ TextureImporter:
       name: Chain_R
       rect:
         serializedVersion: 2
-        x: 10
-        y: 19
+        x: 8
+        y: 16
         width: 8
         height: 8
       alignment: 0
@@ -2003,8 +1856,8 @@ TextureImporter:
       name: Chain_Broken_R
       rect:
         serializedVersion: 2
-        x: 10
-        y: 10
+        x: 8
+        y: 8
         width: 8
         height: 8
       alignment: 0
@@ -2024,8 +1877,8 @@ TextureImporter:
       name: Scaffolding_Post_L_0
       rect:
         serializedVersion: 2
-        x: 46
-        y: 37
+        x: 40
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -2045,8 +1898,8 @@ TextureImporter:
       name: Scaffolding_Post_L_1
       rect:
         serializedVersion: 2
-        x: 46
-        y: 28
+        x: 40
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -2058,6 +1911,69 @@ TextureImporter:
       bones: []
       spriteID: 9e10d410b67dbad4981cbcfa6035a816
       internalID: 1975826533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Books_Top
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 48
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b5c6b8f15e346469209687dff0ebaa
+      internalID: -1008438202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Books_Middle
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 40
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bcc1fe93b117b44920d9fab97df40a
+      internalID: 1087393204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Books_Bottom
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 32
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549339c8524ef1b46a16d31f5cfcf73d
+      internalID: 1344662799
       vertices: []
       indices: 
       edges: []
@@ -2088,6 +2004,9 @@ TextureImporter:
       Books_1: 581080646
       Books_2: 277070825
       Books_3: 120664052
+      Books_Bottom: 1344662799
+      Books_Middle: 1087393204
+      Books_Top: -1008438202
       Box_0: -688247503
       Box_1: -274490271
       Box_3: 1142079502
