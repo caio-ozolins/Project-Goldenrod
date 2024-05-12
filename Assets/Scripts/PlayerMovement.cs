@@ -1,18 +1,23 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D _rigidbody2D;
 
+    [Header("Movement")]
+    [SerializeField] private float speed = 10f;
     private float _horizontalInput;
-    private bool _grounded;
-
-    [SerializeField] private float speed;
+    
+    [Header("Jump")]
     [SerializeField] private float jumpPower;
-    [SerializeField] private LayerMask groundLayer;
-    [SerializeField] private Vector2 boxSize;
-    [SerializeField] private float castDistance;
+    [SerializeField] private float rigiVeloY;
 
+    [Header("Ground Check")] 
+    [SerializeField] private Transform groundCheckPos;
+    [SerializeField] private Vector2 groundCheckSize = new Vector2(0.33f, 0.03f);
+    [SerializeField] private LayerMask groundLayer;
+    
     private void Awake()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
@@ -20,32 +25,41 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        _horizontalInput = Input.GetAxis("Horizontal");
-
-        // move player left-right
+        rigiVeloY = _rigidbody2D.velocity.y; 
+        //Player movement
         _rigidbody2D.velocity = new Vector2(_horizontalInput * speed, _rigidbody2D.velocity.y);
+    }
 
-        if (Input.GetButtonDown("Jump"))
+    public void Move(InputAction.CallbackContext context)
+    {
+        _horizontalInput = context.ReadValue<Vector2>().x;
+    }
+
+    public void Jump(InputAction.CallbackContext context)
+    {
+        if (context.performed && IsGrounded()) //Hold down jump button = full height
         {
-            Jump();
+            _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, jumpPower);
         }
+        else if (context.canceled) //Light tap of jump button = half the height
+        {
+            _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, _rigidbody2D.velocity.y * 0.5f);
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.white;
+        Gizmos.DrawWireCube(groundCheckPos.position, groundCheckSize);
     }
 
     private bool IsGrounded()
     {
-        return Physics2D.BoxCast(transform.position, boxSize, 0, -transform.up, castDistance, groundLayer);
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.DrawWireCube(transform.position - transform.up * castDistance, boxSize);
-    }
-
-    private void Jump()
-    {
-        if (IsGrounded())
+        if (Physics2D.OverlapBox(groundCheckPos.position, groundCheckSize, 0, groundLayer))
         {
-            _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, jumpPower);
+            return true;
         }
+
+        return false;
     }
 }
