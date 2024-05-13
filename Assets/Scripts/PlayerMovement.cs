@@ -11,7 +11,6 @@ public class PlayerMovement : MonoBehaviour
     
     [Header("Jump")]
     [SerializeField] private float jumpPower;
-    [SerializeField] private float rigiVeloY;
 
     [Header("Ground Check")] 
     [SerializeField] private Transform groundCheckPos;
@@ -25,7 +24,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        rigiVeloY = _rigidbody2D.velocity.y; 
         //Player movement
         _rigidbody2D.velocity = new Vector2(_horizontalInput * speed, _rigidbody2D.velocity.y);
     }

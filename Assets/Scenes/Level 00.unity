@@ -16368,11 +16368,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c17727ca387b254f9d3566a49bbc5cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  jumpPower: 10
-  rigiVeloY: 0
+  speed: 6
+  jumpPower: 12
   groundCheckPos: {fileID: 387161353}
-  groundCheckSize: {x: 0.33, y: 0.03}
+  groundCheckSize: {x: 0.32, y: 0.03}
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -16391,7 +16390,7 @@ Rigidbody2D:
   m_Mass: 5
   m_LinearDrag: 0
   m_AngularDrag: 1
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 6200000, guid: 9700eacb88b383c49b7fbad3a141ee1d, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
