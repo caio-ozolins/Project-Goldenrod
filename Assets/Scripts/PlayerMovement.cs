@@ -6,6 +6,9 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D _rigidbody2D;
     private Animator _animator;
     private SpriteRenderer  _spriteRenderer;
+    private GameObject _picaReta;
+
+    private bool hasPica = false;
 
     Audiomanager audioManager;
 
@@ -27,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
+        _picaReta = GameObject.FindGameObjectWithTag("picaReta");
     }
 
     private void FixedUpdate()
@@ -86,5 +90,14 @@ public class PlayerMovement : MonoBehaviour
         }
 
         return false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("picaReta"))
+        {
+            hasPica = true;
+            Destroy(_picaReta);
+        }
     }
 }
