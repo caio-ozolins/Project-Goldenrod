@@ -4,6 +4,8 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D _rigidbody2D;
+    private Animator _animator;
+    private SpriteRenderer  _spriteRenderer;
 
     Audiomanager audioManager;
 
@@ -23,6 +25,8 @@ public class PlayerMovement : MonoBehaviour
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<Audiomanager>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
@@ -34,6 +38,23 @@ public class PlayerMovement : MonoBehaviour
     public void Move(InputAction.CallbackContext context)
     {
         _horizontalInput = context.ReadValue<Vector2>().x;
+        if (context.performed)
+        {
+            _animator.SetBool("IsWalking", true);
+        }
+        else if (context.canceled)
+        {
+            _animator.SetBool("IsWalking", false);
+        }
+        if (context.ReadValue<Vector2>().x < 0)
+        {
+            _spriteRenderer.flipX = true;
+        }
+        else if (context.ReadValue<Vector2>().x > 0)
+        {
+            _spriteRenderer.flipX = false;
+        }
+
     }
 
     public void Jump(InputAction.CallbackContext context)
@@ -42,10 +63,12 @@ public class PlayerMovement : MonoBehaviour
         {
             _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, jumpPower);
             audioManager.PlaySFX(audioManager.jump);
+            _animator.SetBool("IsJumping", true);
         }
         else if (context.canceled) //Light tap of jump button = half the height
         {
             _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, _rigidbody2D.velocity.y * 0.5f);
+            _animator.SetBool("IsJumping", false);
         }
     }
 
