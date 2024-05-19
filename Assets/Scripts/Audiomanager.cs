@@ -14,8 +14,7 @@ public class Audiomanager : MonoBehaviour
     public AudioClip jump;
     public AudioClip dig;
     public AudioClip fall;
-    public AudioClip caveWind;
-    public AudioClip caveWater;
+    public AudioClip cave;
     public AudioClip drillOn;
 
     private void Start()
