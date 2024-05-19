@@ -6,6 +6,7 @@ public class Audiomanager : MonoBehaviour
 {
     [Header("---------- Audio Source ----------")]
     [SerializeField] AudioSource musicSource;
+    [SerializeField] AudioSource caveSource;
     [SerializeField] AudioSource SFXSource;
 
     [Header("---------- Audio Clip ----------")]
@@ -19,6 +20,9 @@ public class Audiomanager : MonoBehaviour
     {
         musicSource.clip = background;
         musicSource.Play();
+
+        caveSource.clip = cave;
+        caveSource.Play();
     }
 
     public void PlaySFX(AudioClip clip)
