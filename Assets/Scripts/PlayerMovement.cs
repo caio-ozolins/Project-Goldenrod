@@ -5,6 +5,8 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D _rigidbody2D;
 
+    Audiomanager audioManager;
+
     [Header("Movement")]
     [SerializeField] private float speed = 10f;
     private float _horizontalInput;
@@ -19,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     
     private void Awake()
     {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<Audiomanager>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
@@ -38,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
         if (context.performed && IsGrounded()) //Hold down jump button = full height
         {
             _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, jumpPower);
+            audioManager.PlaySFX(audioManager.jump);
         }
         else if (context.canceled) //Light tap of jump button = half the height
         {

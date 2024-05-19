@@ -10,10 +10,8 @@ public class Audiomanager : MonoBehaviour
 
     [Header("---------- Audio Clip ----------")]
     public AudioClip background;
-    public AudioClip buttonClick;
     public AudioClip jump;
     public AudioClip dig;
-    public AudioClip fall;
     public AudioClip cave;
     public AudioClip drillOn;
 

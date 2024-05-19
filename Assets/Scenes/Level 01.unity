@@ -349,6 +349,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1939465878}
+        m_TargetAssemblyTypeName: Audiomanager, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 26d6236200d201f4d986c57c10f40c7c, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &20608951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -489,6 +501,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1939465878}
+        m_TargetAssemblyTypeName: Audiomanager, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 26d6236200d201f4d986c57c10f40c7c, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1154,6 +1178,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1939465878}
+        m_TargetAssemblyTypeName: Audiomanager, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 26d6236200d201f4d986c57c10f40c7c, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: CloseGame
@@ -1495,7 +1531,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 598763255}
+      - m_Target: {fileID: 1939465878}
+        m_TargetAssemblyTypeName: Audiomanager, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 26d6236200d201f4d986c57c10f40c7c, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 250082272}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -1505,7 +1553,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 250082272}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -2241,6 +2289,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1939465878}
+        m_TargetAssemblyTypeName: Audiomanager, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 26d6236200d201f4d986c57c10f40c7c, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3929,6 +3989,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1939465878}
+        m_TargetAssemblyTypeName: Audiomanager, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 26d6236200d201f4d986c57c10f40c7c, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 482910306}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: Continue
@@ -4090,39 +4162,43 @@ CompositeCollider2D:
   m_ColliderPaths:
   - m_Collider: {fileID: 713037957}
     m_ColliderPaths:
-    - - X: -130000000
-        Y: -20000000
-      - X: -122500000
-        Y: -20000000
-      - X: -122500000
-        Y: -10000000
-      - X: -123750000
-        Y: -10000000
-      - X: -122500000
-        Y: -8750000
-      - X: -122500000
-        Y: 0
-      - X: -120000000
-        Y: 0
-      - X: -120000000
+    - - X: 80000000
+        Y: 11250000
+      - X: 81250000
         Y: 10000000
-      - X: -90000000
+      - X: 100000000
         Y: 10000000
-      - X: -90000000
+      - X: 100000000
+        Y: 25000000
+      - X: 91250000
+        Y: 30000000
+      - X: 250000000
+        Y: 30000000
+      - X: 250000000
         Y: 20000000
-      - X: -86250000
+      - X: 270000000
         Y: 20000000
-      - X: -80000000
-        Y: 26250000
-      - X: -80000000
-        Y: 260000000
-      - X: -430000000
-        Y: 260000000
-      - X: -430000000
-        Y: -190000000
+      - X: 270000000
+        Y: 30000000
       - X: 310000000
-        Y: -190000000
+        Y: 30000000
       - X: 310000000
+        Y: 260000000
+      - X: -50000000
+        Y: 260000000
+      - X: -50000000
+        Y: 30000000
+      - X: 70000000
+        Y: 30000000
+      - X: 70000000
+        Y: 20000000
+      - X: 60000000
+        Y: 20000000
+      - X: 60000000
+        Y: 10000000
+      - X: 80000000
+        Y: 10000000
+    - - X: 310000000
         Y: -146250000
       - X: 303750016
         Y: -140000000
@@ -4320,26 +4396,6 @@ CompositeCollider2D:
         Y: 20000000
       - X: -370000000
         Y: 30000000
-      - X: -320000000
-        Y: 30000000
-      - X: -320000000
-        Y: 0
-      - X: -312500000
-        Y: 0
-      - X: -312500000
-        Y: 10000000
-      - X: -313750016
-        Y: 10000000
-      - X: -312500000
-        Y: 11250000
-      - X: -312500000
-        Y: 20000000
-      - X: -313750016
-        Y: 20000000
-      - X: -312500000
-        Y: 21250000
-      - X: -312500000
-        Y: 30000000
       - X: -260000000
         Y: 30000000
       - X: -260000000
@@ -4368,72 +4424,26 @@ CompositeCollider2D:
         Y: -3750000
       - X: -150000000
         Y: 0
-      - X: -147500000
+      - X: -120000000
         Y: 0
-      - X: -147500000
-        Y: -8750000
-      - X: -146250000
-        Y: -10000000
-      - X: -147500000
-        Y: -10000000
-      - X: -147500000
-        Y: -18750000
-      - X: -146250000
-        Y: -20000000
-      - X: -147500000
-        Y: -20000000
-      - X: -147500000
-        Y: -28750000
-      - X: -146250000
-        Y: -30000000
-      - X: -147500000
-        Y: -30000000
-      - X: -147500000
-        Y: -37500000
-      - X: -145000000
-        Y: -40000000
-      - X: -140000000
-        Y: -37500000
-      - X: -140000000
-        Y: 0
-      - X: -130000000
-        Y: 0
-    - - X: 80000000
-        Y: 11250000
-      - X: 81250000
+      - X: -120000000
         Y: 10000000
-      - X: 100000000
+      - X: -90000000
         Y: 10000000
-      - X: 100000000
-        Y: 25000000
-      - X: 91250000
-        Y: 30000000
-      - X: 250000000
-        Y: 30000000
-      - X: 250000000
+      - X: -90000000
         Y: 20000000
-      - X: 270000000
+      - X: -86250000
         Y: 20000000
-      - X: 270000000
-        Y: 30000000
-      - X: 310000000
-        Y: 30000000
-      - X: 310000000
+      - X: -80000000
+        Y: 26250000
+      - X: -80000000
         Y: 260000000
-      - X: -50000000
+      - X: -430000000
         Y: 260000000
-      - X: -50000000
-        Y: 30000000
-      - X: 70000000
-        Y: 30000000
-      - X: 70000000
-        Y: 20000000
-      - X: 60000000
-        Y: 20000000
-      - X: 60000000
-        Y: 10000000
-      - X: 80000000
-        Y: 10000000
+      - X: -430000000
+        Y: -190000000
+      - X: 310000000
+        Y: -190000000
     - - X: 80000000
         Y: 30000000
       - X: 90000000
@@ -4470,6 +4480,24 @@ CompositeCollider2D:
         Y: 0
   m_CompositePaths:
     m_Paths:
+    - - {x: 8, y: 1.125}
+      - {x: 8.125, y: 1}
+      - {x: 10, y: 1}
+      - {x: 10, y: 2.5}
+      - {x: 9.125, y: 3}
+      - {x: 25, y: 3}
+      - {x: 25, y: 2}
+      - {x: 27, y: 2}
+      - {x: 27, y: 3}
+      - {x: 31, y: 3}
+      - {x: 31, y: 26}
+      - {x: -5, y: 26}
+      - {x: -5, y: 3}
+      - {x: 7, y: 3}
+      - {x: 7, y: 2}
+      - {x: 6, y: 2}
+      - {x: 6, y: 1}
+      - {x: 8, y: 1}
     - - {x: 31, y: -14.625}
       - {x: 30.375002, y: -14}
       - {x: 30, y: -14}
@@ -4569,16 +4597,6 @@ CompositeCollider2D:
       - {x: -38, y: 2}
       - {x: -37, y: 2}
       - {x: -37, y: 3}
-      - {x: -32, y: 3}
-      - {x: -32, y: 0}
-      - {x: -31.25, y: 0}
-      - {x: -31.25, y: 1}
-      - {x: -31.375002, y: 1}
-      - {x: -31.25, y: 1.125}
-      - {x: -31.25, y: 2}
-      - {x: -31.375002, y: 2}
-      - {x: -31.25, y: 2.125}
-      - {x: -31.25, y: 3}
       - {x: -26, y: 3}
       - {x: -26, y: 0.625}
       - {x: -25.375, y: 0}
@@ -4593,27 +4611,6 @@ CompositeCollider2D:
       - {x: -15.625, y: -1}
       - {x: -15, y: -0.375}
       - {x: -15, y: 0}
-      - {x: -14.75, y: 0}
-      - {x: -14.75, y: -0.875}
-      - {x: -14.625, y: -1}
-      - {x: -14.75, y: -1}
-      - {x: -14.75, y: -1.875}
-      - {x: -14.625, y: -2}
-      - {x: -14.75, y: -2}
-      - {x: -14.75, y: -2.875}
-      - {x: -14.625, y: -3}
-      - {x: -14.75, y: -3}
-      - {x: -14.75, y: -3.75}
-      - {x: -14.5, y: -4}
-      - {x: -14, y: -3.75}
-      - {x: -14, y: 0}
-      - {x: -13, y: 0}
-      - {x: -13, y: -2}
-      - {x: -12.25, y: -2}
-      - {x: -12.25, y: -1}
-      - {x: -12.375, y: -1}
-      - {x: -12.25, y: -0.875}
-      - {x: -12.25, y: 0}
       - {x: -12, y: 0}
       - {x: -12, y: 1}
       - {x: -9, y: 1}
@@ -4624,24 +4621,6 @@ CompositeCollider2D:
       - {x: -43, y: 26}
       - {x: -43, y: -19}
       - {x: 31, y: -19}
-    - - {x: 8, y: 1.125}
-      - {x: 8.125, y: 1}
-      - {x: 10, y: 1}
-      - {x: 10, y: 2.5}
-      - {x: 9.125, y: 3}
-      - {x: 25, y: 3}
-      - {x: 25, y: 2}
-      - {x: 27, y: 2}
-      - {x: 27, y: 3}
-      - {x: 31, y: 3}
-      - {x: 31, y: 26}
-      - {x: -5, y: 26}
-      - {x: -5, y: 3}
-      - {x: 7, y: 3}
-      - {x: 7, y: 2}
-      - {x: 6, y: 2}
-      - {x: 6, y: 1}
-      - {x: 8, y: 1}
     - - {x: 8, y: 3}
       - {x: 9, y: 3}
       - {x: 8, y: 2.375}
@@ -12308,16 +12287,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741826
-  - first: {x: -15, y: -4, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 34
-      m_TileSpriteIndex: 58
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 9, y: -4, z: 0}
     second:
       serializedVersion: 2
@@ -12413,16 +12382,6 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 17
       m_TileSpriteIndex: 37
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -15, y: -3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 33
-      m_TileSpriteIndex: 57
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -12543,26 +12502,6 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 25
       m_TileSpriteIndex: 29
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -15, y: -2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 33
-      m_TileSpriteIndex: 57
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -13, y: -2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 35
-      m_TileSpriteIndex: 59
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -12728,26 +12667,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -15, y: -1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 33
-      m_TileSpriteIndex: 57
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -13, y: -1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 36
-      m_TileSpriteIndex: 60
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: -43, y: 0, z: 0}
     second:
       serializedVersion: 2
@@ -12803,16 +12722,6 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 17
       m_TileSpriteIndex: 37
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -32, y: 0, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 35
-      m_TileSpriteIndex: 59
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -13038,16 +12947,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741826
-  - first: {x: -32, y: 1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 36
-      m_TileSpriteIndex: 60
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: -26, y: 1, z: 0}
     second:
       serializedVersion: 2
@@ -13313,16 +13212,6 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 17
       m_TileSpriteIndex: 37
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -32, y: 2, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 36
-      m_TileSpriteIndex: 60
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -29946,14 +29835,14 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 2d932540cd298744fb6275ca0bdbe850, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: ebade8aa0eb6e064698108893ca6f9a7, type: 2}
-  - m_RefCount: 3
-    m_Data: {fileID: 11400000, guid: 7153c35fef1ee824d82cba2d7067c0ea, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: f5324b9939ffc17489fa7f65e0847944, type: 2}
-  - m_RefCount: 2
-    m_Data: {fileID: 11400000, guid: dfd2e74eafffe064bba7243fca1d6b75, type: 2}
-  - m_RefCount: 3
-    m_Data: {fileID: 11400000, guid: 28c79bf067bf9ab4584f05ffe8673e68, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: dd4b6b05abf5406459354bd77da4dda4, type: 2}
   m_TileSpriteArray:
@@ -30071,18 +29960,18 @@ Tilemap:
     m_Data: {fileID: -375161286, guid: 9df694748c9544f47affe2dcdf960903, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1457152906, guid: 9df694748c9544f47affe2dcdf960903, type: 3}
-  - m_RefCount: 3
-    m_Data: {fileID: -659816551, guid: 6e83f5d729c94414ba4daf2a2c2ef038, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 1945977348, guid: 6e83f5d729c94414ba4daf2a2c2ef038, type: 3}
-  - m_RefCount: 2
-    m_Data: {fileID: -1483117455, guid: 6e83f5d729c94414ba4daf2a2c2ef038, type: 3}
-  - m_RefCount: 3
-    m_Data: {fileID: -1568352337, guid: 6e83f5d729c94414ba4daf2a2c2ef038, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 4
     m_Data: {fileID: -1579255020, guid: 6e83f5d729c94414ba4daf2a2c2ef038, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 2508
+  - m_RefCount: 2499
     m_Data:
       e00: 1
       e01: 0
@@ -30155,7 +30044,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 2513
+  - m_RefCount: 2504
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   - m_RefCount: 0
     m_Data: {r: 5.8656e-41, g: 5.8656e-41, b: 5.8656e-41, a: 5.8656e-41}
@@ -32634,6 +32523,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1939465878}
+        m_TargetAssemblyTypeName: Audiomanager, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 26d6236200d201f4d986c57c10f40c7c, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1460742714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33851,7 +33752,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 450942673}
+      - m_Target: {fileID: 1939465878}
+        m_TargetAssemblyTypeName: Audiomanager, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 26d6236200d201f4d986c57c10f40c7c, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 250082272}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -33861,7 +33774,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 250082272}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -33995,7 +33908,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1636681055}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1939465878}
+        m_TargetAssemblyTypeName: Audiomanager, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 26d6236200d201f4d986c57c10f40c7c, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1636681055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34738,6 +34663,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: -15, y: -4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 20
+      m_TileSpriteIndex: 20
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 0, y: -4, z: 0}
     second:
       serializedVersion: 2
@@ -34763,6 +34698,16 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 24
       m_TileSpriteIndex: 24
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -15, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 21
+      m_TileSpriteIndex: 21
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -34808,6 +34753,56 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: -15, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 21
+      m_TileSpriteIndex: 21
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -13, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 22
+      m_TileSpriteIndex: 22
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -15, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 21
+      m_TileSpriteIndex: 21
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -13, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 23
+      m_TileSpriteIndex: 23
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -32, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 22
+      m_TileSpriteIndex: 22
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 0, y: 0, z: 0}
     second:
       serializedVersion: 2
@@ -34838,6 +34833,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: -32, y: 1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 23
+      m_TileSpriteIndex: 23
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 0, y: 1, z: 0}
     second:
       serializedVersion: 2
@@ -34849,6 +34854,16 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: 18, y: 1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 23
+      m_TileSpriteIndex: 23
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -32, y: 2, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 23
@@ -34940,13 +34955,13 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 39ce72d24043e274c976c91b9bccaec6, type: 2}
   - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: d17de3cc9b845424d98b46c85b9b9a1b, type: 2}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: f5324b9939ffc17489fa7f65e0847944, type: 2}
-  - m_RefCount: 2
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 7153c35fef1ee824d82cba2d7067c0ea, type: 2}
-  - m_RefCount: 2
+  - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: dfd2e74eafffe064bba7243fca1d6b75, type: 2}
-  - m_RefCount: 3
+  - m_RefCount: 6
     m_Data: {fileID: 11400000, guid: 28c79bf067bf9ab4584f05ffe8673e68, type: 2}
   - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: cc53cd64f5f7041448ffa3abe783c32b, type: 2}
@@ -34991,18 +35006,18 @@ Tilemap:
     m_Data: {fileID: 483956025, guid: 6e83f5d729c94414ba4daf2a2c2ef038, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: -1162736924, guid: 6e83f5d729c94414ba4daf2a2c2ef038, type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 1945977348, guid: 6e83f5d729c94414ba4daf2a2c2ef038, type: 3}
-  - m_RefCount: 2
+  - m_RefCount: 5
     m_Data: {fileID: -659816551, guid: 6e83f5d729c94414ba4daf2a2c2ef038, type: 3}
-  - m_RefCount: 2
+  - m_RefCount: 4
     m_Data: {fileID: -1483117455, guid: 6e83f5d729c94414ba4daf2a2c2ef038, type: 3}
-  - m_RefCount: 3
+  - m_RefCount: 6
     m_Data: {fileID: -1568352337, guid: 6e83f5d729c94414ba4daf2a2c2ef038, type: 3}
   - m_RefCount: 5
     m_Data: {fileID: 1532691731, guid: 6e83f5d729c94414ba4daf2a2c2ef038, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 38
+  - m_RefCount: 47
     m_Data:
       e00: 1
       e01: 0
@@ -35039,7 +35054,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 41
+  - m_RefCount: 50
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -35167,6 +35182,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1939465878}
+        m_TargetAssemblyTypeName: Audiomanager, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 26d6236200d201f4d986c57c10f40c7c, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -35624,13 +35651,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1946563902}
   SFXSource: {fileID: 129716287}
-  background: {fileID: 0}
-  buttonClick: {fileID: 0}
-  jump: {fileID: 0}
-  dig: {fileID: 0}
-  fall: {fileID: 0}
-  caveWind: {fileID: 0}
-  caveWater: {fileID: 0}
+  background: {fileID: 8300000, guid: 984c8085269c29a458485e40c6055338, type: 3}
+  jump: {fileID: 8300000, guid: f6ea8b8452ca2094889c063ea60fb03f, type: 3}
+  dig: {fileID: 8300000, guid: beea805e1c6941f46bc8ebb3ac80eb0e, type: 3}
+  cave: {fileID: 0}
   drillOn: {fileID: 0}
 --- !u!4 &1939465879
 Transform:
@@ -71457,6 +71481,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1939465878}
+        m_TargetAssemblyTypeName: Audiomanager, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 26d6236200d201f4d986c57c10f40c7c, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
