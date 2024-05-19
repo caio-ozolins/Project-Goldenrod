@@ -197,7 +197,9 @@ MonoBehaviour:
 
     - @analogstudios_
 
-    - Caio Ozolins'
+    - Caio Ozolins
+
+    - Filipe Costa'
 --- !u!222 &19528537
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25120,6 +25122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   signUI: {fileID: 456574780}
+  nearSign: 0
 --- !u!1 &1038510139
 GameObject:
   m_ObjectHideFlags: 0
@@ -27817,7 +27820,7 @@ Transform:
   m_GameObject: {fileID: 1564755311}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -57.002304, y: -0.9017908, z: -10}
+  m_LocalPosition: {x: -57.589058, y: -0.90160084, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28452,6 +28455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1932162292}
+  caveSource: {fileID: 0}
   SFXSource: {fileID: 1520975455}
   background: {fileID: 8300000, guid: ec901f0f102e08e4daf5df5690a4ed7f, type: 3}
   jump: {fileID: 8300000, guid: f6ea8b8452ca2094889c063ea60fb03f, type: 3}

@@ -512,7 +512,9 @@ MonoBehaviour:
 
     - @analogstudios_
 
-    - Caio Ozolins'
+    - Caio Ozolins
+
+    - Filipe Costa'
 --- !u!222 &134642408
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3895,6 +3897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1813121378}
+  caveSource: {fileID: 0}
   SFXSource: {fileID: 1815418145}
   background: {fileID: 8300000, guid: ec901f0f102e08e4daf5df5690a4ed7f, type: 3}
   jump: {fileID: 0}
