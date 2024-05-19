@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -97,6 +98,11 @@ public class PlayerMovement : MonoBehaviour
         {
             hasItem = true;
             Destroy(collision.gameObject);
+        }
+
+        if (collision.CompareTag("Next Level"))
+        {
+            SceneManager.LoadScene("Level 02");
         }
     }
 }
