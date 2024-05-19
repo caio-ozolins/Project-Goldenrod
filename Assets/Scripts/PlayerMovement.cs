@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
         _spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         //Player movement
         _rigidbody2D.velocity = new Vector2(_horizontalInput * speed, _rigidbody2D.velocity.y);
