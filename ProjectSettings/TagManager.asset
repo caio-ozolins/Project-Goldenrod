@@ -9,6 +9,8 @@ TagManager:
   - Water
   - picaReta
   - PlacaAndar
+  - IronOre
+  - PlacaFerrar
   layers:
   - Default
   - TransparentFX

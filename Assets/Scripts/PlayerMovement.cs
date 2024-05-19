@@ -8,9 +8,11 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer _spriteRenderer;
     private GameObject _picaReta;
 
+    //Inventory
     private bool hasPica = false;
+    public bool hasIron = false;
 
-    Audiomanager audioManager;
+    public Audiomanager audioManager;
 
     [Header("Movement")]
     [SerializeField] private float speed = 10f;
