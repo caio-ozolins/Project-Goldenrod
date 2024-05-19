@@ -5,7 +5,7 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D _rigidbody2D;
     private Animator _animator;
-    private SpriteRenderer  _spriteRenderer;
+    private SpriteRenderer _spriteRenderer;
     private GameObject _picaReta;
 
     private bool hasPica = false;
@@ -15,15 +15,15 @@ public class PlayerMovement : MonoBehaviour
     [Header("Movement")]
     [SerializeField] private float speed = 10f;
     private float _horizontalInput;
-    
+
     [Header("Jump")]
     [SerializeField] private float jumpPower;
 
-    [Header("Ground Check")] 
+    [Header("Ground Check")]
     [SerializeField] private Transform groundCheckPos;
     [SerializeField] private Vector2 groundCheckSize = new Vector2(0.33f, 0.03f);
     [SerializeField] private LayerMask groundLayer;
-    
+
     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<Audiomanager>();
