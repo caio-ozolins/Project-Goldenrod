@@ -12,6 +12,7 @@ TagManager:
   - IronOre
   - PlacaFerrar
   - Balde
+  - PlacaInicio
   layers:
   - Default
   - TransparentFX

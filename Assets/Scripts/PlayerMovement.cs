@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     //Inventory
     public bool hasIron = false;
+    public bool hasItem = false;
 
     public Audiomanager audioManager;
 
@@ -34,7 +35,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //Player movement
         _rigidbody2D.velocity = new Vector2(_horizontalInput * speed, _rigidbody2D.velocity.y);
     }
 
@@ -95,6 +95,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.CompareTag("picaReta") || collision.CompareTag("Balde"))
         {
+            hasItem = true;
             Destroy(collision.gameObject);
         }
     }
