@@ -1,8 +1,7 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.Rendering;
 
 public class ResolutionControl : MonoBehaviour
 {
@@ -14,6 +13,7 @@ public class ResolutionControl : MonoBehaviour
     private float currentRefreshRate;
     private int currentResolutionIndex = 0;
 
+    [Obsolete("Obsolete")]
     private void Start()
     {
         resolutions = Screen.resolutions;
