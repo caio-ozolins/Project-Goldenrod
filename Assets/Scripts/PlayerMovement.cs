@@ -104,5 +104,10 @@ public class PlayerMovement : MonoBehaviour
         {
             SceneManager.LoadScene("Level 02");
         }
+
+        if (collision.CompareTag("Previous Level"))
+        {
+            SceneManager.LoadScene("Level 1.1");
+        }
     }
 }

@@ -14,6 +14,7 @@ TagManager:
   - Balde
   - PlacaInicio
   - Next Level
+  - Previous Level
   layers:
   - Default
   - TransparentFX
