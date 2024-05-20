@@ -32,7 +32,7 @@ public class PlayerDig : MonoBehaviour
             audioManager.PlaySFX(audioManager.dig);
             Destroy(ironOre);
             Destroy(placaFerrar);
-            player.hasIron = true;
+            PlayerPrefs.SetInt("IronOre", 1);
 
             StartCoroutine(WaitDig());
 
