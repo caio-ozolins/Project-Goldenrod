@@ -15,7 +15,7 @@ public class Sign : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && player.hasItem)
+        if (collision.CompareTag("Player") && PlayerPrefs.GetInt("picaReta") == 1)
         {
             nearSign = true;
             signUI.SetActive(true);

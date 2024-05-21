@@ -20,6 +20,8 @@ TagManager:
   - PlacaDima
   - DiamondOre
   - PlacaFossil
+  - CoalOre
+  - PlacaCoal
   layers:
   - Default
   - TransparentFX
