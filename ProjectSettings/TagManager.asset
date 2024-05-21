@@ -22,6 +22,11 @@ TagManager:
   - PlacaFossil
   - CoalOre
   - PlacaCoal
+  - PlacaWater
+  - WaterBefore
+  - WaterSpawner
+  - Atrocidade
+  - AtrocidadeJr
   layers:
   - Default
   - TransparentFX
