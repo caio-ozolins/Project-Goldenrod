@@ -33,6 +33,9 @@ public class PlayerMovement : MonoBehaviour
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
+        
+        PlayerPrefs.SetInt("IronOre", 0);
+        PlayerPrefs.SetInt("DiamondOre", 0);
     }
 
     private void FixedUpdate()
