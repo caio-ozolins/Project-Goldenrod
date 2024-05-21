@@ -119,11 +119,11 @@ public class PlayerDig : MonoBehaviour
 
     public void CloseWarning()
     {
+        Time.timeScale = 1;
         avisoFerro.SetActive(false);
         avisoDima.SetActive(false);
         avisoCoal.SetActive(false);
         avisoWater.SetActive(false);
         blackScreen.SetActive(false);
-        Time.timeScale = 1;
     }
 }
