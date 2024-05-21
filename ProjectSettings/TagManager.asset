@@ -19,6 +19,7 @@ TagManager:
   - PlacaPicareta
   - PlacaDima
   - DiamondOre
+  - PlacaFossil
   layers:
   - Default
   - TransparentFX

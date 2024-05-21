@@ -29,13 +29,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
+        PlayerPrefs.SetInt("IronOre", 0);
+        PlayerPrefs.SetInt("DiamondOre", 0);
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<Audiomanager>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
-        
-        PlayerPrefs.SetInt("IronOre", 0);
-        PlayerPrefs.SetInt("DiamondOre", 0);
     }
 
     private void FixedUpdate()

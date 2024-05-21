@@ -14,6 +14,7 @@ public class PlayerDig : MonoBehaviour
     private PlayerMovement player;
     public GameObject blackScreen;
     public GameObject avisoFerro;
+    public GameObject avisoDima;
     public Audiomanager audioManager;
     private String tagPlaca;
 
@@ -43,16 +44,17 @@ public class PlayerDig : MonoBehaviour
                 Destroy(ironOre);
                 Destroy(placaFerrar);
                 PlayerPrefs.SetInt("IronOre", 1);
-            } else if (tagPlaca == "PlacaDima")
+                StartCoroutine(WaitDig());
+                avisoFerro.SetActive(true);
+            }
+            else if (tagPlaca == "PlacaDima")
             {
                 Destroy(diamondOre);
                 Destroy(placaDima);
                 PlayerPrefs.SetInt("DiamondOre", 1);
+                StartCoroutine(WaitDig());
+                avisoDima.SetActive(true);
             }
-            
-            StartCoroutine(WaitDig());
-
-            avisoFerro.SetActive(true);
         }
     }
 
@@ -70,6 +72,8 @@ public class PlayerDig : MonoBehaviour
     public void CloseWarning()
     {
         avisoFerro.SetActive(false);
+        avisoDima.SetActive(false);
+        blackScreen.SetActive(false);
         Time.timeScale = 1;
     }
 }
