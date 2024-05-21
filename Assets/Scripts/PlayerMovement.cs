@@ -1,38 +1,67 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D _rigidbody2D;
+    private Animator _animator;
+    private SpriteRenderer _spriteRenderer;
+
+    //Inventory
+    public bool hasIron = false;
+    public bool hasItem = false;
+
+    public Audiomanager audioManager;
 
     [Header("Movement")]
     [SerializeField] private float speed = 10f;
     private float _horizontalInput;
-    
+
     [Header("Jump")]
     [SerializeField] private float jumpPower;
-    [SerializeField] private float rigiVeloY;
 
-    [Header("Ground Check")] 
+    [Header("Ground Check")]
     [SerializeField] private Transform groundCheckPos;
     [SerializeField] private Vector2 groundCheckSize = new Vector2(0.33f, 0.03f);
     [SerializeField] private LayerMask groundLayer;
-    
+
     private void Awake()
     {
+        PlayerPrefs.SetInt("IronOre", 0);
+        PlayerPrefs.SetInt("DiamondOre", 0);
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<Audiomanager>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        rigiVeloY = _rigidbody2D.velocity.y; 
-        //Player movement
         _rigidbody2D.velocity = new Vector2(_horizontalInput * speed, _rigidbody2D.velocity.y);
     }
 
     public void Move(InputAction.CallbackContext context)
     {
         _horizontalInput = context.ReadValue<Vector2>().x;
+        if (context.performed)
+        {
+            _animator.SetBool("IsWalking", true);
+        }
+        else if (context.canceled)
+        {
+            _animator.SetBool("IsWalking", false);
+        }
+        if (context.ReadValue<Vector2>().x < 0)
+        {
+            _spriteRenderer.flipX = true;
+        }
+        else if (context.ReadValue<Vector2>().x > 0)
+        {
+            _spriteRenderer.flipX = false;
+        }
+
     }
 
     public void Jump(InputAction.CallbackContext context)
@@ -40,10 +69,13 @@ public class PlayerMovement : MonoBehaviour
         if (context.performed && IsGrounded()) //Hold down jump button = full height
         {
             _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, jumpPower);
+            audioManager.PlaySFX(audioManager.jump);
+            _animator.SetBool("IsJumping", true);
         }
         else if (context.canceled) //Light tap of jump button = half the height
         {
             _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, _rigidbody2D.velocity.y * 0.5f);
+            _animator.SetBool("IsJumping", false);
         }
     }
 
@@ -61,5 +93,28 @@ public class PlayerMovement : MonoBehaviour
         }
 
         return false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        int item = PlayerPrefs.GetInt(collision.tag, 0);
+        
+        if (collision.CompareTag("picaReta") || collision.CompareTag("Balde"))
+        {
+            item = 1;
+            Destroy(collision.gameObject);
+        }
+
+        if (collision.CompareTag("Next Level"))
+        {
+            SceneManager.LoadScene("Level 02");
+        }
+
+        if (collision.CompareTag("Previous Level"))
+        {
+            SceneManager.LoadScene("Level 1.1");
+        }
+        
+        PlayerPrefs.SetInt(collision.tag, item);
     }
 }

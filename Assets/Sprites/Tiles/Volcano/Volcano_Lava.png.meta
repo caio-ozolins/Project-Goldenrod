@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,8 +113,8 @@ TextureImporter:
       name: Volcano_Lava_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 46
+        x: 8
+        y: 40
         width: 8
         height: 8
       alignment: 0
@@ -134,8 +134,8 @@ TextureImporter:
       name: Volcano_Lava_1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 46
+        x: 16
+        y: 40
         width: 8
         height: 8
       alignment: 0
@@ -155,8 +155,8 @@ TextureImporter:
       name: Volcano_Lava_2
       rect:
         serializedVersion: 2
-        x: 28
-        y: 46
+        x: 24
+        y: 40
         width: 8
         height: 8
       alignment: 0
@@ -176,8 +176,8 @@ TextureImporter:
       name: Volcano_Lava_3
       rect:
         serializedVersion: 2
-        x: 37
-        y: 46
+        x: 32
+        y: 40
         width: 8
         height: 8
       alignment: 0
@@ -197,8 +197,8 @@ TextureImporter:
       name: Volcano_Lava_4
       rect:
         serializedVersion: 2
-        x: 46
-        y: 46
+        x: 40
+        y: 40
         width: 8
         height: 8
       alignment: 0
@@ -218,8 +218,8 @@ TextureImporter:
       name: Volcano_Lava_5
       rect:
         serializedVersion: 2
-        x: 55
-        y: 46
+        x: 48
+        y: 40
         width: 8
         height: 8
       alignment: 0
@@ -239,8 +239,8 @@ TextureImporter:
       name: Volcano_Lava_6
       rect:
         serializedVersion: 2
-        x: 64
-        y: 46
+        x: 56
+        y: 40
         width: 8
         height: 8
       alignment: 0
@@ -260,8 +260,8 @@ TextureImporter:
       name: Volcano_Lava_7
       rect:
         serializedVersion: 2
-        x: 1
-        y: 37
+        x: 0
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -281,8 +281,8 @@ TextureImporter:
       name: Volcano_Lava_8
       rect:
         serializedVersion: 2
-        x: 10
-        y: 37
+        x: 8
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -302,8 +302,8 @@ TextureImporter:
       name: Volcano_Lava_9
       rect:
         serializedVersion: 2
-        x: 19
-        y: 37
+        x: 16
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -323,8 +323,8 @@ TextureImporter:
       name: Volcano_Lava_10
       rect:
         serializedVersion: 2
-        x: 28
-        y: 37
+        x: 24
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -344,8 +344,8 @@ TextureImporter:
       name: Volcano_Lava_11
       rect:
         serializedVersion: 2
-        x: 37
-        y: 37
+        x: 32
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -365,8 +365,8 @@ TextureImporter:
       name: Volcano_Lava_12
       rect:
         serializedVersion: 2
-        x: 46
-        y: 37
+        x: 40
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -386,8 +386,8 @@ TextureImporter:
       name: Volcano_Lava_13
       rect:
         serializedVersion: 2
-        x: 55
-        y: 37
+        x: 48
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -407,8 +407,8 @@ TextureImporter:
       name: Volcano_Lava_14
       rect:
         serializedVersion: 2
-        x: 64
-        y: 37
+        x: 56
+        y: 32
         width: 8
         height: 8
       alignment: 0
@@ -428,8 +428,8 @@ TextureImporter:
       name: Volcano_Lava_15
       rect:
         serializedVersion: 2
-        x: 1
-        y: 28
+        x: 0
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -449,8 +449,8 @@ TextureImporter:
       name: Volcano_Lava_16
       rect:
         serializedVersion: 2
-        x: 10
-        y: 28
+        x: 8
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -470,8 +470,8 @@ TextureImporter:
       name: Volcano_Lava_17
       rect:
         serializedVersion: 2
-        x: 19
-        y: 28
+        x: 16
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -491,8 +491,8 @@ TextureImporter:
       name: Volcano_Lava_18
       rect:
         serializedVersion: 2
-        x: 28
-        y: 28
+        x: 24
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -512,8 +512,8 @@ TextureImporter:
       name: Volcano_Lava_19
       rect:
         serializedVersion: 2
-        x: 37
-        y: 28
+        x: 32
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -533,8 +533,8 @@ TextureImporter:
       name: Volcano_Lava_20
       rect:
         serializedVersion: 2
-        x: 46
-        y: 28
+        x: 40
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -554,8 +554,8 @@ TextureImporter:
       name: Volcano_Lava_21
       rect:
         serializedVersion: 2
-        x: 55
-        y: 28
+        x: 48
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -575,8 +575,8 @@ TextureImporter:
       name: Volcano_Lava_22
       rect:
         serializedVersion: 2
-        x: 64
-        y: 28
+        x: 56
+        y: 24
         width: 8
         height: 8
       alignment: 0
@@ -596,8 +596,8 @@ TextureImporter:
       name: Volcano_Lava_23
       rect:
         serializedVersion: 2
-        x: 1
-        y: 19
+        x: 0
+        y: 16
         width: 8
         height: 8
       alignment: 0
@@ -617,8 +617,8 @@ TextureImporter:
       name: Volcano_Lava_24
       rect:
         serializedVersion: 2
-        x: 10
-        y: 19
+        x: 8
+        y: 16
         width: 8
         height: 8
       alignment: 0
@@ -638,8 +638,8 @@ TextureImporter:
       name: Volcano_Lava_25
       rect:
         serializedVersion: 2
-        x: 19
-        y: 19
+        x: 16
+        y: 16
         width: 8
         height: 8
       alignment: 0
@@ -659,8 +659,8 @@ TextureImporter:
       name: Volcano_Lava_26
       rect:
         serializedVersion: 2
-        x: 28
-        y: 19
+        x: 24
+        y: 16
         width: 8
         height: 8
       alignment: 0
@@ -680,8 +680,8 @@ TextureImporter:
       name: Volcano_Lava_27
       rect:
         serializedVersion: 2
-        x: 37
-        y: 19
+        x: 32
+        y: 16
         width: 8
         height: 8
       alignment: 0
@@ -701,8 +701,8 @@ TextureImporter:
       name: Volcano_Lava_28
       rect:
         serializedVersion: 2
-        x: 46
-        y: 19
+        x: 40
+        y: 16
         width: 8
         height: 8
       alignment: 0
@@ -722,8 +722,8 @@ TextureImporter:
       name: Volcano_Lava_29
       rect:
         serializedVersion: 2
-        x: 55
-        y: 19
+        x: 48
+        y: 16
         width: 8
         height: 8
       alignment: 0
@@ -743,8 +743,8 @@ TextureImporter:
       name: Volcano_Lava_30
       rect:
         serializedVersion: 2
-        x: 64
-        y: 19
+        x: 56
+        y: 16
         width: 8
         height: 8
       alignment: 0
@@ -764,8 +764,8 @@ TextureImporter:
       name: Volcano_Lava_31
       rect:
         serializedVersion: 2
-        x: 1
-        y: 10
+        x: 0
+        y: 8
         width: 8
         height: 8
       alignment: 0
@@ -785,8 +785,8 @@ TextureImporter:
       name: Volcano_Lava_32
       rect:
         serializedVersion: 2
-        x: 10
-        y: 10
+        x: 8
+        y: 8
         width: 8
         height: 8
       alignment: 0
@@ -806,8 +806,8 @@ TextureImporter:
       name: Volcano_Lava_33
       rect:
         serializedVersion: 2
-        x: 19
-        y: 10
+        x: 16
+        y: 8
         width: 8
         height: 8
       alignment: 0
@@ -827,8 +827,8 @@ TextureImporter:
       name: Volcano_Lava_34
       rect:
         serializedVersion: 2
-        x: 28
-        y: 10
+        x: 24
+        y: 8
         width: 8
         height: 8
       alignment: 0
@@ -848,8 +848,8 @@ TextureImporter:
       name: Volcano_Lava_35
       rect:
         serializedVersion: 2
-        x: 37
-        y: 10
+        x: 32
+        y: 8
         width: 8
         height: 8
       alignment: 0
@@ -869,8 +869,8 @@ TextureImporter:
       name: Volcano_Lava_36
       rect:
         serializedVersion: 2
-        x: 46
-        y: 10
+        x: 40
+        y: 8
         width: 8
         height: 8
       alignment: 0
@@ -890,8 +890,8 @@ TextureImporter:
       name: Volcano_Lava_37
       rect:
         serializedVersion: 2
-        x: 55
-        y: 10
+        x: 48
+        y: 8
         width: 8
         height: 8
       alignment: 0
@@ -911,8 +911,8 @@ TextureImporter:
       name: Volcano_Lava_38
       rect:
         serializedVersion: 2
-        x: 64
-        y: 10
+        x: 56
+        y: 8
         width: 8
         height: 8
       alignment: 0
@@ -932,8 +932,8 @@ TextureImporter:
       name: Volcano_Lava_39
       rect:
         serializedVersion: 2
-        x: 37
-        y: 1
+        x: 32
+        y: 0
         width: 8
         height: 8
       alignment: 0
@@ -953,8 +953,8 @@ TextureImporter:
       name: Volcano_Lava_40
       rect:
         serializedVersion: 2
-        x: 46
-        y: 1
+        x: 40
+        y: 0
         width: 8
         height: 8
       alignment: 0
@@ -974,8 +974,8 @@ TextureImporter:
       name: Volcano_Lava_41
       rect:
         serializedVersion: 2
-        x: 55
-        y: 1
+        x: 48
+        y: 0
         width: 8
         height: 8
       alignment: 0
@@ -995,8 +995,8 @@ TextureImporter:
       name: Volcano_Lava_42
       rect:
         serializedVersion: 2
-        x: 64
-        y: 1
+        x: 56
+        y: 0
         width: 8
         height: 8
       alignment: 0

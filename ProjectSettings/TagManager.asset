@@ -5,6 +5,28 @@ TagManager:
   serializedVersion: 2
   tags:
   - Audio
+  - PausePanel
+  - Water
+  - picaReta
+  - PlacaAndar
+  - IronOre
+  - PlacaFerrar
+  - Balde
+  - PlacaInicio
+  - Next Level
+  - Previous Level
+  - PlacaPular
+  - PlacaPicareta
+  - PlacaDima
+  - DiamondOre
+  - PlacaFossil
+  - CoalOre
+  - PlacaCoal
+  - PlacaWater
+  - WaterBefore
+  - WaterSpawner
+  - Atrocidade
+  - AtrocidadeJr
   layers:
   - Default
   - TransparentFX
