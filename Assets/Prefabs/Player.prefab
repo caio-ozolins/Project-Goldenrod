@@ -132,6 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasIron: 0
+  hasItem: 0
   audioManager: {fileID: 0}
   speed: 6
   jumpPower: 12
@@ -283,7 +284,19 @@ MonoBehaviour:
     m_ActionId: 67896661-0cc1-45b2-a044-d286249c0b53
     m_ActionName: Player/Jump[/Keyboard/space,/Keyboard/w,/Keyboard/upArrow]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7013925046499872519}
+        m_TargetAssemblyTypeName: PlayerDig, Assembly-CSharp
+        m_MethodName: Dig
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 8b244656-cb0f-4030-a477-6894517650e9
     m_ActionName: Player/Dig[/Keyboard/e]
   m_NeverAutoSwitchControlSchemes: 0
@@ -326,6 +339,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blackScreen: {fileID: 0}
   avisoFerro: {fileID: 0}
+  avisoDima: {fileID: 0}
+  avisoCoal: {fileID: 0}
   audioManager: {fileID: 0}
 --- !u!1 &3692938087644740193
 GameObject:

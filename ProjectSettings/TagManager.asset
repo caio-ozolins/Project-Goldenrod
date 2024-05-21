@@ -15,6 +15,18 @@ TagManager:
   - PlacaInicio
   - Next Level
   - Previous Level
+  - PlacaPular
+  - PlacaPicareta
+  - PlacaDima
+  - DiamondOre
+  - PlacaFossil
+  - CoalOre
+  - PlacaCoal
+  - PlacaWater
+  - WaterBefore
+  - WaterSpawner
+  - Atrocidade
+  - AtrocidadeJr
   layers:
   - Default
   - TransparentFX

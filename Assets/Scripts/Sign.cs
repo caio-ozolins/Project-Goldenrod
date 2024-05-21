@@ -15,14 +15,14 @@ public class Sign : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (gameObject.CompareTag("PlacaInicio"))
+        if (this.tag == "PlacaInicio")
         {
-            if (collision.CompareTag("Player") && player.hasItem)
+            if (collision.CompareTag("Player") && PlayerPrefs.GetInt("picaReta") == 1)
             {
                 nearSign = true;
                 signUI.SetActive(true);
             }
-        }
+        }        
         else if (collision.CompareTag("Player"))
         {
             nearSign = true;

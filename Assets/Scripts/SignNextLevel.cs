@@ -20,7 +20,9 @@ public class SignNextLevel : MonoBehaviour
 
     public void NextLevel(InputAction.CallbackContext context)
     {
-        if (sign.nearSign && context.performed && player.hasItem)
+        int hasPick = PlayerPrefs.GetInt("picaReta");
+        
+        if (sign.nearSign && context.performed && hasPick == 1)
         {
             blackScreen.SetActive(true);
 

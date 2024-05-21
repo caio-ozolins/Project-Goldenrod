@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -28,6 +29,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
+        PlayerPrefs.SetInt("IronOre", 0);
+        PlayerPrefs.SetInt("DiamondOre", 0);
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<Audiomanager>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
@@ -94,9 +97,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        int item = PlayerPrefs.GetInt(collision.tag, 0);
+        
         if (collision.CompareTag("picaReta") || collision.CompareTag("Balde"))
         {
-            hasItem = true;
+            item = 1;
             Destroy(collision.gameObject);
         }
 
@@ -109,5 +114,7 @@ public class PlayerMovement : MonoBehaviour
         {
             SceneManager.LoadScene("Level 1.1");
         }
+        
+        PlayerPrefs.SetInt(collision.tag, item);
     }
 }
