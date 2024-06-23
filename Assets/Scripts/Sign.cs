@@ -72,11 +72,11 @@ public class Sign : MonoBehaviour
         {
             nearSign = false;
             signUI.SetActive(false);
+            signUI2.SetActive(false);
             signZero.SetActive(false);
             signHalf01.SetActive(false);
             signHalf02.SetActive(false);
             signAll.SetActive(false);
-            signUI2.SetActive(false);
         }
     }
 
