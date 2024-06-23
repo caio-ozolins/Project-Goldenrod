@@ -5,6 +5,7 @@ using UnityEngine;
 public class Sign : MonoBehaviour
 {
     public GameObject signUI;
+    public GameObject signUI2;
     public bool nearSign = false;
     private PlayerMovement player;
 
@@ -21,6 +22,10 @@ public class Sign : MonoBehaviour
             {
                 nearSign = true;
                 signUI.SetActive(true);
+            } else if (collision.CompareTag("Player") && PlayerPrefs.GetInt("picaReta") == 0)
+            {
+                nearSign = true;
+                signUI2.SetActive(true);
             }
         }        
         else if (collision.CompareTag("Player"))
@@ -36,6 +41,7 @@ public class Sign : MonoBehaviour
         {
             nearSign = false;
             signUI.SetActive(false);
+            signUI2.SetActive(false);
         }
     }
 
