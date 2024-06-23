@@ -9,6 +9,8 @@ public class Sign : MonoBehaviour
     public GameObject signHalf01;
     public GameObject signHalf02;
     public GameObject signAll;
+    public GameObject signHot;
+    public GameObject signWater;
     public GameObject signUI2;
     public bool nearSign = false;
     private PlayerMovement player;
@@ -16,6 +18,15 @@ public class Sign : MonoBehaviour
     private void Start()
     {
         player = FindObjectOfType<PlayerMovement>();
+    }
+
+    private void FixedUpdate()
+    {
+        if (PlayerPrefs.GetInt("FixedDrill") == 1 && PlayerPrefs.GetInt("Happened") == 1)
+        {
+            signAll.SetActive(false);
+            signHot.SetActive(true);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -26,7 +37,8 @@ public class Sign : MonoBehaviour
             {
                 nearSign = true;
                 signUI.SetActive(true);
-            } else if (collision.CompareTag("Player") && PlayerPrefs.GetInt("picaReta") == 0)
+            }
+            else if (collision.CompareTag("Player") && PlayerPrefs.GetInt("picaReta") == 0)
             {
                 nearSign = true;
                 signUI2.SetActive(true);
@@ -57,6 +69,16 @@ public class Sign : MonoBehaviour
                     signHalf02.SetActive(true);
                 }
             }
+            if (collision.CompareTag("Player") && PlayerPrefs.GetInt("FixedDrill") == 1 && PlayerPrefs.GetInt("Water") == 0)
+            {
+                nearSign = true;
+                signHot.SetActive(true);
+            }
+            if (collision.CompareTag("Player") && PlayerPrefs.GetInt("FixedDrill") == 1 && PlayerPrefs.GetInt("Water") == 1)
+            {
+                nearSign = true;
+                signWater.SetActive(true);
+            }
         }
         else if (collision.CompareTag("Player"))
         {
@@ -76,7 +98,10 @@ public class Sign : MonoBehaviour
             signHalf01.SetActive(false);
             signHalf02.SetActive(false);
             signAll.SetActive(false);
+            signHot.SetActive(false);
         }
+
+        PlayerPrefs.SetInt("Happened", 0);
     }
 
 }

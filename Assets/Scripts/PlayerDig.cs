@@ -29,7 +29,8 @@ public class PlayerDig : MonoBehaviour
     public GameObject avisoDima;
     public GameObject avisoCoal;
     public GameObject avisoWater;
-    public GameObject avisoBroca;
+    public GameObject avisoBroca01;
+    public GameObject avisoBroca02;
 
     public Audiomanager audioManager;
     private PlayerMovement player;
@@ -130,10 +131,24 @@ public class PlayerDig : MonoBehaviour
                 audioManager.PlaySFX(audioManager.dig);
 
                 //Ativar sprite broca
+                //Começar fumaça
                 PlayerPrefs.SetInt("FixedDrill", 1);
+                PlayerPrefs.SetInt("Happened", 1);
+                StartCoroutine(WaitDig());
+                avisoBroca01.SetActive(true);
+            }
+            else if (tagPlaca == "PlacaBroca" && PlayerPrefs.GetInt("FixedDrill") == 1 && PlayerPrefs.GetInt("Water") == 1)
+            {
+                Time.timeScale = 0;
+                blackScreen.SetActive(true);
+
+                audioManager.PlaySFX(audioManager.dig);
+
+                //Parar Fumaça
+                PlayerPrefs.SetInt("DrillReady", 1);
                 StartCoroutine(WaitDig());
                 //Start som broca
-                avisoBroca.SetActive(true);
+                avisoBroca02.SetActive(true);
             }
         }
     }
@@ -156,7 +171,8 @@ public class PlayerDig : MonoBehaviour
         avisoDima.SetActive(false);
         avisoCoal.SetActive(false);
         avisoWater.SetActive(false);
-        avisoBroca.SetActive(false);
+        avisoBroca01.SetActive(false);
+        avisoBroca02.SetActive(false);
         blackScreen.SetActive(false);
     }
 }
