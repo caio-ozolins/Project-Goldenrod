@@ -27,6 +27,7 @@ TagManager:
   - WaterSpawner
   - Atrocidade
   - AtrocidadeJr
+  - PlacaBroca
   layers:
   - Default
   - TransparentFX
