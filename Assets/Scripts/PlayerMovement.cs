@@ -30,8 +30,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
-        PlayerPrefs.SetInt("IronOre", 0);
-        PlayerPrefs.SetInt("DiamondOre", 0);
+        //PlayerPrefs.SetInt("IronOre", 0);
+        //PlayerPrefs.SetInt("DiamondOre", 0);
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<Audiomanager>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
@@ -42,6 +42,12 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         PlayerPrefs.SetInt("picaReta", 0);
+        PlayerPrefs.SetInt("IronOre", 0);
+        PlayerPrefs.SetInt("DiamondOre", 0);
+        PlayerPrefs.SetInt("CoalOre", 0);
+        PlayerPrefs.SetInt("Water", 0);
+        PlayerPrefs.SetInt("CanFixDrill", 0);
+        PlayerPrefs.SetInt("FixedDrill", 0);
     }
 
     private void FixedUpdate()

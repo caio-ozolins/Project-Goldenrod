@@ -519,6 +519,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44102544}
   m_CullTransparentMesh: 1
+--- !u!1 &50267353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 50267354}
+  m_Layer: 0
+  m_Name: Empty01
+  m_TagString: CoalOre
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &50267354
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50267353}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1061762880}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &50730681
 GameObject:
   m_ObjectHideFlags: 0
@@ -1809,11 +1840,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7b45929d847fe24d8ce3eeaf4273900, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  signUI: {fileID: 0}
+  signUI: {fileID: 50267353}
   signZero: {fileID: 2025852476}
   signHalf01: {fileID: 1284110340}
   signHalf02: {fileID: 1849054910}
   signAll: {fileID: 835858162}
+  signUI2: {fileID: 50267353}
   nearSign: 0
 --- !u!1 &178028544
 GameObject:
@@ -2209,6 +2241,7 @@ MonoBehaviour:
   signHalf01: {fileID: 0}
   signHalf02: {fileID: 0}
   signAll: {fileID: 0}
+  signUI2: {fileID: 0}
   nearSign: 0
 --- !u!61 &205097900
 BoxCollider2D:
@@ -2359,6 +2392,7 @@ MonoBehaviour:
   signHalf01: {fileID: 0}
   signHalf02: {fileID: 0}
   signAll: {fileID: 0}
+  signUI2: {fileID: 0}
   nearSign: 0
 --- !u!114 &206449136
 MonoBehaviour:
@@ -2377,6 +2411,7 @@ MonoBehaviour:
   signHalf01: {fileID: 0}
   signHalf02: {fileID: 0}
   signAll: {fileID: 0}
+  signUI2: {fileID: 0}
   nearSign: 0
 --- !u!61 &206449137
 BoxCollider2D:
@@ -3522,6 +3557,7 @@ MonoBehaviour:
   signHalf01: {fileID: 0}
   signHalf02: {fileID: 0}
   signAll: {fileID: 0}
+  signUI2: {fileID: 0}
   nearSign: 0
 --- !u!61 &330382837
 BoxCollider2D:
@@ -3750,6 +3786,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 345518874}
   m_CullTransparentMesh: 1
+--- !u!1 &363752038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 363752039}
+  - component: {fileID: 363752040}
+  m_Layer: 0
+  m_Name: Empty01 (2)
+  m_TagString: PlacaCoal
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &363752039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363752038}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1061762880}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &363752040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363752038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7b45929d847fe24d8ce3eeaf4273900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  signUI: {fileID: 50267353}
+  signZero: {fileID: 50267353}
+  signHalf01: {fileID: 50267353}
+  signHalf02: {fileID: 50267353}
+  signAll: {fileID: 50267353}
+  signUI2: {fileID: 50267353}
+  nearSign: 0
 --- !u!1 &373797753
 GameObject:
   m_ObjectHideFlags: 0
@@ -4126,6 +4213,7 @@ MonoBehaviour:
   signHalf01: {fileID: 0}
   signHalf02: {fileID: 0}
   signAll: {fileID: 0}
+  signUI2: {fileID: 0}
   nearSign: 0
 --- !u!61 &390497118
 BoxCollider2D:
@@ -5711,6 +5799,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 569540423}
   m_CullTransparentMesh: 1
+--- !u!1 &601591529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 601591530}
+  m_Layer: 0
+  m_Name: Empty01 (1)
+  m_TagString: WaterBefore
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &601591530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601591529}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1061762880}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &607524057
 GameObject:
   m_ObjectHideFlags: 0
@@ -7251,6 +7370,7 @@ MonoBehaviour:
   signHalf01: {fileID: 0}
   signHalf02: {fileID: 0}
   signAll: {fileID: 0}
+  signUI2: {fileID: 0}
   nearSign: 0
 --- !u!61 &695774136
 BoxCollider2D:
@@ -35221,6 +35341,41 @@ RectTransform:
   m_AnchoredPosition: {x: -52.85942, y: -82}
   m_SizeDelta: {x: 298.0566, y: 126.4853}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1061762879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1061762880}
+  m_Layer: 0
+  m_Name: EmptyThings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1061762880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061762879}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -25.33238, y: 7.034503, z: -0.20676342}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 50267354}
+  - {fileID: 601591530}
+  - {fileID: 363752039}
+  - {fileID: 1494482637}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1074400195
 GameObject:
   m_ObjectHideFlags: 0
@@ -35829,7 +35984,7 @@ Transform:
   m_GameObject: {fileID: 1143233788}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.46, y: 14.38, z: -10}
+  m_LocalPosition: {x: 17.65, y: -2.9099998, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -37152,6 +37307,7 @@ MonoBehaviour:
   signHalf01: {fileID: 0}
   signHalf02: {fileID: 0}
   signAll: {fileID: 0}
+  signUI2: {fileID: 0}
   nearSign: 0
 --- !u!61 &1356838272
 BoxCollider2D:
@@ -38464,6 +38620,7 @@ MonoBehaviour:
   signHalf01: {fileID: 0}
   signHalf02: {fileID: 0}
   signAll: {fileID: 0}
+  signUI2: {fileID: 0}
   nearSign: 0
 --- !u!61 &1443461646
 BoxCollider2D:
@@ -38572,11 +38729,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 584525964621986268, guid: e783076ba4a79d04daaf37136deb62f3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.46
+      value: 17.65
       objectReference: {fileID: 0}
     - target: {fileID: 584525964621986268, guid: e783076ba4a79d04daaf37136deb62f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.38
+      value: -5.91
       objectReference: {fileID: 0}
     - target: {fileID: 584525964621986268, guid: e783076ba4a79d04daaf37136deb62f3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -38621,7 +38778,7 @@ PrefabInstance:
     - target: {fileID: 7013925046499872519, guid: e783076ba4a79d04daaf37136deb62f3, type: 3}
       propertyPath: avisoCoal
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 50267353}
     - target: {fileID: 7013925046499872519, guid: e783076ba4a79d04daaf37136deb62f3, type: 3}
       propertyPath: avisoDima
       value: 
@@ -38637,7 +38794,7 @@ PrefabInstance:
     - target: {fileID: 7013925046499872519, guid: e783076ba4a79d04daaf37136deb62f3, type: 3}
       propertyPath: avisoWater
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 50267353}
     - target: {fileID: 7013925046499872519, guid: e783076ba4a79d04daaf37136deb62f3, type: 3}
       propertyPath: blackScreen
       value: 
@@ -38852,12 +39009,63 @@ Transform:
   m_GameObject: {fileID: 1478490458}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.46, y: 14.38, z: -10}
+  m_LocalPosition: {x: 16.277803, y: -2.91111, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1494482636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1494482637}
+  - component: {fileID: 1494482638}
+  m_Layer: 0
+  m_Name: Empty01 (3)
+  m_TagString: PlacaWater
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1494482637
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494482636}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1061762880}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1494482638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494482636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7b45929d847fe24d8ce3eeaf4273900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  signUI: {fileID: 50267353}
+  signZero: {fileID: 50267353}
+  signHalf01: {fileID: 50267353}
+  signHalf02: {fileID: 50267353}
+  signAll: {fileID: 50267353}
+  signUI2: {fileID: 50267353}
+  nearSign: 0
 --- !u!1 &1498964298
 GameObject:
   m_ObjectHideFlags: 0
@@ -42031,6 +42239,7 @@ MonoBehaviour:
   signHalf01: {fileID: 0}
   signHalf02: {fileID: 0}
   signAll: {fileID: 0}
+  signUI2: {fileID: 0}
   nearSign: 0
 --- !u!61 &1767886815
 BoxCollider2D:
@@ -42146,6 +42355,7 @@ MonoBehaviour:
   signHalf01: {fileID: 0}
   signHalf02: {fileID: 0}
   signAll: {fileID: 0}
+  signUI2: {fileID: 0}
   nearSign: 0
 --- !u!1 &1772072269
 GameObject:
@@ -80282,3 +80492,4 @@ SceneRoots:
   - {fileID: 1939465879}
   - {fileID: 918891475}
   - {fileID: 442162826}
+  - {fileID: 1061762880}

@@ -41,7 +41,6 @@ public class Sign : MonoBehaviour
             }
             if (collision.CompareTag("Player") && PlayerPrefs.GetInt("IronOre") == 1 && PlayerPrefs.GetInt("DiamondOre") == 1)
             {
-                PlayerPrefs.SetInt("CanFixDrill", 1);
                 nearSign = true;
                 signAll.SetActive(true);
             }

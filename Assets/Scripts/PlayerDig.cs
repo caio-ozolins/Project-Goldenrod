@@ -22,12 +22,14 @@ public class PlayerDig : MonoBehaviour
     private Sign signDima;
     private Sign signCoal;
     private Sign signWater;
+    private Sign signBroca;
 
     public GameObject blackScreen;
     public GameObject avisoFerro;
     public GameObject avisoDima;
     public GameObject avisoCoal;
     public GameObject avisoWater;
+    public GameObject avisoBroca;
 
     public Audiomanager audioManager;
     private PlayerMovement player;
@@ -56,21 +58,22 @@ public class PlayerDig : MonoBehaviour
         signDima = GameObject.FindGameObjectWithTag("PlacaDima").GetComponent<Sign>();
         signCoal = GameObject.FindGameObjectWithTag("PlacaCoal").GetComponent<Sign>();
         signWater = GameObject.FindGameObjectWithTag("PlacaWater").GetComponent<Sign>();
+        signBroca = GameObject.FindGameObjectWithTag("PlacaBroca").GetComponent<Sign>();
 
         player = FindObjectOfType<PlayerMovement>();
     }
 
     public void Dig(InputAction.CallbackContext context)
     {
-        if (signIron.nearSign || signDima.nearSign || signCoal.nearSign || signWater.nearSign && context.performed)
+        if (signIron.nearSign || signDima.nearSign || signCoal.nearSign || signWater.nearSign || signBroca.nearSign && context.performed)
         {
-            Time.timeScale = 0;
-            blackScreen.SetActive(true);
-
-            audioManager.PlaySFX(audioManager.dig);
-
             if (tagPlaca == "PlacaFerrar")
             {
+                Time.timeScale = 0;
+                blackScreen.SetActive(true);
+
+                audioManager.PlaySFX(audioManager.dig);
+
                 Destroy(ironOre);
                 Destroy(placaFerrar);
                 PlayerPrefs.SetInt("IronOre", 1);
@@ -79,6 +82,11 @@ public class PlayerDig : MonoBehaviour
             }
             else if (tagPlaca == "PlacaDima")
             {
+                Time.timeScale = 0;
+                blackScreen.SetActive(true);
+
+                audioManager.PlaySFX(audioManager.dig);
+
                 Destroy(diamondOre);
                 Destroy(placaDima);
                 PlayerPrefs.SetInt("DiamondOre", 1);
@@ -87,6 +95,11 @@ public class PlayerDig : MonoBehaviour
             }
             else if (tagPlaca == "PlacaCoal")
             {
+                Time.timeScale = 0;
+                blackScreen.SetActive(true);
+
+                audioManager.PlaySFX(audioManager.dig);
+
                 Destroy(coalOre);
                 Destroy(placaCoal);
                 PlayerPrefs.SetInt("CoalOre", 1);
@@ -95,6 +108,11 @@ public class PlayerDig : MonoBehaviour
             }
             else if (tagPlaca == "PlacaWater")
             {
+                Time.timeScale = 0;
+                blackScreen.SetActive(true);
+
+                audioManager.PlaySFX(audioManager.dig);
+
                 Destroy(waterBefore);
                 Destroy(placaWater);
                 Destroy(waterSpawner);
@@ -103,6 +121,19 @@ public class PlayerDig : MonoBehaviour
                 PlayerPrefs.SetInt("Water", 1);
                 StartCoroutine(WaitDig());
                 avisoWater.SetActive(true);
+            }
+            else if (tagPlaca == "PlacaBroca" && PlayerPrefs.GetInt("IronOre") == 1 && PlayerPrefs.GetInt("DiamondOre") == 1)
+            {
+                Time.timeScale = 0;
+                blackScreen.SetActive(true);
+
+                audioManager.PlaySFX(audioManager.dig);
+
+                //Ativar sprite broca
+                PlayerPrefs.SetInt("FixedDrill", 1);
+                StartCoroutine(WaitDig());
+                //Start som broca
+                avisoBroca.SetActive(true);
             }
         }
     }
@@ -125,6 +156,7 @@ public class PlayerDig : MonoBehaviour
         avisoDima.SetActive(false);
         avisoCoal.SetActive(false);
         avisoWater.SetActive(false);
+        avisoBroca.SetActive(false);
         blackScreen.SetActive(false);
     }
 }
