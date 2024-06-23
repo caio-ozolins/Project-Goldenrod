@@ -5,6 +5,10 @@ using UnityEngine;
 public class Sign : MonoBehaviour
 {
     public GameObject signUI;
+    public GameObject signZero;
+    public GameObject signHalf01;
+    public GameObject signHalf02;
+    public GameObject signAll;
     public GameObject signUI2;
     public bool nearSign = false;
     private PlayerMovement player;
@@ -27,7 +31,34 @@ public class Sign : MonoBehaviour
                 nearSign = true;
                 signUI2.SetActive(true);
             }
-        }        
+        }
+        else if (this.tag == "PlacaBroca")
+        {
+            if (collision.CompareTag("Player") && PlayerPrefs.GetInt("IronOre") == 0 && PlayerPrefs.GetInt("DiamondOre") == 0)
+            {
+                nearSign = true;
+                signZero.SetActive(true);
+            }
+            if (collision.CompareTag("Player") && PlayerPrefs.GetInt("IronOre") == 1 && PlayerPrefs.GetInt("DiamondOre") == 1)
+            {
+                PlayerPrefs.SetInt("CanFixDrill", 1);
+                nearSign = true;
+                signAll.SetActive(true);
+            }
+            if (collision.CompareTag("Player") && PlayerPrefs.GetInt("IronOre") == 1 || PlayerPrefs.GetInt("DiamondOre") == 1)
+            {
+                if (PlayerPrefs.GetInt("IronOre") == 1 && PlayerPrefs.GetInt("DiamondOre") == 0)
+                {
+                    nearSign = true;
+                    signHalf01.SetActive(true);
+                }
+                else if (PlayerPrefs.GetInt("IronOre") == 0 && PlayerPrefs.GetInt("DiamondOre") == 1)
+                {
+                    nearSign = true;
+                    signHalf02.SetActive(true);
+                }
+            }
+        }
         else if (collision.CompareTag("Player"))
         {
             nearSign = true;
@@ -41,6 +72,10 @@ public class Sign : MonoBehaviour
         {
             nearSign = false;
             signUI.SetActive(false);
+            signZero.SetActive(false);
+            signHalf01.SetActive(false);
+            signHalf02.SetActive(false);
+            signAll.SetActive(false);
             signUI2.SetActive(false);
         }
     }

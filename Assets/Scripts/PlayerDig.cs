@@ -92,7 +92,8 @@ public class PlayerDig : MonoBehaviour
                 PlayerPrefs.SetInt("CoalOre", 1);
                 StartCoroutine(WaitDig());
                 avisoCoal.SetActive(true);
-            }else if (tagPlaca == "PlacaWater")
+            }
+            else if (tagPlaca == "PlacaWater")
             {
                 Destroy(waterBefore);
                 Destroy(placaWater);
