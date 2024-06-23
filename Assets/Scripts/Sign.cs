@@ -9,6 +9,7 @@ public class Sign : MonoBehaviour
     public GameObject signHalf01;
     public GameObject signHalf02;
     public GameObject signAll;
+    public GameObject signUI2;
     public bool nearSign = false;
     private PlayerMovement player;
 
@@ -25,6 +26,10 @@ public class Sign : MonoBehaviour
             {
                 nearSign = true;
                 signUI.SetActive(true);
+            } else if (collision.CompareTag("Player") && PlayerPrefs.GetInt("picaReta") == 0)
+            {
+                nearSign = true;
+                signUI2.SetActive(true);
             }
         }
         else if (this.tag == "PlacaBroca")
@@ -71,6 +76,7 @@ public class Sign : MonoBehaviour
             signHalf01.SetActive(false);
             signHalf02.SetActive(false);
             signAll.SetActive(false);
+            signUI2.SetActive(false);
         }
     }
 
