@@ -33,7 +33,6 @@ public class PlayerDig : MonoBehaviour
     public GameObject avisoBroca02;
 
     public Audiomanager audioManager;
-    private PlayerMovement player;
     private String tagPlaca;
     private GameObject waterSpawner;
 
@@ -60,95 +59,90 @@ public class PlayerDig : MonoBehaviour
         signCoal = GameObject.FindGameObjectWithTag("PlacaCoal").GetComponent<Sign>();
         signWater = GameObject.FindGameObjectWithTag("PlacaWater").GetComponent<Sign>();
         signBroca = GameObject.FindGameObjectWithTag("PlacaBroca").GetComponent<Sign>();
-
-        player = FindObjectOfType<PlayerMovement>();
     }
 
     public void Dig(InputAction.CallbackContext context)
     {
         if (signIron.nearSign || signDima.nearSign || signCoal.nearSign || signWater.nearSign || signBroca.nearSign && context.performed)
         {
-            if (tagPlaca == "PlacaFerrar")
+            switch (tagPlaca)
             {
-                Time.timeScale = 0;
-                blackScreen.SetActive(true);
+                case "PlacaFerrar":
+                    Time.timeScale = 0;
+                    blackScreen.SetActive(true);
 
-                audioManager.PlaySFX(audioManager.dig);
+                    audioManager.PlaySFX(audioManager.dig);
 
-                Destroy(ironOre);
-                Destroy(placaFerrar);
-                PlayerPrefs.SetInt("IronOre", 1);
-                StartCoroutine(WaitDig());
-                avisoFerro.SetActive(true);
-            }
-            else if (tagPlaca == "PlacaDima")
-            {
-                Time.timeScale = 0;
-                blackScreen.SetActive(true);
+                    Destroy(ironOre);
+                    Destroy(placaFerrar);
+                    PlayerPrefs.SetInt("IronOre", 1);
+                    StartCoroutine(WaitDig());
+                    avisoFerro.SetActive(true);
+                    break;
+                case "PlacaDima":
+                    Time.timeScale = 0;
+                    blackScreen.SetActive(true);
 
-                audioManager.PlaySFX(audioManager.dig);
+                    audioManager.PlaySFX(audioManager.dig);
 
-                Destroy(diamondOre);
-                Destroy(placaDima);
-                PlayerPrefs.SetInt("DiamondOre", 1);
-                StartCoroutine(WaitDig());
-                avisoDima.SetActive(true);
-            }
-            else if (tagPlaca == "PlacaCoal")
-            {
-                Time.timeScale = 0;
-                blackScreen.SetActive(true);
+                    Destroy(diamondOre);
+                    Destroy(placaDima);
+                    PlayerPrefs.SetInt("DiamondOre", 1);
+                    StartCoroutine(WaitDig());
+                    avisoDima.SetActive(true);
+                    break;
+                case "PlacaCoal":
+                    Time.timeScale = 0;
+                    blackScreen.SetActive(true);
 
-                audioManager.PlaySFX(audioManager.dig);
+                    audioManager.PlaySFX(audioManager.dig);
 
-                Destroy(coalOre);
-                Destroy(placaCoal);
-                PlayerPrefs.SetInt("CoalOre", 1);
-                StartCoroutine(WaitDig());
-                avisoCoal.SetActive(true);
-            }
-            else if (tagPlaca == "PlacaWater")
-            {
-                Time.timeScale = 0;
-                blackScreen.SetActive(true);
+                    Destroy(coalOre);
+                    Destroy(placaCoal);
+                    PlayerPrefs.SetInt("CoalOre", 1);
+                    StartCoroutine(WaitDig());
+                    avisoCoal.SetActive(true);
+                    break;
+                case "PlacaWater":
+                    Time.timeScale = 0;
+                    blackScreen.SetActive(true);
 
-                audioManager.PlaySFX(audioManager.dig);
+                    audioManager.PlaySFX(audioManager.dig);
 
-                Destroy(waterBefore);
-                Destroy(placaWater);
-                Destroy(waterSpawner);
-                Destroy(atrocidade);
-                Destroy(atrocidadeJr);
-                PlayerPrefs.SetInt("Water", 1);
-                StartCoroutine(WaitDig());
-                avisoWater.SetActive(true);
-            }
-            else if (tagPlaca == "PlacaBroca" && PlayerPrefs.GetInt("IronOre") == 1 && PlayerPrefs.GetInt("DiamondOre") == 1)
-            {
-                Time.timeScale = 0;
-                blackScreen.SetActive(true);
+                    Destroy(waterBefore);
+                    Destroy(placaWater);
+                    Destroy(waterSpawner);
+                    Destroy(atrocidade);
+                    Destroy(atrocidadeJr);
+                    PlayerPrefs.SetInt("Water", 1);
+                    StartCoroutine(WaitDig());
+                    avisoWater.SetActive(true);
+                    break;
+                case "PlacaBroca" when PlayerPrefs.GetInt("IronOre") == 1 && PlayerPrefs.GetInt("DiamondOre") == 1:
+                    Time.timeScale = 0;
+                    blackScreen.SetActive(true);
 
-                audioManager.PlaySFX(audioManager.dig);
+                    audioManager.PlaySFX(audioManager.dig);
 
-                //Ativar sprite broca
-                //Começar fumaça
-                PlayerPrefs.SetInt("FixedDrill", 1);
-                PlayerPrefs.SetInt("Happened", 1);
-                StartCoroutine(WaitDig());
-                avisoBroca01.SetActive(true);
-            }
-            else if (tagPlaca == "PlacaBroca" && PlayerPrefs.GetInt("FixedDrill") == 1 && PlayerPrefs.GetInt("Water") == 1)
-            {
-                Time.timeScale = 0;
-                blackScreen.SetActive(true);
+                    //Ativar sprite broca
+                    //Começar fumaça
+                    PlayerPrefs.SetInt("FixedDrill", 1);
+                    PlayerPrefs.SetInt("Happened", 1);
+                    StartCoroutine(WaitDig());
+                    avisoBroca01.SetActive(true);
+                    break;
+                case "PlacaBroca" when PlayerPrefs.GetInt("FixedDrill") == 1 && PlayerPrefs.GetInt("Water") == 1:
+                    Time.timeScale = 0;
+                    blackScreen.SetActive(true);
 
-                audioManager.PlaySFX(audioManager.dig);
+                    audioManager.PlaySFX(audioManager.dig);
 
-                //Parar Fumaça
-                PlayerPrefs.SetInt("DrillReady", 1);
-                StartCoroutine(WaitDig());
-                //Start som broca
-                avisoBroca02.SetActive(true);
+                    //Parar Fumaça
+                    PlayerPrefs.SetInt("DrillReady", 1);
+                    StartCoroutine(WaitDig());
+                    //Start som broca
+                    avisoBroca02.SetActive(true);
+                    break;
             }
         }
     }

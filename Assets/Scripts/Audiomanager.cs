@@ -1,13 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+// ReSharper disable once IdentifierTypo
 public class Audiomanager : MonoBehaviour
 {
     [Header("---------- Audio Source ----------")]
-    [SerializeField] AudioSource musicSource;
-    [SerializeField] AudioSource caveSource;
-    [SerializeField] AudioSource SFXSource;
+    [SerializeField] private AudioSource musicSource;
+    [SerializeField] private AudioSource caveSource;
+    // ReSharper disable once InconsistentNaming
+    [SerializeField] private AudioSource SFXSource;
 
     [Header("---------- Audio Clip ----------")]
     public AudioClip background;
@@ -25,6 +25,7 @@ public class Audiomanager : MonoBehaviour
         caveSource.Play();
     }
 
+    // ReSharper disable once InconsistentNaming
     public void PlaySFX(AudioClip clip)
     {
         SFXSource.PlayOneShot(clip);

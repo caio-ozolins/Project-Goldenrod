@@ -1,8 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -29,6 +25,7 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
+    // ReSharper disable once MemberCanBePrivate.Global
     public void Pause()
     {
         pauseMenu.SetActive(true);

@@ -1,18 +1,13 @@
-using System;
-using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+// ReSharper disable Unity.PreferAddressByIdToGraphicsParams
 
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D _rigidbody2D;
     private Animator _animator;
     private SpriteRenderer _spriteRenderer;
-
-    //Inventory
-    public bool hasIron = false;
-    public bool hasItem = false;
 
     public Audiomanager audioManager;
 

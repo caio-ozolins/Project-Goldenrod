@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Sign : MonoBehaviour
@@ -12,13 +10,7 @@ public class Sign : MonoBehaviour
     public GameObject signHot;
     public GameObject signWater;
     public GameObject signUI2;
-    public bool nearSign = false;
-    private PlayerMovement player;
-
-    private void Start()
-    {
-        player = FindObjectOfType<PlayerMovement>();
-    }
+    public bool nearSign;
 
     private void FixedUpdate()
     {
@@ -31,7 +23,7 @@ public class Sign : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (this.tag == "PlacaInicio")
+        if (CompareTag("PlacaInicio"))
         {
             if (collision.CompareTag("Player") && PlayerPrefs.GetInt("picaReta") == 1)
             {
@@ -44,7 +36,7 @@ public class Sign : MonoBehaviour
                 signUI2.SetActive(true);
             }
         }
-        else if (this.tag == "PlacaBroca")
+        else if (CompareTag("PlacaBroca"))
         {
             if (collision.CompareTag("Player") && PlayerPrefs.GetInt("IronOre") == 0 && PlayerPrefs.GetInt("DiamondOre") == 0)
             {

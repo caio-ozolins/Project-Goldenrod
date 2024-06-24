@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
@@ -8,6 +6,7 @@ public class VolumeSettings : MonoBehaviour
 {
     [SerializeField] private AudioMixer audioMixer;
     [SerializeField] private Slider musicSlider;
+    // ReSharper disable once InconsistentNaming
     [SerializeField] private Slider SFXSlider;
 
     private void Start()
@@ -29,6 +28,7 @@ public class VolumeSettings : MonoBehaviour
         PlayerPrefs.SetFloat("musicVolume", volume);
     }
 
+    // ReSharper disable once InconsistentNaming
     public void SetSFXVolume()
     {
         float volume = SFXSlider.value;

@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &10334724
@@ -2403,13 +2403,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   signUI: {fileID: 2039038508}
-  signZero: {fileID: 0}
-  signHalf01: {fileID: 0}
-  signHalf02: {fileID: 0}
-  signAll: {fileID: 0}
-  signHot: {fileID: 0}
-  signWater: {fileID: 0}
-  signUI2: {fileID: 0}
+  signZero: {fileID: 50267353}
+  signHalf01: {fileID: 50267353}
+  signHalf02: {fileID: 50267353}
+  signAll: {fileID: 50267353}
+  signHot: {fileID: 50267353}
+  signWater: {fileID: 50267353}
+  signUI2: {fileID: 50267353}
   nearSign: 0
 --- !u!61 &205097900
 BoxCollider2D:
@@ -2520,7 +2520,6 @@ GameObject:
   - component: {fileID: 206449138}
   - component: {fileID: 206449137}
   - component: {fileID: 206449136}
-  - component: {fileID: 206449135}
   m_Layer: 0
   m_Name: placaDima
   m_TagString: PlacaDima
@@ -2543,27 +2542,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 918891475}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &206449135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 206449133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7b45929d847fe24d8ce3eeaf4273900, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  signUI: {fileID: 240317317}
-  signZero: {fileID: 0}
-  signHalf01: {fileID: 0}
-  signHalf02: {fileID: 0}
-  signAll: {fileID: 0}
-  signHot: {fileID: 0}
-  signWater: {fileID: 0}
-  signUI2: {fileID: 0}
-  nearSign: 0
 --- !u!114 &206449136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2577,13 +2555,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   signUI: {fileID: 240317317}
-  signZero: {fileID: 0}
-  signHalf01: {fileID: 0}
-  signHalf02: {fileID: 0}
-  signAll: {fileID: 0}
-  signHot: {fileID: 0}
-  signWater: {fileID: 0}
-  signUI2: {fileID: 0}
+  signZero: {fileID: 50267353}
+  signHalf01: {fileID: 50267353}
+  signHalf02: {fileID: 50267353}
+  signAll: {fileID: 50267353}
+  signHot: {fileID: 50267353}
+  signWater: {fileID: 50267353}
+  signUI2: {fileID: 50267353}
   nearSign: 0
 --- !u!61 &206449137
 BoxCollider2D:
@@ -2959,7 +2937,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &229655432
@@ -3807,13 +3785,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   signUI: {fileID: 1760694885}
-  signZero: {fileID: 0}
-  signHalf01: {fileID: 0}
-  signHalf02: {fileID: 0}
-  signAll: {fileID: 0}
-  signHot: {fileID: 0}
-  signWater: {fileID: 0}
-  signUI2: {fileID: 0}
+  signZero: {fileID: 50267353}
+  signHalf01: {fileID: 50267353}
+  signHalf02: {fileID: 50267353}
+  signAll: {fileID: 50267353}
+  signHot: {fileID: 50267353}
+  signWater: {fileID: 50267353}
+  signUI2: {fileID: 50267353}
   nearSign: 0
 --- !u!61 &330382837
 BoxCollider2D:
@@ -3961,7 +3939,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &341371534
@@ -4402,13 +4380,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   signUI: {fileID: 1355103682}
-  signZero: {fileID: 0}
-  signHalf01: {fileID: 0}
-  signHalf02: {fileID: 0}
-  signAll: {fileID: 0}
-  signHot: {fileID: 0}
-  signWater: {fileID: 0}
-  signUI2: {fileID: 0}
+  signZero: {fileID: 50267353}
+  signHalf01: {fileID: 50267353}
+  signHalf02: {fileID: 50267353}
+  signAll: {fileID: 50267353}
+  signHot: {fileID: 50267353}
+  signWater: {fileID: 50267353}
+  signUI2: {fileID: 50267353}
   nearSign: 0
 --- !u!61 &390497118
 BoxCollider2D:
@@ -5038,7 +5016,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &481621467
@@ -6709,7 +6687,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &607532081
@@ -7160,7 +7138,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &639060931
@@ -8181,13 +8159,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   signUI: {fileID: 2045582116}
-  signZero: {fileID: 0}
-  signHalf01: {fileID: 0}
-  signHalf02: {fileID: 0}
-  signAll: {fileID: 0}
-  signHot: {fileID: 0}
-  signWater: {fileID: 0}
-  signUI2: {fileID: 0}
+  signZero: {fileID: 50267353}
+  signHalf01: {fileID: 50267353}
+  signHalf02: {fileID: 50267353}
+  signAll: {fileID: 50267353}
+  signHot: {fileID: 50267353}
+  signWater: {fileID: 50267353}
+  signUI2: {fileID: 50267353}
   nearSign: 0
 --- !u!61 &695774136
 BoxCollider2D:
@@ -8401,7 +8379,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &713002266
@@ -34943,7 +34921,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &812831724
@@ -37042,7 +37020,7 @@ Transform:
   m_GameObject: {fileID: 1143233788}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.65, y: -2.9099998, z: -10}
+  m_LocalPosition: {x: -6.45, y: 13.53, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -38183,7 +38161,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1288165113
@@ -38651,13 +38629,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   signUI: {fileID: 1435552305}
-  signZero: {fileID: 0}
-  signHalf01: {fileID: 0}
-  signHalf02: {fileID: 0}
-  signAll: {fileID: 0}
-  signHot: {fileID: 0}
-  signWater: {fileID: 0}
-  signUI2: {fileID: 0}
+  signZero: {fileID: 50267353}
+  signHalf01: {fileID: 50267353}
+  signHalf02: {fileID: 50267353}
+  signAll: {fileID: 50267353}
+  signHot: {fileID: 50267353}
+  signWater: {fileID: 50267353}
+  signUI2: {fileID: 50267353}
   nearSign: 0
 --- !u!61 &1356838272
 BoxCollider2D:
@@ -40194,13 +40172,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   signUI: {fileID: 1891295580}
-  signZero: {fileID: 0}
-  signHalf01: {fileID: 0}
-  signHalf02: {fileID: 0}
-  signAll: {fileID: 0}
-  signHot: {fileID: 0}
-  signWater: {fileID: 0}
-  signUI2: {fileID: 0}
+  signZero: {fileID: 50267353}
+  signHalf01: {fileID: 50267353}
+  signHalf02: {fileID: 50267353}
+  signAll: {fileID: 50267353}
+  signHot: {fileID: 50267353}
+  signWater: {fileID: 50267353}
+  signUI2: {fileID: 50267353}
   nearSign: 0
 --- !u!61 &1443461646
 BoxCollider2D:
@@ -40309,11 +40287,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 584525964621986268, guid: e783076ba4a79d04daaf37136deb62f3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.65
+      value: -6.45
       objectReference: {fileID: 0}
     - target: {fileID: 584525964621986268, guid: e783076ba4a79d04daaf37136deb62f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.91
+      value: 10.53
       objectReference: {fileID: 0}
     - target: {fileID: 584525964621986268, guid: e783076ba4a79d04daaf37136deb62f3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -40557,7 +40535,7 @@ Transform:
   m_GameObject: {fileID: 1478490458}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.65, y: -2.9099998, z: -10}
+  m_LocalPosition: {x: -6.45, y: 13.53, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41274,7 +41252,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1545437309
@@ -41506,7 +41484,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1566328404
@@ -41805,7 +41783,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1596101252
@@ -42174,7 +42152,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1626364418
@@ -42929,7 +42907,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1738393040
@@ -43891,7 +43869,6 @@ GameObject:
   - component: {fileID: 1767886816}
   - component: {fileID: 1767886815}
   - component: {fileID: 1767886814}
-  - component: {fileID: 1767886817}
   m_Layer: 0
   m_Name: placaFerrar
   m_TagString: PlacaFerrar
@@ -43927,13 +43904,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   signUI: {fileID: 240317317}
-  signZero: {fileID: 0}
-  signHalf01: {fileID: 0}
-  signHalf02: {fileID: 0}
-  signAll: {fileID: 0}
-  signHot: {fileID: 0}
-  signWater: {fileID: 0}
-  signUI2: {fileID: 0}
+  signZero: {fileID: 50267353}
+  signHalf01: {fileID: 50267353}
+  signHalf02: {fileID: 50267353}
+  signAll: {fileID: 50267353}
+  signHot: {fileID: 50267353}
+  signWater: {fileID: 50267353}
+  signUI2: {fileID: 50267353}
   nearSign: 0
 --- !u!61 &1767886815
 BoxCollider2D:
@@ -44032,27 +44009,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1767886817
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1767886812}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7b45929d847fe24d8ce3eeaf4273900, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  signUI: {fileID: 240317317}
-  signZero: {fileID: 0}
-  signHalf01: {fileID: 0}
-  signHalf02: {fileID: 0}
-  signAll: {fileID: 0}
-  signHot: {fileID: 0}
-  signWater: {fileID: 0}
-  signUI2: {fileID: 0}
-  nearSign: 0
 --- !u!1 &1767944920
 GameObject:
   m_ObjectHideFlags: 0
@@ -45353,7 +45309,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1900896676
@@ -81727,7 +81683,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2075245932
@@ -82153,7 +82109,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2123598658

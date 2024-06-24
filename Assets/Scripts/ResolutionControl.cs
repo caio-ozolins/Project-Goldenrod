@@ -11,7 +11,7 @@ public class ResolutionControl : MonoBehaviour
     private List<Resolution> filteredResolutions;
 
     private float currentRefreshRate;
-    private int currentResolutionIndex = 0;
+    private int currentResolutionIndex;
 
     [Obsolete("Obsolete")]
     private void Start()
@@ -22,8 +22,10 @@ public class ResolutionControl : MonoBehaviour
         resolutionDropdown.ClearOptions();
         currentRefreshRate = Screen.currentResolution.refreshRate;
 
+        // ReSharper disable once ForCanBeConvertedToForeach
         for (int i = 0; i < resolutions.Length; i++)
         {
+            // ReSharper disable once CompareOfFloatsByEqualityOperator
             if (resolutions[i].refreshRate == currentRefreshRate)
             {
                 filteredResolutions.Add(resolutions[i]);
