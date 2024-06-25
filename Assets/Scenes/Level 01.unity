@@ -6817,6 +6817,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drill_Off
       objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 516b9398d31e27343ba7ea0fb6ffbf06, type: 3}
+      propertyPath: m_TagString
+      value: Broca
+      objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 516b9398d31e27343ba7ea0fb6ffbf06, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -6900,7 +6904,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 516b9398d31e27343ba7ea0fb6ffbf06, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1045671767}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 516b9398d31e27343ba7ea0fb6ffbf06, type: 3}
 --- !u!4 &625269075 stripped
 Transform:
@@ -36801,6 +36808,32 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1045671766 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 516b9398d31e27343ba7ea0fb6ffbf06, type: 3}
+  m_PrefabInstance: {fileID: 625269074}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1045671767
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045671766}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 96cc9268a67ba6c40b44577ecc378d2b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1061762879
 GameObject:
   m_ObjectHideFlags: 0
@@ -37231,7 +37264,7 @@ Transform:
   m_GameObject: {fileID: 1143233788}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.28, y: 13.12, z: -10}
+  m_LocalPosition: {x: 19.46, y: -4.55, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -40498,11 +40531,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 584525964621986268, guid: e783076ba4a79d04daaf37136deb62f3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.28
+      value: 19.46
       objectReference: {fileID: 0}
     - target: {fileID: 584525964621986268, guid: e783076ba4a79d04daaf37136deb62f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.12
+      value: -7.55
       objectReference: {fileID: 0}
     - target: {fileID: 584525964621986268, guid: e783076ba4a79d04daaf37136deb62f3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -40746,7 +40779,7 @@ Transform:
   m_GameObject: {fileID: 1478490458}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.28, y: 13.12, z: -10}
+  m_LocalPosition: {x: 18.163214, y: -4.5513997, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -43,7 +43,7 @@ public class PlayerDig : MonoBehaviour
 
     private void Awake()
     {
-        _animator = GetComponent<Animator>();
+        _animator = GameObject.FindGameObjectWithTag("Broca").GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
@@ -140,7 +140,7 @@ public class PlayerDig : MonoBehaviour
 
                     audioManager.PlaySFX(audioManager.dig);
 
-                    //Ativar sprite broca
+                    _animator.SetBool("BrocaLigada", true);
                     //Começar fumaça
                     PlayerPrefs.SetInt("FixedDrill", 1);
                     PlayerPrefs.SetInt("Happened", 1);
