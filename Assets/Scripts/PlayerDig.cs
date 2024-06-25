@@ -31,6 +31,7 @@ public class PlayerDig : MonoBehaviour
     public GameObject avisoWater;
     public GameObject avisoBroca01;
     public GameObject avisoBroca02;
+    public GameObject avisoFinal;
 
     private Animator _animator;
     private SpriteRenderer _spriteRenderer;
@@ -161,10 +162,9 @@ public class PlayerDig : MonoBehaviour
                     avisoBroca02.SetActive(true);
                     audioManager.PlaySFX(audioManager.drillOn);
 
-                    //Start Credits
-                    //Black screen
-                    //Explicação sobre profundidade
-                    //Main menu
+                    StartCoroutine(WaitEnd());
+                    blackScreen.SetActive(true);
+                    avisoFinal.SetActive(true);
 
                     break;
             }
@@ -179,6 +179,11 @@ public class PlayerDig : MonoBehaviour
     private IEnumerator WaitDig()
     {
         yield return new WaitForSecondsRealtime(2);
+        blackScreen.SetActive(false);
+    }
+    private IEnumerator WaitEnd()
+    {
+        yield return new WaitForSecondsRealtime(5);
         blackScreen.SetActive(false);
     }
 
