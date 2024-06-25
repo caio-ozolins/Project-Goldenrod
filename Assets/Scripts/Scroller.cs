@@ -1,16 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Scroller : MonoBehaviour
 {
-    [SerializeField] private RawImage _img;
-    [SerializeField] private float _x, _y;
+    [SerializeField] private RawImage img;
+    [SerializeField] private float x;
+    [SerializeField] private float y;
 
 
-    void Update()
+    private void Update()
     {
-        _img.uvRect = new Rect(_img.uvRect.position + new Vector2(_x, _y) * Time.deltaTime, _img.uvRect.size);
+        img.uvRect = new Rect(img.uvRect.position + new Vector2(x, y) * Time.deltaTime, img.uvRect.size);
     }
 }

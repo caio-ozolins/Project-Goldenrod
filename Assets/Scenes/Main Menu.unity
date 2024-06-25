@@ -850,9 +850,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72f84c29841eb3440bb897425e64ecc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _img: {fileID: 271068771}
-  _x: 0.008
-  _y: 0
+  img: {fileID: 271068771}
+  x: 0.01
+  y: 0.01
 --- !u!114 &271068771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3898,6 +3898,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1813121378}
   caveSource: {fileID: 0}
+  drillSource: {fileID: 0}
   SFXSource: {fileID: 1815418145}
   background: {fileID: 8300000, guid: ec901f0f102e08e4daf5df5690a4ed7f, type: 3}
   jump: {fileID: 0}

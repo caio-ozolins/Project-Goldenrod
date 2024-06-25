@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -7,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class SignNextLevel : MonoBehaviour
 {
     private Sign sign;
-    private PlayerMovement player;
     public Audiomanager audioManager;
     public GameObject blackScreen;
 
@@ -15,7 +13,6 @@ public class SignNextLevel : MonoBehaviour
     {
         sign = GameObject.FindGameObjectWithTag("PlacaInicio").GetComponent<Sign>();
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<Audiomanager>();
-        player = FindObjectOfType<PlayerMovement>();
     }
 
     public void NextLevel(InputAction.CallbackContext context)

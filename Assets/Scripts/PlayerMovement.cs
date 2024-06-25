@@ -1,18 +1,13 @@
-using System;
-using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+// ReSharper disable Unity.PreferAddressByIdToGraphicsParams
 
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D _rigidbody2D;
     private Animator _animator;
     private SpriteRenderer _spriteRenderer;
-
-    //Inventory
-    public bool hasIron = false;
-    public bool hasItem = false;
 
     public Audiomanager audioManager;
 
@@ -30,8 +25,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
-        PlayerPrefs.SetInt("IronOre", 0);
-        PlayerPrefs.SetInt("DiamondOre", 0);
+        //PlayerPrefs.SetInt("IronOre", 0);
+        //PlayerPrefs.SetInt("DiamondOre", 0);
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<Audiomanager>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
@@ -41,7 +36,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
-        PlayerPrefs.SetInt("picaReta", 0);
+        //PlayerPrefs.SetInt("picaReta", 0);
+        //PlayerPrefs.SetInt("IronOre", 0);
+        //PlayerPrefs.SetInt("DiamondOre", 0);
+        //PlayerPrefs.SetInt("CoalOre", 0);
+        //PlayerPrefs.SetInt("Water", 0);
+        //PlayerPrefs.SetInt("CanFixDrill", 0);
+        //PlayerPrefs.SetInt("FixedDrill", 0);
     }
 
     private void FixedUpdate()

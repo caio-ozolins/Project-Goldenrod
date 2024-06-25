@@ -1,7 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using static WaterSpawner;
 
 public class WaterSpawner : MonoBehaviour
 {
@@ -22,11 +20,13 @@ public class WaterSpawner : MonoBehaviour
         while (true)
         {
             var wanted = Random.Range(minTras, maxTras);
+            // ReSharper disable once LocalVariableHidesMember
             var position = new Vector3(wanted, transform.position.y); GameObject gameObject = Instantiate(waterPrefab[Random.Range(0, waterPrefab.Length)], position, Quaternion.identity);
 
             yield return new WaitForSeconds(secondSpawn);
             Destroy(gameObject, 5f);
         }
+        // ReSharper disable once IteratorNeverReturns
     }
     
 

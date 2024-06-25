@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Sign : MonoBehaviour
@@ -9,30 +7,36 @@ public class Sign : MonoBehaviour
     public GameObject signHalf01;
     public GameObject signHalf02;
     public GameObject signAll;
+    public GameObject signHot;
+    public GameObject signWater;
     public GameObject signUI2;
-    public bool nearSign = false;
-    private PlayerMovement player;
+    public bool nearSign;
 
-    private void Start()
+    private void FixedUpdate()
     {
-        player = FindObjectOfType<PlayerMovement>();
+        if (PlayerPrefs.GetInt("FixedDrill") == 1 && PlayerPrefs.GetInt("Happened") == 1)
+        {
+            signAll.SetActive(false);
+            signHot.SetActive(true);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (this.tag == "PlacaInicio")
+        if (CompareTag("PlacaInicio"))
         {
             if (collision.CompareTag("Player") && PlayerPrefs.GetInt("picaReta") == 1)
             {
                 nearSign = true;
                 signUI.SetActive(true);
-            } else if (collision.CompareTag("Player") && PlayerPrefs.GetInt("picaReta") == 0)
+            }
+            else if (collision.CompareTag("Player") && PlayerPrefs.GetInt("picaReta") == 0)
             {
                 nearSign = true;
                 signUI2.SetActive(true);
             }
         }
-        else if (this.tag == "PlacaBroca")
+        else if (CompareTag("PlacaBroca"))
         {
             if (collision.CompareTag("Player") && PlayerPrefs.GetInt("IronOre") == 0 && PlayerPrefs.GetInt("DiamondOre") == 0)
             {
@@ -41,7 +45,6 @@ public class Sign : MonoBehaviour
             }
             if (collision.CompareTag("Player") && PlayerPrefs.GetInt("IronOre") == 1 && PlayerPrefs.GetInt("DiamondOre") == 1)
             {
-                PlayerPrefs.SetInt("CanFixDrill", 1);
                 nearSign = true;
                 signAll.SetActive(true);
             }
@@ -58,6 +61,16 @@ public class Sign : MonoBehaviour
                     signHalf02.SetActive(true);
                 }
             }
+            if (collision.CompareTag("Player") && PlayerPrefs.GetInt("FixedDrill") == 1 && PlayerPrefs.GetInt("Water") == 0)
+            {
+                nearSign = true;
+                signHot.SetActive(true);
+            }
+            if (collision.CompareTag("Player") && PlayerPrefs.GetInt("FixedDrill") == 1 && PlayerPrefs.GetInt("Water") == 1)
+            {
+                nearSign = true;
+                signWater.SetActive(true);
+            }
         }
         else if (collision.CompareTag("Player"))
         {
@@ -72,12 +85,15 @@ public class Sign : MonoBehaviour
         {
             nearSign = false;
             signUI.SetActive(false);
+            signUI2.SetActive(false);
             signZero.SetActive(false);
             signHalf01.SetActive(false);
             signHalf02.SetActive(false);
             signAll.SetActive(false);
-            signUI2.SetActive(false);
+            signHot.SetActive(false);
         }
+
+        PlayerPrefs.SetInt("Happened", 0);
     }
 
 }
