@@ -4430,8 +4430,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 29
+  m_fontSizeBase: 29
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7352,13 +7352,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A minera\xE7\xE3o de ferro \xE9 crucial para a ind\xFAstria, com dep\xF3sitos
-    encontrados entre a superf\xEDcie e 1.500 metros de profundidade. Formado h\xE1
-    mais de 2,4 bilh\xF5es de anos durante o Pr\xE9-Cambriano, o ferro \xE9 extra\xEDdo
-    de hematita e magnetita atrav\xE9s de minas a c\xE9u aberto e subterr\xE2neas.
-    Esse processo envolve t\xE9cnicas avan\xE7adas para garantir efici\xEAncia e
-    sustentabilidade, produzindo materiais essenciais para constru\xE7\xE3o, manufatura
-    e infraestrutura global.\r\n"
+  m_text: "A minera\xE7\xE3o de ferro \xE9  essencial para a ind\xFAstria. Formados
+    h\xE1 mais de 2,4 bilh\xF5es de anos os min\xE9rios s\xE3o extra\xEDdos de hematita
+    e magnetita usando minas a c\xE9u aberto e subterr\xE2neas, empregando t\xE9cnicas
+    avan\xE7adas para garantir efici\xEAncia, crucial para constru\xE7\xE3o, manufatura
+    e infraestrutura global.\n\n(Para mais informa\xE7\xF5es acesse o di\xE1rio no
+    menu de pause)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1076f5f6e2cbd4e4fa5e0ec96586fb2a, type: 2}
   m_sharedMaterial: {fileID: -5395306647820756272, guid: 1076f5f6e2cbd4e4fa5e0ec96586fb2a, type: 2}
@@ -36459,13 +36458,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "F\xF3sseis, especialmente de per\xEDodos como o Paleozoico e Mesozoico,
-    s\xE3o frequentemente encontrados em camadas sedimentares superficiais, entre
-    0,5 e 100 metros de profundidade, muitas vezes junto a dep\xF3sitos de carv\xE3o
-    e cobre. O carv\xE3o, formado a partir de plantas pr\xE9-hist\xF3ricas, \xE9
-    encontrado entre 50 e 300 metros, enquanto o cobre pode estar desde a superf\xEDcie
-    at\xE9 1.500 metros. A explora\xE7\xE3o desses materiais facilita a descoberta
-    de f\xF3sseis, proporcionando uma vis\xE3o detalhada da vida antiga na Terra.\r\n"
+  m_text: "F\xF3sseis do Paleozoico e Mesozoico s\xE3o encontrados em camadas sedimentares
+    superficiais, geralmente com carv\xE3o e cobre. A explora\xE7\xE3o desses materiais
+    ajuda a descobrir f\xF3sseis e entender a vida na Terra.\n\n(Para mais informa\xE7\xF5es
+    acesse o di\xE1rio no menu de pause)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1076f5f6e2cbd4e4fa5e0ec96586fb2a, type: 2}
   m_sharedMaterial: {fileID: -5395306647820756272, guid: 1076f5f6e2cbd4e4fa5e0ec96586fb2a, type: 2}
@@ -36644,7 +36640,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 9
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -46085,8 +46081,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.7999878, y: -160.7}
-  m_SizeDelta: {x: -413.4237, y: -346.5348}
+  m_AnchoredPosition: {x: -4, y: -179}
+  m_SizeDelta: {x: -407.2449, y: -363.8354}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1744652748
 MonoBehaviour:
@@ -46983,8 +46979,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 65}
-  m_SizeDelta: {x: -249.99998, y: -170}
+  m_AnchoredPosition: {x: 161, y: 119}
+  m_SizeDelta: {x: -335.2673, y: -250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1760694887
 MonoBehaviour:
@@ -47070,7 +47066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7b45929d847fe24d8ce3eeaf4273900, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  signUI: {fileID: 0}
+  signUI: {fileID: 1891295580}
   signZero: {fileID: 50267353}
   signHalf01: {fileID: 50267353}
   signHalf02: {fileID: 50267353}
@@ -48001,13 +47997,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A minera\xE7\xE3o de diamantes \xE9 essencial para a ind\xFAstria joalheira,
-    com dep\xF3sitos encontrados em profundidades de at\xE9 1.000 metros. Essas gemas
-    preciosas s\xE3o formadas no manto terrestre, a 150-200 km de profundidade, e
-    s\xE3o extra\xEDdas principalmente de tubos de kimberlito e dep\xF3sitos aluviais.
-    A extra\xE7\xE3o requer t\xE9cnicas especializadas para localizar e recuperar
-    diamantes de forma eficiente e sustent\xE1vel, atendendo \xE0 demanda global
-    por essas preciosidades em joias e aplica\xE7\xF5es industriais."
+  m_text: "A minera\xE7\xE3o de diamantes, envolve extrair gemas formadas a 150-200
+    km de profundidade, principalmente de dep\xF3sitos aluviais, usando t\xE9cnicas
+    especializadas para garantir efici\xEAncia e sustentabilidade.\n\n(Para mais
+    informa\xE7\xF5es acesse o di\xE1rio no menu de pause)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1076f5f6e2cbd4e4fa5e0ec96586fb2a, type: 2}
   m_sharedMaterial: {fileID: -5395306647820756272, guid: 1076f5f6e2cbd4e4fa5e0ec96586fb2a, type: 2}
@@ -48329,8 +48322,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 85}
-  m_SizeDelta: {x: -220, y: -210}
+  m_AnchoredPosition: {x: 145, y: 115}
+  m_SizeDelta: {x: -300.3243, y: -243.3655}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1891295582
 MonoBehaviour:
@@ -84087,8 +84080,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 65}
-  m_SizeDelta: {x: -249.99998, y: -170}
+  m_AnchoredPosition: {x: 178, y: 119.88606}
+  m_SizeDelta: {x: -367.4146, y: -252.7958}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2039038510
 MonoBehaviour:
