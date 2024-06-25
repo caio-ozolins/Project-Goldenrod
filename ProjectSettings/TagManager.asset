@@ -30,6 +30,7 @@ TagManager:
   - PlacaBroca
   - Barrier
   - LuzPlayer
+  - BarrierWarning
   layers:
   - Default
   - TransparentFX

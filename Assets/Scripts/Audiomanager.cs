@@ -31,10 +31,4 @@ public class Audiomanager : MonoBehaviour
     {
         SFXSource.PlayOneShot(clip);
     }
-
-    public void StartDrill(AudioClip clip)
-    {
-        drillSource.clip = drillOn;
-        drillSource.Play();
-    }
 }

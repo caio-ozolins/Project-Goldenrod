@@ -32,15 +32,27 @@ public class PlayerDig : MonoBehaviour
     public GameObject avisoBroca01;
     public GameObject avisoBroca02;
 
+    private Animator _animator;
+    private SpriteRenderer _spriteRenderer;
     public Audiomanager audioManager;
     private String tagPlaca;
     private GameObject waterSpawner;
+    private GameObject barrier;
+    private GameObject barrierWarning;
     [SerializeField] private GameObject luzPlayer;
+
+    private void Awake()
+    {
+        _animator = GetComponent<Animator>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+    }
 
     private void Start()
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<Audiomanager>();
         waterSpawner = GameObject.FindGameObjectWithTag("WaterSpawner");
+        barrier = GameObject.FindGameObjectWithTag("Barrier");
+        barrierWarning = GameObject.FindGameObjectWithTag("BarrierWarning");
 
         atrocidade = GameObject.FindGameObjectWithTag("Atrocidade");
         atrocidadeJr = GameObject.FindGameObjectWithTag("AtrocidadeJr");
@@ -104,6 +116,8 @@ public class PlayerDig : MonoBehaviour
                     StartCoroutine(WaitDig());
                     luzPlayer.SetActive(true);
                     avisoCoal.SetActive(true);
+                    barrier.SetActive(false);
+                    barrierWarning.SetActive(false);
                     break;
                 case "PlacaWater":
                     Time.timeScale = 0;
@@ -120,7 +134,7 @@ public class PlayerDig : MonoBehaviour
                     StartCoroutine(WaitDig());
                     avisoWater.SetActive(true);
                     break;
-                case "PlacaBroca" when PlayerPrefs.GetInt("IronOre") == 1 && PlayerPrefs.GetInt("DiamondOre") == 1:
+                case "PlacaBroca" when PlayerPrefs.GetInt("IronOre") == 1 && PlayerPrefs.GetInt("DiamondOre") == 1 && PlayerPrefs.GetInt("FixedDrill") == 0:
                     Time.timeScale = 0;
                     blackScreen.SetActive(true);
 
@@ -132,6 +146,8 @@ public class PlayerDig : MonoBehaviour
                     PlayerPrefs.SetInt("Happened", 1);
                     StartCoroutine(WaitDig());
                     avisoBroca01.SetActive(true);
+                    barrier.SetActive(false);
+                    barrierWarning.SetActive(false);
                     break;
                 case "PlacaBroca" when PlayerPrefs.GetInt("FixedDrill") == 1 && PlayerPrefs.GetInt("Water") == 1:
                     Time.timeScale = 0;
@@ -142,8 +158,8 @@ public class PlayerDig : MonoBehaviour
                     //Parar Fumaça
                     PlayerPrefs.SetInt("DrillReady", 1);
                     StartCoroutine(WaitDig());
-                    audioManager.StartDrill(audioManager.drillOn);
                     avisoBroca02.SetActive(true);
+                    audioManager.PlaySFX(audioManager.drillOn);
                     break;
             }
         }
