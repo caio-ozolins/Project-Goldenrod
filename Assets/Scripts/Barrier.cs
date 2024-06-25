@@ -12,6 +12,10 @@ public class Barrier : MonoBehaviour
         {
             warningUI.SetActive(true);
         }
+        else if (collision.CompareTag("Player") && PlayerPrefs.GetInt("Water") == 0)
+        {
+            warningUI.SetActive(true);
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)

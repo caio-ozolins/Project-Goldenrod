@@ -32,6 +32,10 @@ TagManager:
   - LuzPlayer
   - BarrierWarning
   - Broca
+  - BarrierCoal
+  - BarrierWater
+  - BarrierWarningCoal
+  - BarrierWarningWater
   layers:
   - Default
   - TransparentFX

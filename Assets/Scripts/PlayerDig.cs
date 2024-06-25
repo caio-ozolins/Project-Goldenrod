@@ -39,7 +39,11 @@ public class PlayerDig : MonoBehaviour
     private String tagPlaca;
     private GameObject waterSpawner;
     private GameObject barrier;
+    private GameObject barrierCoal;
+    private GameObject barrierWater;
     private GameObject barrierWarning;
+    private GameObject barrierWarningCoal;
+    private GameObject barrierWarningWater;
     [SerializeField] private GameObject luzPlayer;
 
     private void Awake()
@@ -53,7 +57,11 @@ public class PlayerDig : MonoBehaviour
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<Audiomanager>();
         waterSpawner = GameObject.FindGameObjectWithTag("WaterSpawner");
         barrier = GameObject.FindGameObjectWithTag("Barrier");
+        barrierCoal = GameObject.FindGameObjectWithTag("BarrierCoal");
+        barrierWater = GameObject.FindGameObjectWithTag("BarrierWater");
         barrierWarning = GameObject.FindGameObjectWithTag("BarrierWarning");
+        barrierWarningCoal = GameObject.FindGameObjectWithTag("BarrierWarningCoal");
+        barrierWarningWater = GameObject.FindGameObjectWithTag("BarrierWarningWater");
 
         atrocidade = GameObject.FindGameObjectWithTag("Atrocidade");
         atrocidadeJr = GameObject.FindGameObjectWithTag("AtrocidadeJr");
@@ -117,8 +125,8 @@ public class PlayerDig : MonoBehaviour
                     StartCoroutine(WaitDig());
                     luzPlayer.SetActive(true);
                     avisoCoal.SetActive(true);
-                    barrier.SetActive(false);
-                    barrierWarning.SetActive(false);
+                    barrierCoal.SetActive(false);
+                    barrierWarningCoal.SetActive(false);
                     break;
                 case "PlacaWater":
                     Time.timeScale = 0;
@@ -134,6 +142,8 @@ public class PlayerDig : MonoBehaviour
                     PlayerPrefs.SetInt("Water", 1);
                     StartCoroutine(WaitDig());
                     avisoWater.SetActive(true);
+                    barrierWater.SetActive(false);
+                    barrierWarningWater.SetActive(false);
                     break;
                 case "PlacaBroca" when PlayerPrefs.GetInt("IronOre") == 1 && PlayerPrefs.GetInt("DiamondOre") == 1 && PlayerPrefs.GetInt("FixedDrill") == 0:
                     Time.timeScale = 0;
