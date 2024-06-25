@@ -35,6 +35,7 @@ public class PlayerDig : MonoBehaviour
     public Audiomanager audioManager;
     private String tagPlaca;
     private GameObject waterSpawner;
+    [SerializeField] private GameObject luzPlayer;
 
     private void Start()
     {
@@ -101,6 +102,7 @@ public class PlayerDig : MonoBehaviour
                     Destroy(placaCoal);
                     PlayerPrefs.SetInt("CoalOre", 1);
                     StartCoroutine(WaitDig());
+                    luzPlayer.SetActive(true);
                     avisoCoal.SetActive(true);
                     break;
                 case "PlacaWater":
