@@ -29,6 +29,7 @@ TagManager:
   - AtrocidadeJr
   - PlacaBroca
   - Barrier
+  - LuzPlayer
   layers:
   - Default
   - TransparentFX
