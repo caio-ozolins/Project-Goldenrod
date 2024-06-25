@@ -7356,8 +7356,8 @@ MonoBehaviour:
     h\xE1 mais de 2,4 bilh\xF5es de anos os min\xE9rios s\xE3o extra\xEDdos de hematita
     e magnetita usando minas a c\xE9u aberto e subterr\xE2neas, empregando t\xE9cnicas
     avan\xE7adas para garantir efici\xEAncia, crucial para constru\xE7\xE3o, manufatura
-    e infraestrutura global.\n\n(Para mais informa\xE7\xF5es acesse o di\xE1rio no
-    menu de pause)"
+    e infraestrutura global.\n\n(Para mais informa\xE7\xF5es, acesse o di\xE1rio
+    apertando a tecla P)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1076f5f6e2cbd4e4fa5e0ec96586fb2a, type: 2}
   m_sharedMaterial: {fileID: -5395306647820756272, guid: 1076f5f6e2cbd4e4fa5e0ec96586fb2a, type: 2}
@@ -36460,8 +36460,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "F\xF3sseis do Paleozoico e Mesozoico s\xE3o encontrados em camadas sedimentares
     superficiais, geralmente com carv\xE3o e cobre. A explora\xE7\xE3o desses materiais
-    ajuda a descobrir f\xF3sseis e entender a vida na Terra.\n\n(Para mais informa\xE7\xF5es
-    acesse o di\xE1rio no menu de pause)"
+    ajuda a descobrir f\xF3sseis e entender a vida na Terra.\n\n(Para mais informa\xE7\xF5es,
+    acesse o di\xE1rio apertando a tecla P)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1076f5f6e2cbd4e4fa5e0ec96586fb2a, type: 2}
   m_sharedMaterial: {fileID: -5395306647820756272, guid: 1076f5f6e2cbd4e4fa5e0ec96586fb2a, type: 2}
@@ -36596,8 +36596,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "A explora\xE7\xE3o de profundezas continentais, como minas, \xE9 limitada
-    pelo calor extremo, aumento da press\xE3o e falta de oxig\xEAnio. \xC0 medida
-    que se desce em minas a profundidades superiores a 3 km, a temperatura e a press\xE3o
+    pelo calor extremo, aumento da press\xE3o e falta de oxig\xEAnio, a medida que
+    se desce em minas a profundidades superiores a 3 km, a temperatura e a press\xE3o
     aumentam, tornando o ambiente in\xF3spito. Para explorar essas \xE1reas, s\xE3o
     necess\xE1rios equipamentos especializados, como trajes de prote\xE7\xE3o e sistemas
     de ventila\xE7\xE3o, al\xE9m de tecnologias como sondas rob\xF3ticas e sensores
@@ -48000,7 +48000,7 @@ MonoBehaviour:
   m_text: "A minera\xE7\xE3o de diamantes, envolve extrair gemas formadas a 150-200
     km de profundidade, principalmente de dep\xF3sitos aluviais, usando t\xE9cnicas
     especializadas para garantir efici\xEAncia e sustentabilidade.\n\n(Para mais
-    informa\xE7\xF5es acesse o di\xE1rio no menu de pause)"
+    informa\xE7\xF5es, acesse o di\xE1rio apertando a tecla P)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1076f5f6e2cbd4e4fa5e0ec96586fb2a, type: 2}
   m_sharedMaterial: {fileID: -5395306647820756272, guid: 1076f5f6e2cbd4e4fa5e0ec96586fb2a, type: 2}
