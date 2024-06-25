@@ -23,20 +23,24 @@ public class FinalSign : MonoBehaviour
 
     public void End(InputAction.CallbackContext context)
     {
-        if (context.performed)
+        if (nearSign == true && context.performed)
         {
             Time.timeScale = 0;
 
             //Parar Fumaça
             PlayerPrefs.SetInt("DrillReady", 1);
             StartCoroutine(WaitDig());
-            //avisoBroca02.SetActive(true);
+            avisoBroca02.SetActive(true);
             audioManager.PlaySFX(audioManager.drillOn);
-
-            StartCoroutine(WaitEnd());
-            blackScreen.SetActive(true);
-            avisoFinal.SetActive(true);
         }
+    }
+
+    public void EndGame()
+    {
+        avisoBroca02.SetActive(false);
+        StartCoroutine(WaitEnd());
+        blackScreen.SetActive(true);
+        avisoFinal.SetActive(true);
     }
 
     private IEnumerator WaitDig()
