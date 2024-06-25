@@ -152,9 +152,6 @@ public class PlayerDig : MonoBehaviour
                     break;
                 case "PlacaBroca" when PlayerPrefs.GetInt("FixedDrill") == 1 && PlayerPrefs.GetInt("Water") == 1:
                     Time.timeScale = 0;
-                    blackScreen.SetActive(true);
-
-                    audioManager.PlaySFX(audioManager.dig);
 
                     //Parar Fumaça
                     PlayerPrefs.SetInt("DrillReady", 1);

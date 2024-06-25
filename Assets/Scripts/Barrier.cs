@@ -8,7 +8,7 @@ public class Barrier : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && PlayerPrefs.GetInt("FixedDrill") == 0)
+        if (collision.CompareTag("Player") && (PlayerPrefs.GetInt("FixedDrill") == 0 || PlayerPrefs.GetInt("CoalOre") == 0))
         {
             warningUI.SetActive(true);
         }

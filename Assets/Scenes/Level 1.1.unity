@@ -2448,7 +2448,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &206449134
 Transform:
   m_ObjectHideFlags: 0
@@ -2476,7 +2476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7b45929d847fe24d8ce3eeaf4273900, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  signUI: {fileID: 0}
+  signUI: {fileID: 240317317}
   signZero: {fileID: 50267353}
   signHalf01: {fileID: 50267353}
   signHalf02: {fileID: 50267353}
@@ -4345,8 +4345,8 @@ MonoBehaviour:
   signHalf01: {fileID: 50267353}
   signHalf02: {fileID: 50267353}
   signAll: {fileID: 50267353}
-  signHot: {fileID: 0}
-  signWater: {fileID: 0}
+  signHot: {fileID: 50267353}
+  signWater: {fileID: 50267353}
   signUI2: {fileID: 50267353}
   nearSign: 0
 --- !u!1 &369667501
@@ -6872,6 +6872,10 @@ PrefabInstance:
     - target: {fileID: -2253911629886400664, guid: 516b9398d31e27343ba7ea0fb6ffbf06, type: 3}
       propertyPath: m_Name
       value: Drill_Off
+      objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 516b9398d31e27343ba7ea0fb6ffbf06, type: 3}
+      propertyPath: m_TagString
+      value: Broca
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 516b9398d31e27343ba7ea0fb6ffbf06, type: 3}
       propertyPath: m_Color.b
@@ -37141,7 +37145,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &998758903
 Transform:
   m_ObjectHideFlags: 0
@@ -37420,7 +37424,51 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths: []
+  m_ColliderPaths:
+  - m_Collider: {fileID: 998758906}
+    m_ColliderPaths:
+    - - X: 100000000
+        Y: 25000000
+      - X: 91250000
+        Y: 30000000
+      - X: 90000000
+        Y: 30000000
+      - X: 80000000
+        Y: 23750000
+      - X: 80000000
+        Y: 12500000
+      - X: 81250000
+        Y: 10000000
+      - X: 100000000
+        Y: 10000000
+    - - X: 140000000
+        Y: 7500000
+      - X: 137500000
+        Y: 10000000
+      - X: 133750000
+        Y: 10000000
+      - X: 130000000
+        Y: 7500000
+      - X: 130000000
+        Y: 8750000
+      - X: 127500000
+        Y: 10000000
+      - X: 121250000
+        Y: 10000000
+      - X: 120000000
+        Y: 8750000
+      - X: 120000000
+        Y: 7500000
+      - X: 117500000
+        Y: 10000000
+      - X: 113750000
+        Y: 10000000
+      - X: 110000000
+        Y: 7500000
+      - X: 110000000
+        Y: 0
+      - X: 140000000
+        Y: 0
   m_CompositePaths:
     m_Paths:
     - - {x: 9.99997, y: 1}
@@ -37920,6 +37968,9 @@ Transform:
   - {fileID: 363752039}
   - {fileID: 1494482637}
   - {fileID: 1675668945}
+  - {fileID: 1571647836}
+  - {fileID: 1221237032}
+  - {fileID: 1292826904}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1074400195
@@ -38534,7 +38585,7 @@ Transform:
   m_GameObject: {fileID: 1143233788}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.43, y: -7.45, z: -10}
+  m_LocalPosition: {x: 27.71, y: -6.37, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -39146,6 +39197,37 @@ RectTransform:
   m_AnchoredPosition: {x: 373, y: 80}
   m_SizeDelta: {x: 403.7755, y: 162.74}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1221237031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1221237032}
+  m_Layer: 0
+  m_Name: Barrier
+  m_TagString: Barrier
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1221237032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221237031}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1061762880}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1221910493
 GameObject:
   m_ObjectHideFlags: 0
@@ -40161,6 +40243,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1288165111}
   m_CullTransparentMesh: 1
+--- !u!1 &1292826903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1292826904}
+  m_Layer: 0
+  m_Name: BarrierWaring
+  m_TagString: BarrierWarning
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1292826904
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292826903}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1061762880}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1293004468
 GameObject:
   m_ObjectHideFlags: 0
@@ -42572,11 +42685,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 584525964621986268, guid: e783076ba4a79d04daaf37136deb62f3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28.43
+      value: 27.71
       objectReference: {fileID: 0}
     - target: {fileID: 584525964621986268, guid: e783076ba4a79d04daaf37136deb62f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.45
+      value: -9.37
       objectReference: {fileID: 0}
     - target: {fileID: 584525964621986268, guid: e783076ba4a79d04daaf37136deb62f3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -42824,7 +42937,7 @@ Transform:
   m_GameObject: {fileID: 1478490458}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.173134, y: -7.46105, z: -10}
+  m_LocalPosition: {x: 18.169437, y: -6.38028, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -42981,8 +43094,8 @@ MonoBehaviour:
   signHalf01: {fileID: 50267353}
   signHalf02: {fileID: 50267353}
   signAll: {fileID: 50267353}
-  signHot: {fileID: 0}
-  signWater: {fileID: 0}
+  signHot: {fileID: 50267353}
+  signWater: {fileID: 50267353}
   signUI2: {fileID: 50267353}
   nearSign: 0
 --- !u!1 &1505807037
@@ -43515,6 +43628,37 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1571647835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1571647836}
+  m_Layer: 0
+  m_Name: Waterspawner
+  m_TagString: WaterSpawner
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1571647836
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571647835}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1061762880}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1576903602
 GameObject:
   m_ObjectHideFlags: 0
@@ -46930,7 +47074,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1767886813
 Transform:
   m_ObjectHideFlags: 0
@@ -47485,7 +47629,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1828719855
 Transform:
   m_ObjectHideFlags: 0
@@ -47537,7 +47681,25 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths: []
+  m_ColliderPaths:
+  - m_Collider: {fileID: 1828719858}
+    m_ColliderPaths:
+    - - X: -340000000
+        Y: -20000000
+      - X: -350000000
+        Y: -20000000
+      - X: -350000000
+        Y: 0
+      - X: -370000000
+        Y: 0
+      - X: -370000000
+        Y: 10000000
+      - X: -380000000
+        Y: 10000000
+      - X: -380000000
+        Y: -30000000
+      - X: -340000000
+        Y: -30000000
   m_CompositePaths:
     m_Paths:
     - - {x: -34.00003, y: -3}
