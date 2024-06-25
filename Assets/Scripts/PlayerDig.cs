@@ -160,6 +160,12 @@ public class PlayerDig : MonoBehaviour
                     StartCoroutine(WaitDig());
                     avisoBroca02.SetActive(true);
                     audioManager.PlaySFX(audioManager.drillOn);
+
+                    //Start Credits
+                    //Black screen
+                    //Explicação sobre profundidade
+                    //Main menu
+
                     break;
             }
         }
