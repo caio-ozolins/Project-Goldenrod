@@ -6,6 +6,7 @@ public class Audiomanager : MonoBehaviour
     [Header("---------- Audio Source ----------")]
     [SerializeField] private AudioSource musicSource;
     [SerializeField] private AudioSource caveSource;
+    [SerializeField] private AudioSource drillSource;
     // ReSharper disable once InconsistentNaming
     [SerializeField] private AudioSource SFXSource;
 
@@ -29,5 +30,11 @@ public class Audiomanager : MonoBehaviour
     public void PlaySFX(AudioClip clip)
     {
         SFXSource.PlayOneShot(clip);
+    }
+
+    public void StartDrill(AudioClip clip)
+    {
+        drillSource.clip = drillOn;
+        drillSource.Play();
     }
 }

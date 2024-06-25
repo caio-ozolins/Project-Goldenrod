@@ -142,7 +142,7 @@ public class PlayerDig : MonoBehaviour
                     //Parar Fumaça
                     PlayerPrefs.SetInt("DrillReady", 1);
                     StartCoroutine(WaitDig());
-                    //Start som broca
+                    audioManager.StartDrill(audioManager.drillOn);
                     avisoBroca02.SetActive(true);
                     break;
             }
