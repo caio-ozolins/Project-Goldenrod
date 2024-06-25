@@ -3025,9 +3025,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2050363333}
-        m_TargetAssemblyTypeName: PlayerDig, Assembly-CSharp
-        m_MethodName: CloseWarning
+      - m_Target: {fileID: 173181444}
+        m_TargetAssemblyTypeName: FinalSign, Assembly-CSharp
+        m_MethodName: EndGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -84160,6 +84160,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1442865909}
+  - {fileID: 1074400196}
   - {fileID: 1111292027}
   - {fileID: 373674867}
   - {fileID: 1588962205}
@@ -84178,7 +84179,6 @@ RectTransform:
   - {fileID: 404109613}
   - {fileID: 1620106849}
   - {fileID: 136222928}
-  - {fileID: 1074400196}
   m_Father: {fileID: 1407000454}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
