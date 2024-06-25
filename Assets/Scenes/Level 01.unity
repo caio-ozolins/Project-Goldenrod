@@ -844,8 +844,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -90}
-  m_SizeDelta: {x: -300, y: -180}
+  m_AnchoredPosition: {x: 3.199997, y: -62.59999}
+  m_SizeDelta: {x: -191.2948, y: -128.8446}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &56624956
 MonoBehaviour:
@@ -3369,8 +3369,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -90}
-  m_SizeDelta: {x: -300, y: -180}
+  m_AnchoredPosition: {x: 1.800003, y: -67.6}
+  m_SizeDelta: {x: -212.305, y: -142.5469}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &235455870
 MonoBehaviour:
@@ -3862,8 +3862,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -300, y: -200}
+  m_AnchoredPosition: {x: 13, y: 0.8999939}
+  m_SizeDelta: {x: -400, y: -231.0587}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &329033719
 MonoBehaviour:
@@ -4219,8 +4219,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -300, y: -200}
+  m_AnchoredPosition: {x: 8.5, y: 8}
+  m_SizeDelta: {x: -391, y: -234}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &373674868
 MonoBehaviour:
@@ -7710,13 +7710,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A minera\xE7\xE3o de ferro \xE9 crucial para a ind\xFAstria, com dep\xF3sitos
-    encontrados entre a superf\xEDcie e 1.500 metros de profundidade. Formado h\xE1
-    mais de 2,4 bilh\xF5es de anos durante o Pr\xE9-Cambriano, o ferro \xE9 extra\xEDdo
-    de hematita e magnetita atrav\xE9s de minas a c\xE9u aberto e subterr\xE2neas.
-    Esse processo envolve t\xE9cnicas avan\xE7adas para garantir efici\xEAncia e
-    sustentabilidade, produzindo materiais essenciais para constru\xE7\xE3o, manufatura
-    e infraestrutura global.\r\n"
+  m_text: "A minera\xE7\xE3o de ferro \xE9  essencial para a ind\xFAstria. Formados
+    h\xE1 mais de 2,4 bilh\xF5es de anos os min\xE9rios s\xE3o extra\xEDdos de hematita
+    e magnetita usando minas a c\xE9u aberto e subterr\xE2neas, empregando t\xE9cnicas
+    avan\xE7adas para garantir efici\xEAncia, crucial para constru\xE7\xE3o, manufatura
+    e infraestrutura global.\n\n(Para mais informa\xE7\xF5es acesse o di\xE1rio no
+    menu de pause)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1076f5f6e2cbd4e4fa5e0ec96586fb2a, type: 2}
   m_sharedMaterial: {fileID: -5395306647820756272, guid: 1076f5f6e2cbd4e4fa5e0ec96586fb2a, type: 2}
@@ -36620,13 +36619,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "F\xF3sseis, especialmente de per\xEDodos como o Paleozoico e Mesozoico,
-    s\xE3o frequentemente encontrados em camadas sedimentares superficiais, entre
-    0,5 e 100 metros de profundidade, muitas vezes junto a dep\xF3sitos de carv\xE3o
-    e cobre. O carv\xE3o, formado a partir de plantas pr\xE9-hist\xF3ricas, \xE9
-    encontrado entre 50 e 300 metros, enquanto o cobre pode estar desde a superf\xEDcie
-    at\xE9 1.500 metros. A explora\xE7\xE3o desses materiais facilita a descoberta
-    de f\xF3sseis, proporcionando uma vis\xE3o detalhada da vida antiga na Terra.\r\n"
+  m_text: "F\xF3sseis do Paleozoico e Mesozoico s\xE3o encontrados em camadas sedimentares
+    superficiais, geralmente com carv\xE3o e cobre. A explora\xE7\xE3o desses materiais
+    ajuda a descobrir f\xF3sseis e entender a vida na Terra.\n\n(Para mais informa\xE7\xF5es
+    acesse o di\xE1rio no menu de pause)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1076f5f6e2cbd4e4fa5e0ec96586fb2a, type: 2}
   m_sharedMaterial: {fileID: -5395306647820756272, guid: 1076f5f6e2cbd4e4fa5e0ec96586fb2a, type: 2}
@@ -43788,8 +43784,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -300, y: -200}
+  m_AnchoredPosition: {x: 13.200012, y: 7.800003}
+  m_SizeDelta: {x: -406.8783, y: -248.4149}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1591991103
 GameObject:
@@ -45805,8 +45801,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 65}
-  m_SizeDelta: {x: -249.99998, y: -170}
+  m_AnchoredPosition: {x: 188.08, y: 123.4475}
+  m_SizeDelta: {x: -376.17, y: -257.6951}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1760694887
 MonoBehaviour:
@@ -47021,13 +47017,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A minera\xE7\xE3o de diamantes \xE9 essencial para a ind\xFAstria joalheira,
-    com dep\xF3sitos encontrados em profundidades de at\xE9 1.000 metros. Essas gemas
-    preciosas s\xE3o formadas no manto terrestre, a 150-200 km de profundidade, e
-    s\xE3o extra\xEDdas principalmente de tubos de kimberlito e dep\xF3sitos aluviais.
-    A extra\xE7\xE3o requer t\xE9cnicas especializadas para localizar e recuperar
-    diamantes de forma eficiente e sustent\xE1vel, atendendo \xE0 demanda global
-    por essas preciosidades em joias e aplica\xE7\xF5es industriais."
+  m_text: "A minera\xE7\xE3o de diamantes, envolve extrair gemas formadas a 150-200
+    km de profundidade, principalmente de dep\xF3sitos aluviais, usando t\xE9cnicas
+    especializadas para garantir efici\xEAncia e sustentabilidade.\n\n(Para mais
+    informa\xE7\xF5es acesse o di\xE1rio no menu de pause)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1076f5f6e2cbd4e4fa5e0ec96586fb2a, type: 2}
   m_sharedMaterial: {fileID: -5395306647820756272, guid: 1076f5f6e2cbd4e4fa5e0ec96586fb2a, type: 2}
@@ -47490,8 +47483,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 85}
-  m_SizeDelta: {x: -220, y: -210}
+  m_AnchoredPosition: {x: 151.81398, y: 113.32699}
+  m_SizeDelta: {x: -303.6379, y: -242.8857}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1891295582
 MonoBehaviour:
@@ -48494,8 +48487,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -90}
-  m_SizeDelta: {x: -300, y: -180}
+  m_AnchoredPosition: {x: 0, y: -62.6}
+  m_SizeDelta: {x: -195.8622, y: -127.0177}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1997065543
 MonoBehaviour:
@@ -48682,8 +48675,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -300, y: -200}
+  m_AnchoredPosition: {x: 11, y: 1.800003}
+  m_SizeDelta: {x: -404.1378, y: -240.1936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2028173429
 GameObject:
@@ -83669,8 +83662,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 65}
-  m_SizeDelta: {x: -249.99998, y: -170}
+  m_AnchoredPosition: {x: 179.9, y: 120.72699}
+  m_SizeDelta: {x: -359.8, y: -270.4838}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2039038510
 MonoBehaviour:
@@ -84605,8 +84598,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -90}
-  m_SizeDelta: {x: -300, y: -180}
+  m_AnchoredPosition: {x: 4.100006, y: -71.27352}
+  m_SizeDelta: {x: -222.3534, y: -142.5469}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2095237338
 MonoBehaviour:
