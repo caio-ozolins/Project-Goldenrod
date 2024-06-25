@@ -45921,12 +45921,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1946563902}
   caveSource: {fileID: 1505807039}
+  drillSource: {fileID: 0}
   SFXSource: {fileID: 129716287}
   background: {fileID: 8300000, guid: 984c8085269c29a458485e40c6055338, type: 3}
   jump: {fileID: 8300000, guid: f6ea8b8452ca2094889c063ea60fb03f, type: 3}
   dig: {fileID: 8300000, guid: beea805e1c6941f46bc8ebb3ac80eb0e, type: 3}
   cave: {fileID: 0}
-  drillOn: {fileID: 0}
+  drillOn: {fileID: 8300000, guid: bece1f39dbbe2db4c91a129e74c8d9da, type: 3}
 --- !u!4 &1939465879
 Transform:
   m_ObjectHideFlags: 0
