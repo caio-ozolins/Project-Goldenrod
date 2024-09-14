@@ -37,6 +37,9 @@ TagManager:
   - BarrierWarningCoal
   - BarrierWarningWater
   - Drill
+  - Deleter
+  - Qqlr_coisa
+  - Socorro
   layers:
   - Default
   - TransparentFX
