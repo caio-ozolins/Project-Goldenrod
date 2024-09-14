@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class DrillMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float moveSpeed = 5f; // Velocidade de movimento do objeto
 
-    // Update is called once per frame
     void Update()
     {
-        
+        // Captura a entrada do usuário
+        float horizontalInput = Input.GetAxis("Horizontal");
+
+        // Move o objeto para a direita/esquerda
+        Vector3 movement = new Vector3(horizontalInput * moveSpeed * Time.deltaTime, 0, 0);
+        transform.Translate(movement);
     }
 }
