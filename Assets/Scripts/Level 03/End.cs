@@ -6,6 +6,7 @@ public class End : MonoBehaviour
 {
     public GameObject blackScreen;
     public GameObject acabou;
+    public GameObject temperatura;
     public bool finished;
 
     private void Awake()
@@ -20,6 +21,7 @@ public class End : MonoBehaviour
             finished=true;
             Time.timeScale = 0;
             blackScreen.SetActive(true);
+            temperatura.SetActive(false);
             acabou.SetActive(true);
         }
     }
