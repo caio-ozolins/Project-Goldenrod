@@ -8,7 +8,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject creditsPanel;
     public GameObject resolutionPanel;
     public GameObject audioPanel;
-    private bool isPaused;
+    public bool isPaused;
 
     private void Update()
     {
