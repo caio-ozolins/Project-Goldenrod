@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class FinalSign : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class FinalSign : MonoBehaviour
     public Audiomanager audioManager;
     public GameObject avisoBroca02;
     public GameObject avisoFinal;
+    public GameObject atrocidadeHonrada;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -40,7 +42,8 @@ public class FinalSign : MonoBehaviour
         avisoBroca02.SetActive(false);
         StartCoroutine(WaitEnd());
         blackScreen.SetActive(true);
-        avisoFinal.SetActive(true);
+        Time.timeScale = 1;
+        atrocidadeHonrada.SetActive(true);
     }
 
     private IEnumerator WaitDig()

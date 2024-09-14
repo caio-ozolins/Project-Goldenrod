@@ -6,6 +6,11 @@ public class DrillMovement : MonoBehaviour
 {
     public float moveSpeed = 5f; // Velocidade de movimento do objeto
 
+    private void Awake()
+    {
+        float agoraVai = 1;
+    }
+
     void Update()
     {
         // Captura a entrada do usuário

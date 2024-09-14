@@ -122,7 +122,13 @@ public class PlayerMovement : MonoBehaviour
         {
             SceneManager.LoadScene("Level 1.1");
         }
-        
+
+        if (collision.CompareTag("AMaisHonrada"))
+        {
+            Debug.Log("Porfavor");
+            SceneManager.LoadScene("Level 03");
+        }
+
         PlayerPrefs.SetInt(collision.tag, item);
     }
 }
