@@ -36,6 +36,7 @@ TagManager:
   - BarrierWater
   - BarrierWarningCoal
   - BarrierWarningWater
+  - Drill
   layers:
   - Default
   - TransparentFX

@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class End : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject blackScreen;
+    public GameObject acabou;
+    public bool finished;
+
+    private void Awake()
     {
-        
+        finished = false;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if (collision.CompareTag("Drill"))
+        {
+            finished=true;
+            Time.timeScale = 0;
+            blackScreen.SetActive(true);
+            acabou.SetActive(true);
+        }
     }
 }

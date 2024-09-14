@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class Carrossel : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float moveSpeed = 1.0f; // Velocidade de movimento do Tilemap
 
-    // Update is called once per frame
     void Update()
     {
-        
+        // Move o Tilemap para cima
+        transform.position += Vector3.up * moveSpeed * Time.deltaTime;
     }
 }

@@ -6,6 +6,7 @@ public class Sound : MonoBehaviour
 {
     public Audiomanager audioManager;
     private PauseMenu pauseMenu;
+    private End end;
 
     int count = 0;
 
@@ -17,6 +18,7 @@ public class Sound : MonoBehaviour
     private void Start()
     {
         pauseMenu = FindObjectOfType<PauseMenu>();
+        end = FindObjectOfType<End>();
     }
 
     private void Update()
@@ -24,6 +26,10 @@ public class Sound : MonoBehaviour
         if (pauseMenu.isPaused)
         {
             count = 1;
+            audioManager.PauseSFX(audioManager.drillOn);
+        }
+        else if (end.finished)
+        {
             audioManager.PauseSFX(audioManager.drillOn);
         }
         else if (!pauseMenu.isPaused && count == 1) 
